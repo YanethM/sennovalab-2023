@@ -1,0 +1,35 @@
+.h {
+    flex: 1;
+    text-align:left;
+    justify-content:right;
+    line-height: 100px;
+   
+
+}
+.c {
+    flex: 1;
+    text-align:left;
+    justify-content:right;
+    line-height: 100px;
+    position:initial;
+   
+
+}
+.image {
+    margin: 0%;
+    padding:0%;
+
+}
+.imagen {
+  
+    margin-left: '50%'; 
+    margin-right: '0%';
+
+}
+
+
+.img{
+    width: 198px;
+    height: 2px;
+    margin-left: 82px;
+}
