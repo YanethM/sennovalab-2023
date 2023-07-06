@@ -32,18 +32,18 @@ function Menu() {
   return (
     <Container fluid>
       <Row>
-        <Col>
-          <Navbar bg="light" expand="lg" className='justify-content-evenly' end   >
+        <Col sm={5}>
+          <Navbar expand="lg" >
             <Container>
-              <Image src={sennovalab} style={style} fluid thumbnail />
-              {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto" >
-                  <Nav.Link href="Sennovalab">Sennovalab</Nav.Link>
+              <a href='/Sennovalab' ><Image src={sennovalab} style={style} Link href="Sennovalab" /></a>
+            
+            
+            
+             
+
                   <Nav.Link href="Nosotros">Nosotros</Nav.Link>
 
-                  <NavDropdown title="Gestión de la innovación" id="basic-nav-dropdown">
+                  <NavDropdown title="Gestión de la innovación" >
                     <NavDropdown.Item href="Informacion">Informacion General</NavDropdown.Item>
                     <NavDropdown.Item href="Gestion">Estrategia de Innovación </NavDropdown.Item>
                     <NavDropdown.Item href="Politica">Politica de Innovación</NavDropdown.Item>
@@ -53,7 +53,7 @@ function Menu() {
                     </NavDropdown.Item>
                   </NavDropdown>
 
-                  <NavDropdown title="Lineas de Acción" id="basic-nav-dropdown">
+                  <NavDropdown title="Lineas de Acción" >
                     <NavDropdown.Item href="Const">Linea de Construccion</NavDropdown.Item>
                     <NavDropdown.Item href="Ind">Linea de Industria</NavDropdown.Item>
                     <NavDropdown.Item href="Desa">Linea de Software</NavDropdown.Item>
@@ -64,7 +64,14 @@ function Menu() {
 
                   <Nav.Link href="Equipo" >Equipo</Nav.Link>
                   <Nav.Link href="Servicios" >Servicios</Nav.Link>
-
+                  </Container>
+          </Navbar>
+                  </Col>
+                  <Col sm={2}></Col> 
+                  <Col sm={5}>
+                    
+                  <Navbar expand="lg" >
+            <Container>
 
                   <br />
                   <br />
@@ -73,7 +80,7 @@ function Menu() {
                   <Nav.Link href="#link" >PQRS</Nav.Link>
                   <Nav.Link href="#link" >Preguntas Frecuentes</Nav.Link>
 
-                  <NavDropdown title={UserMenu} id="basic-nav-dropdown" >
+                  <NavDropdown title={UserMenu}>
                     <NavDropdown.Item href="#action/3.1">Registrarse</NavDropdown.Item>
 
                     <NavDropdown.Item href="#action/3.3">Ingresar</NavDropdown.Item>
@@ -81,10 +88,9 @@ function Menu() {
 
                   </NavDropdown>
 
-                </Nav>
-              </Navbar.Collapse>
-            </Container>
+                  </Container>
           </Navbar>
+           
 
         </Col>
 
