@@ -5,15 +5,12 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import sennovalab from '../../assets/img/png/sennovalab.png';
-import Menu from '../MenuNav/Menu';
 import Card from 'react-bootstrap/Card';
-import Footer from '../Footer/Footer';
 
 
-function Gestion() {
+const Gestion = () => {
     return (
             <Container fluid>
-              <Menu/>
               <Row>
                 <Col xs={6} md={4}>
                   <Image src={sennovalab} />
@@ -45,7 +42,6 @@ function Gestion() {
                
                   </Col>
                 </Row>
-                <Footer />
             </Container>
         
           );

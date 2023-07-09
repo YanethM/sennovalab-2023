@@ -12,21 +12,15 @@ import Lvertical from '../../assets/img/png/Lvertical.png';
 import Polygo from '../../assets/img/png/Polygo.png';
 import Polygon from '../../assets/img/png/Polygon.png';
 import Logon from '../../assets/img/png/Logon.png';
-import Line from '../../assets/img/png/Line.png';
 import Servi from '../../assets/img/png/Servi.png';
-import Menu from '../MenuNav/Menu';
 import "./Const.css";
-import Footer from '../Footer/Footer';
 
 
 
+const Constr = () => {
 
-
-
-function Const() {
   return (
     <Container fluid>
-      <Menu />
       <br />
       <br />
       <Row>
@@ -209,7 +203,6 @@ function Const() {
       <br />
       <br />
       <br />
-      <Footer />
     </Container>
 
   );
@@ -217,4 +210,4 @@ function Const() {
 
 
 
-export default Const;
+export default Constr;

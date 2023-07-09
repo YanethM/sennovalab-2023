@@ -5,26 +5,19 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Construccion from '../../assets/img/png/Construccion.png';
-import Industria from '../../assets/img/png/Industria.png';
 import Software from '../../assets/img/png/Software.png';
 import Lnara from '../../assets/img/png/Lnara.png';
 import Lvertical from '../../assets/img/png/Lvertical.png';
 import Polygo from '../../assets/img/png/Polygo.png';
 import Polygon from '../../assets/img/png/Polygon.png';
 import Logon from '../../assets/img/png/Logon.png';
-import Line from '../../assets/img/png/Line.png';
-import Menu from '../MenuNav/Menu';
 import "./Desa.css";
-import Footer from '../Footer/Footer';
 
 
 
-
-
-function Desa() {
+const Desa = () => {
   return (
     <Container fluid>
-      <Menu />
       <br />
       <br />
       <Row>
@@ -192,7 +185,6 @@ function Desa() {
       <br />
       <br />
       <br />
-      <Footer />
     </Container>
 
   );

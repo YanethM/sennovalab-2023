@@ -10,8 +10,6 @@ import sennovalab from '../../assets/img/png/sennovalab.png';
 import Construccion from '../../assets/img/png/Construccion.png';
 import Industria from '../../assets/img/png/Industria.png';
 import Software from '../../assets/img/png/Software.png';
-import Menu from '../MenuNav/Menu';
-import Footer from '../Footer/Footer';
 
 
 
@@ -22,7 +20,6 @@ function Contact() {
     return (
 
         <Container >
-            <Menu />
             <br />
             <br />
             <br />
@@ -123,7 +120,6 @@ function Contact() {
             <br />
             <br />
             <br />
-            <Footer />
         </Container>
 
     );

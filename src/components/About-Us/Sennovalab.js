@@ -14,20 +14,15 @@ import Line from '../../assets/img/png/Line.png';
 import Construccion from '../../assets/img/png/Construccion.png';
 import Industria from '../../assets/img/png/Industria.png';
 import Software from '../../assets/img/png/Software.png';
-import Menu from '../MenuNav/Menu';
 import "./Sennovalab.css";
 
 import sennovalab from '../../assets/img/png/sennovalab.png';
 
-import Footer from '../Footer/Footer';
 
-
-function Sennovalab() {
+const Sennovalab = () => {
 
   return (
     <Container fluid>
-      <hr></hr>
-      <Menu />
       <br />
       <br />
       <br />
@@ -184,7 +179,6 @@ function Sennovalab() {
       <br />
       <br />
       <br />
-      <Footer />
 
     </Container >
 

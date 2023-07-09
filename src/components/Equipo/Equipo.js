@@ -4,24 +4,15 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import "./Equipo.css";
-import Menu from '../MenuNav/Menu';
-import Footer from '../Footer/Footer';
 import Image from 'react-bootstrap/Image';
 import Line from '../../assets/img/png/Line.png';
 import sennovalab from '../../assets/img/png/sennovalab.png';
 
 
-
-
-
-
-
-
-function Equipo() {
+const Equipo = () => {
     return (
 
         <Container >
-            <Menu />
             <br />
             <br />
             <br />
@@ -168,7 +159,6 @@ function Equipo() {
             <br />
             <br />
             <br />
-            <Footer />
         </Container>
 
     );

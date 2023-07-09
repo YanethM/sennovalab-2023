@@ -6,7 +6,8 @@ import Line from '../../assets/img/png/Line.png';
 
 import Menu from '../MenuNav/Menu';
 
-function Case() {
+const Case = () => {
+  
   return (
     <Container fluid>
     <Menu/>

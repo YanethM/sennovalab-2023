@@ -2,7 +2,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AllRoutesProject from "./config/routes";
 
-import Menu from './components/MenuNav/Menu';
+/* import Menu from './components/MenuN av/Menu';
 import Const from './components/LineasS/Const';
 import Ind from './components/LineasS/Ind';
 import Desa from './components/LineasS/Desa';
@@ -15,9 +15,7 @@ import Politica from './components/GestionInnovacion/Politica';
 import Footer from './components/Footer/Footer';
 import Equipo from './components/Equipo/Equipo';
 import Contact from './components/Contac/Contact';
-import Servicios from './components/Servicios/Servicios';
-
-
+import Servicios from './components/Servicios/Servicios'; */
 
 
 
@@ -25,7 +23,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        {/* {AllRoutesProject.map((route, index) => (
+        {AllRoutesProject.map((route, index) => (
           <Route
             key={index}
             path={route.path}
@@ -35,8 +33,8 @@ const App = () => {
               </route.layout>
             }
           />
-        ))} */}
-        <Route path='/' element={<Menu />} />
+        ))} 
+{/*         <Route path='/' element={<Menu />} />
         <Route path='/Menu' element={<Menu />} />
         <Route path='/' element={<Const />} />
         <Route path='/Const' element={<Const />} />
@@ -53,8 +51,7 @@ const App = () => {
         <Route path='/Equipo' element={<Equipo />} />
         <Route path='/Servicios' element={<Servicios />} />
 
-
-
+ */}
       </Routes>
     </BrowserRouter>
   );

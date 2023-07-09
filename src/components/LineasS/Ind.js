@@ -12,19 +12,12 @@ import Lvertical from '../../assets/img/png/Lvertical.png';
 import Polygo from '../../assets/img/png/Polygo.png';
 import Polygon from '../../assets/img/png/Polygon.png';
 import Logon from '../../assets/img/png/Logon.png';
-import Line from '../../assets/img/png/Line.png';
-import Menu from '../MenuNav/Menu';
 import "./Ind.css";
-import Footer from '../Footer/Footer';
 
 
-
-
-
-function Ind() {
+const Ind = () => {
   return (
     <Container fluid>
-      <Menu />
       <br />
       <br />
       <Row>
@@ -192,7 +185,6 @@ function Ind() {
       <br />
       <br />
       <br />
-      <Footer />
     </Container>
 
   );
