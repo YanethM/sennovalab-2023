@@ -12,7 +12,7 @@ import Gestion from '../components/GestionInnovacion/Gestion';
 import Informacion from '../components/GestionInnovacion/Informacion';
 import Politica from '../components/GestionInnovacion/Politica';
 import Servicios from '../components/Servicios/Servicios'; 
-import Contact from '../components/Contac/Contact'; 
+import Contact from '../pages/General/Contact/Contact'; 
 
 
 import { NotFound } from "../pages/General/NotFound/NotFound";
@@ -26,7 +26,7 @@ const AdminRoutes = [
 const GeneralRoutes = [
     {path: "/", component: Sennovalab, layout: ClientLayout},
     {path: "/nosotros", component: Nosotros, layout: ClientLayout},
-    {path:"/contact", component: Contact, layout: ClientLayout },
+    {path:"/contacto", component: Contact, layout: ClientLayout },
     {path:"/equipo", component: Equipo, layout: ClientLayout},
     {path:"/const", component: Constr, layout: ClientLayout},
     {path:"/ind", component: Ind, layout: ClientLayout},
