@@ -1,6 +1,7 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import FooterClient from "../../components/FooterClient/FooterClient";
-import "./ClientLayout.scss";
+import "./ClientLayout.css";
 import Menu from '../../components/MenuNav/Menu';
 
 export const ClientLayout = (props) => {
@@ -11,11 +12,11 @@ export const ClientLayout = (props) => {
       <div>
         <Menu />
       </div>
-      <div>
+      <div className="my-4">
         {children}
       </div>
-      <div>
-        <FooterClient></FooterClient>
+      <div className="mt-5">
+        <FooterClient />
       </div>
     </>
     
