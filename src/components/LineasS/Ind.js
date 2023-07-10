@@ -16,10 +16,7 @@ import Line from '../../assets/img/png/Line.png';
 import "./Ind.css";
 
 
-
-
-
-function Ind() {
+const Ind = () => {
   return (
     <Container fluid>
     

@@ -6,7 +6,8 @@ import Line from '../../assets/img/png/Line.png';
 
 
 
-function Case() {
+const Case = () => {
+  
   return (
     <Container fluid>
  

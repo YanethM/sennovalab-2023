@@ -12,16 +12,13 @@ import Lvertical from '../../assets/img/png/Lvertical.png';
 import Polygo from '../../assets/img/png/Polygo.png';
 import Polygon from '../../assets/img/png/Polygon.png';
 import Logon from '../../assets/img/png/Logon.png';
-import Line from '../../assets/img/png/Line.png';
 import Servi from '../../assets/img/png/Servi.png';
 import "./Const.css";
 
 
 
+const Constr = () => {
 
-
-
-function Const() {
   return (
     <Container fluid>
       
@@ -209,4 +206,4 @@ function Const() {
 
 
 
-export default Const;
+export default Constr;

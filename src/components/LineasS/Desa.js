@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Construccion from '../../assets/img/png/Construccion.png';
-import Industria from '../../assets/img/png/Industria.png';
 import Software from '../../assets/img/png/Software.png';
 import Lnara from '../../assets/img/png/Lnara.png';
 import Lvertical from '../../assets/img/png/Lvertical.png';
@@ -19,8 +18,7 @@ import "./Desa.css";
 
 
 
-
-function Desa() {
+const Desa = () => {
   return (
     <Container fluid>
       

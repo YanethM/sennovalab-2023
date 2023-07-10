@@ -2,9 +2,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import Lvertical from '../../assets/img/png/Lvertical.png';
-import Polygo from '../../assets/img/png/Polygo.png';
-import Polygon from '../../assets/img/png/Polygon.png';
 import Portafolio from '../../assets/img/png/Portafolio.png';
 import Construccion from '../../assets/img/png/Construccion.png';
 import Industria from '../../assets/img/png/Industria.png';
@@ -13,7 +10,8 @@ import Lnara from '../../assets/img/png/Lnara.png';
 import Logon from '../../assets/img/png/Logon.png';
 import "./Nosotros.css";
 
-function Nosotros() {
+const Nosotros = () => {
+  
   return (
     <Container fluid>
      

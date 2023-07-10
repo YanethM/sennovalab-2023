@@ -11,7 +11,8 @@ import Color from '../../assets/img/png/Color.png';
 
 import "./Servicios.css";
 
-function Servicios() {
+const Servicios = () => {
+    
     return (
         <Container fluid>
             

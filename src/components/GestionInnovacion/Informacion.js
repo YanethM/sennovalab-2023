@@ -8,7 +8,7 @@ import sennovalab from '../../assets/img/png/sennovalab.png';
 
 
 
-function Informacion() {
+const Informacion = () => {
     return (
             <Container fluid>
             

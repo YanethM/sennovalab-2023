@@ -8,7 +8,8 @@ import sennovalab from '../../assets/img/png/sennovalab.png';
 
 
 
-function Politica() {
+const Politica = () => {
+  
     return (
             <Container fluid>
             

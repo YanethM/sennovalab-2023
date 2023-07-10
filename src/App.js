@@ -8,6 +8,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         {AllRoutesProject.map((route, index) => (
+       
           <Route
             key={index}
             path={route.path}
