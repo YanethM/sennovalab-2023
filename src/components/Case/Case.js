@@ -4,12 +4,12 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Line from '../../assets/img/png/Line.png';
 
-import Menu from '../MenuNav/Menu';
+
 
 function Case() {
   return (
     <Container fluid>
-    <Menu/>
+ 
       <Row>
       <Col sm={8}>
           <h1>NUESTROS</h1>

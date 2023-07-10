@@ -13,9 +13,7 @@ import Polygo from '../../assets/img/png/Polygo.png';
 import Polygon from '../../assets/img/png/Polygon.png';
 import Logon from '../../assets/img/png/Logon.png';
 import Line from '../../assets/img/png/Line.png';
-import Menu from '../MenuNav/Menu';
 import "./Ind.css";
-import Footer from '../Footer/Footer';
 
 
 
@@ -24,9 +22,7 @@ import Footer from '../Footer/Footer';
 function Ind() {
   return (
     <Container fluid>
-      <Menu />
-      <br />
-      <br />
+    
       <Row>
         <Col md={3} className='text-center'>
           <br />
@@ -188,11 +184,7 @@ function Ind() {
 
       </Row>
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <Footer />
+     
     </Container>
 
   );

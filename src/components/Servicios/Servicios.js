@@ -8,19 +8,13 @@ import image5 from '../../assets/img/png/image5.png';
 import image6 from '../../assets/img/png/image6.png';
 import image7 from '../../assets/img/png/image7.png';
 import Color from '../../assets/img/png/Color.png';
-import Menu from '../MenuNav/Menu';
-import Footer from '../Footer/Footer';
+
 import "./Servicios.css";
 
 function Servicios() {
     return (
         <Container fluid>
-            <hr></hr>
-            <Menu />
-            <br />
-            <br />
-            <br />
-            <br />
+            
             <Row>
                 <Col sm={3} >
                     <br />
@@ -100,11 +94,7 @@ function Servicios() {
                     <Image src={Color} style={{ width: '990px', height: '300px', }} />
                 </Col>
             </Row>
-            <br />
-            <br />
-            <br />
-            <br />
-            <Footer />
+            
         </Container>
     );
 }

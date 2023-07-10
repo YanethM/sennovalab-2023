@@ -20,7 +20,7 @@
   border-radius: 5%;
   border: 5px solid #272133;
   margin-top: 5px;
-  box-shadow: 0 10px 50px rgba(235, 25, 110, 1);
+ 
 }
 
 
@@ -52,7 +52,7 @@
 
 .draw-border:hover::before,
 .draw-border:hover::after {
-  border-color: #eb196e;
+
   -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 50%;

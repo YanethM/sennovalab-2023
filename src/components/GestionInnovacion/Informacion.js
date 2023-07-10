@@ -5,14 +5,13 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import sennovalab from '../../assets/img/png/sennovalab.png';
-import Menu from '../MenuNav/Menu';
-import Footer from '../Footer/Footer';
+
 
 
 function Informacion() {
     return (
             <Container fluid>
-              <Menu/>
+            
               <Row>
                 <Col xs={12} md={3}>
                   <Image src={sennovalab} />
@@ -35,7 +34,6 @@ function Informacion() {
                
                   </Col>
                 </Row>
-                <Footer/>
             </Container>
         
           );

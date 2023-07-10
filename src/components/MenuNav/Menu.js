@@ -9,6 +9,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import sennovalab from '../../assets/img/png/sennovalab.png';
 import Image from 'react-bootstrap/Image';
+import "./Menu.css";
 
 function Menu() {
 
@@ -30,12 +31,15 @@ function Menu() {
   )
 
   return (
-    <Container fluid>
-      <Row>
+    <Container fluid className="Navbar">
+      <Row >
         <Col sm={5}>
+        
           <Navbar expand="lg" >
+          <div className="Contenedor"> </div>
             <Container>
-              <a href='/Sennovalab' ><Image src={sennovalab} style={style} Link href="Sennovalab" /></a>
+             
+              <a href='/Sennovalab' ><Image src={sennovalab} style={style} /></a>
             
             
             
@@ -65,12 +69,15 @@ function Menu() {
                   <Nav.Link href="Equipo" >Equipo</Nav.Link>
                   <Nav.Link href="Servicios" >Servicios</Nav.Link>
                   </Container>
+                 
           </Navbar>
                   </Col>
-                  <Col sm={2}></Col> 
+                  <Col sm={2}>
+                 </Col> 
                   <Col sm={5}>
                     
                   <Navbar expand="lg" >
+                  <div className="Contenedor"> </div>
             <Container>
 
                   <br />
@@ -101,7 +108,9 @@ function Menu() {
       <Col>2 of 3</Col>
       <Col>3 of 3</Col>
     </Row> */}
+   
     </Container>
+ 
 
   );
 }

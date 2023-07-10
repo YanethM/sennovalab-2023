@@ -6,8 +6,6 @@ import Lvertical from '../../assets/img/png/Lvertical.png';
 import Polygo from '../../assets/img/png/Polygo.png';
 import Polygon from '../../assets/img/png/Polygon.png';
 import Portafolio from '../../assets/img/png/Portafolio.png';
-import Menu from '../MenuNav/Menu';
-import Footer from '../Footer/Footer';
 import Construccion from '../../assets/img/png/Construccion.png';
 import Industria from '../../assets/img/png/Industria.png';
 import Software from '../../assets/img/png/Software.png';
@@ -18,12 +16,7 @@ import "./Nosotros.css";
 function Nosotros() {
   return (
     <Container fluid>
-      <hr></hr>
-      <Menu />
-      <br />
-      <br />
-      <br />
-      <br />
+     
       <Row>
         <Col xs={5} md={3} className='text-center' >
           <h3 className="h">SOBRE</h3>
@@ -185,11 +178,8 @@ function Nosotros() {
           <Image className='image' src={Portafolio} style={{ width: '60px', height: '75px', }} />
         </Col>
       </Row>
-      <br />
-      <br />
-      <br />
-      <br />
-      <Footer />
+      
+      
     </Container >
   );
 }

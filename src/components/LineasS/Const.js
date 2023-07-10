@@ -14,9 +14,7 @@ import Polygon from '../../assets/img/png/Polygon.png';
 import Logon from '../../assets/img/png/Logon.png';
 import Line from '../../assets/img/png/Line.png';
 import Servi from '../../assets/img/png/Servi.png';
-import Menu from '../MenuNav/Menu';
 import "./Const.css";
-import Footer from '../Footer/Footer';
 
 
 
@@ -26,9 +24,7 @@ import Footer from '../Footer/Footer';
 function Const() {
   return (
     <Container fluid>
-      <Menu />
-      <br />
-      <br />
+      
       <Row>
         <Col md={3} className='text-center'>
           <br />
@@ -205,11 +201,7 @@ function Const() {
 
       </Row>
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <Footer />
+     
     </Container>
 
   );
