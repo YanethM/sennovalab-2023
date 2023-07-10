@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Menu.css";
-
+import Col from 'react-bootstrap/Col';
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -26,17 +26,16 @@ function Menu() {
   );
 
   return (
-    <Navbar expand="lg" >
+    <Navbar expand="lg" className="navbar-margin">
       <Container fluid className="Navbar" >
         <Nav className="mr-auto align-items-center">
           <a href="/">
             <Image src={sennovalab} style={style} />
           </a>
           {/* enlaces parte inicial del navbar */}
+          <Col sm={5}>
           <Nav className="me-5 align-items-center px-4">
-            <Nav href="/nosotros" className="mx-3 link-hover" >
-              <Link to="/nosotros">Nosotros</Link>
-            </Nav>
+          <Nav.Link href="/nosotros" >Nosotros</Nav.Link>
             <NavDropdown title="Gestión de la innovación" className="mx-3 link-hover">
               <NavDropdown.Item href="/informacion" className=" link-hover">
                 <Link to="/informacion">Informacion General</Link>
@@ -60,18 +59,15 @@ function Menu() {
                 <Link to="/desa">Linea de Software</Link>
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="equipo" className="mx-3 link-hover">
-              <Link to="/equipo">Equipo</Link>
-            </Nav.Link>
-            <Nav.Link href="servicios" className="mx-3 link-hover">
-              <Link to="/servicios">Servicios</Link>
-            </Nav.Link>
+            <Nav.Link href="/equipo" >Equipo</Nav.Link>
+            <Nav.Link href="/servicios" >Servicios</Nav.Link>
           </Nav>
+          </Col>
+          <Col sm={3}>  </Col>
           {/* enlaces parte final del navbar */}
+          <Col sm={7}> 
           <Nav className="align-items-center px-4 ms-5">
-            <Nav.Link href="/contact" className="mx-3 ms-5 link-hover">
-              <Link to="/contact">Contacto</Link>
-            </Nav.Link>
+          <Nav.Link href="/contacto" >Contacto</Nav.Link>
             <Nav.Link href="#link" className="mx-3 link-hover">PQRS</Nav.Link>
             <Nav.Link href="#link" className="mx-3 link-hover">Preguntas Frecuentes</Nav.Link>
 
@@ -81,7 +77,9 @@ function Menu() {
               <NavDropdown.Item href="#action/3.3">Ingresar</NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          </Col>
         </Nav>
+       
       </Container>
     </Navbar>
   );
