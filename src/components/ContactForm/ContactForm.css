@@ -62,7 +62,7 @@
   line-height: 26px;
   font-weight: 400;
   text-transform: capitalize;
-  color: #888;
+  color: #000000;
   cursor: text;
 }
 
@@ -89,7 +89,7 @@ select {
   min-width: 50px;
   background-color: #d1cfcf;
   color: rgb(0, 0, 0);
-  font-weight: 500;
+  font-weight: bold;
 }
 
 /* text area styles */
@@ -110,10 +110,9 @@ textarea {
   padding: 12px 30px;
   min-width: 200px;
   margin-top: 15px;
-  text-transform: uppercase;
   cursor: pointer;
-  font-weight: 1000;
-  font-size: smaller;
+  font-weight: 500;
+  font-size: medium;
 }
 
 .btn:hover {
