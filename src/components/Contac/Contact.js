@@ -16,13 +16,12 @@ import Software from '../../assets/img/png/Software.png';
 
 
 
+
 function Contact() {
     return (
 
         <Container >
-            <br />
-            <br />
-            <br />
+          
             <Row>
                 <Col className='text-center' md={3}>
 
@@ -115,11 +114,6 @@ function Contact() {
                 </Col>
 
             </Row>
-
-
-            <br />
-            <br />
-            <br />
         </Container>
 
     );

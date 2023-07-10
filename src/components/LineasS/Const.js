@@ -21,8 +21,7 @@ const Constr = () => {
 
   return (
     <Container fluid>
-      <br />
-      <br />
+      
       <Row>
         <Col md={3} className='text-center'>
           <br />
@@ -199,10 +198,7 @@ const Constr = () => {
 
       </Row>
 
-      <br />
-      <br />
-      <br />
-      <br />
+     
     </Container>
 
   );

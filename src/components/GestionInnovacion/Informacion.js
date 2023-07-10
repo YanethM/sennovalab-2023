@@ -7,9 +7,11 @@ import Image from 'react-bootstrap/Image';
 import sennovalab from '../../assets/img/png/sennovalab.png';
 
 
+
 const Informacion = () => {
     return (
             <Container fluid>
+            
               <Row>
                 <Col xs={12} md={3}>
                   <Image src={sennovalab} />

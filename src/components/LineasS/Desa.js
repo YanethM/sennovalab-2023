@@ -11,15 +11,17 @@ import Lvertical from '../../assets/img/png/Lvertical.png';
 import Polygo from '../../assets/img/png/Polygo.png';
 import Polygon from '../../assets/img/png/Polygon.png';
 import Logon from '../../assets/img/png/Logon.png';
+import Line from '../../assets/img/png/Line.png';
 import "./Desa.css";
+
+
 
 
 
 const Desa = () => {
   return (
     <Container fluid>
-      <br />
-      <br />
+      
       <Row>
         <Col md={3} className='text-center'>
           <br />
@@ -181,10 +183,6 @@ const Desa = () => {
 
       </Row>
 
-      <br />
-      <br />
-      <br />
-      <br />
     </Container>
 
   );

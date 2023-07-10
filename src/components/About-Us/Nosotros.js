@@ -14,10 +14,7 @@ const Nosotros = () => {
   
   return (
     <Container fluid>
-      <br />
-      <br />
-      <br />
-      <br />
+     
       <Row>
         <Col xs={5} md={3} className='text-center' >
           <h3 className="h">SOBRE</h3>
@@ -179,10 +176,8 @@ const Nosotros = () => {
           <Image className='image' src={Portafolio} style={{ width: '60px', height: '75px', }} />
         </Col>
       </Row>
-      <br />
-      <br />
-      <br />
-      <br />
+      
+      
     </Container >
   );
 }

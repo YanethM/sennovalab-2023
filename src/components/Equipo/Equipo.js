@@ -7,29 +7,30 @@ import "./Equipo.css";
 import Image from 'react-bootstrap/Image';
 import Line from '../../assets/img/png/Line.png';
 import sennovalab from '../../assets/img/png/sennovalab.png';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 
 const Equipo = () => {
     return (
 
         <Container >
-            <br />
-            <br />
-            <br />
 
             <Row>
                 <Col sm={3}></Col>
                 <Col sm={2}></Col>
                 <Col sm={2} className='text-center'>
-                    <div className="container">
-                        <div className="card">
-                            <button href="http://localhost:3000/Const" >Linea de Construcción</button>
-                            <img src="https://lh3.googleusercontent.com/ytP9VP86DItizVX2YNA-xTYzV09IS7rh4WexVp7eilIcfHmm74B7odbcwD5DTXmL0PF42i2wnRKSFPBHlmSjCblWHDCD2oD1oaM1CGFcSd48VBKJfsCi4bS170PKxGwji8CPmehwPw=w200-h247-no" alt="Person" className="card__image" />
-                            <p className="card__name">Andrea Del Pilar Alvarez Camargo</p>
-                            <p className="card__email">Correo: apalvarez@sena.edu.co </p>
-                            <p className="card__Rol">Rol: Responsable de la linea </p>
-                        </div>
-                    </div>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="https://lh3.googleusercontent.com/ytP9VP86DItizVX2YNA-xTYzV09IS7rh4WexVp7eilIcfHmm74B7odbcwD5DTXmL0PF42i2wnRKSFPBHlmSjCblWHDCD2oD1oaM1CGFcSd48VBKJfsCi4bS170PKxGwji8CPmehwPw=w200-h247-no" alt="Person" className="card__image" />
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </Card.Text>
+                            <Button variant="primary">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
                 </Col>
                 <Col sm={2}></Col>
                 <Col sm={3}></Col>
@@ -40,9 +41,9 @@ const Equipo = () => {
             <br />
             <Row>
                 <Col xs={5} md={3} className='text-center' >
-                <br />
-            <br />
-            <br />
+                    <br />
+                    <br />
+                    <br />
                     <h2>NUESTRO</h2>
                     <Image className='image' src={sennovalab} style={{ width: '50px', height: '50px', }} />
                     <Image src={Line} style={{ width: '209px', height: '4px', }} />
@@ -156,9 +157,6 @@ const Equipo = () => {
                 </Col>
             </Row>
 
-            <br />
-            <br />
-            <br />
         </Container>
 
     );
