@@ -9,13 +9,13 @@ export const ClientLayout = (props) => {
 
   return (
     <>
-      <div>
+      <div className="header">
         <Menu />
       </div>
       <div className="my-4">
         {children}
       </div>
-      <div className="mt-5">
+      <div className="footer">
         <FooterClient />
       </div>
     </>
