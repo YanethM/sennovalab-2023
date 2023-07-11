@@ -143,3 +143,10 @@ textarea {
   padding: 50px 40px;
   border-radius: 15px;
 }
+
+.row-flex{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
