@@ -4,7 +4,10 @@ import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
+import InputGroup from 'react-bootstrap/InputGroup';
 import "./ContactForm.css";
+import { BsPerson, BsPersonVcard, BsEnvelopeCheck, BsListUl, BsPhone } from "react-icons/bs";
+
 
 const ContactForm = () => {
   return (
@@ -12,16 +15,19 @@ const ContactForm = () => {
       <Col md={8}>
         <form className="container mt-3 mb-3 mod-form">
           <Row className="mb-3">
-            <Form.Group controlId="formBasicEmail" className="col">
+            <InputGroup className="mb-3">
+              <InputGroup.Text id="basic-addon1" className="icon-form">{<BsPerson />}</InputGroup.Text>
               <Form.Control
-                placeholder="Nombre(s)"
                 type="text"
-                className="form-control"
+                placeholder="Nombre(s)"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+                name="name"
               />
-            </Form.Group>
+            </InputGroup>
           </Row>
-          <Row className="mb-3">
-            <Form.Group controlId="formGridState" className="col col-sm-6">
+          <Row className="row-flex">
+            <Form.Group className="col">
               <Form.Select
                 defaultValue="ti"
                 className="form-control"
@@ -35,42 +41,50 @@ const ContactForm = () => {
                 <option value="pa">Pasaporte</option>
               </Form.Select>
             </Form.Group>
-            <Form.Group controlId="formGridpin" className="col col-sm-6">
+            <InputGroup  className="col">
+              <InputGroup.Text id="basic-addon1 col">{<BsPersonVcard />}</InputGroup.Text>
               <Form.Control
+                type="number"
                 placeholder="Número de documento"
-                className="form-control"
-                type="number"
-                name="document"
+                aria-label="Id"
+                aria-describedby="basic-addon1"
+                name="id"
               />
-            </Form.Group>
+            </InputGroup>
           </Row>
           <Row className="mb-3">
-            <Form.Group controlId="formBasicEmail" className="col">
+            <InputGroup className="mb-3">
+              <InputGroup.Text id="basic-addon1">{<BsEnvelopeCheck />}</InputGroup.Text>
               <Form.Control
-                placeholder="Correo electrónico"
                 type="email"
+                placeholder="Correo electronico"
+                aria-label="Email"
+                aria-describedby="basic-addon1"
                 name="email"
-                className="form-control"
               />
-            </Form.Group>
+            </InputGroup>
           </Row>
-          <Row className="mb-3">
-            <Form.Group className=" col col-sm-6" controlId="formGridAddress1">
+          <Row className="row-flex">
+            <InputGroup className="col">
+              <InputGroup.Text id="basic-addon1">{<BsListUl />}</InputGroup.Text>
               <Form.Control
-                placeholder="Motivo"
-                className="form-control"
                 type="text"
-                name="motivo"
+                placeholder="Motivo"
+                aria-label="Reason"
+                aria-describedby="basic-addon1"
+                name="reason"
               />
-            </Form.Group>
-            <Form.Group className="col col-sm-6" controlId="formGridAddress2">
+            </InputGroup>
+            <InputGroup className="col">
+              <InputGroup.Text id="basic-addon1">{<BsPhone />}</InputGroup.Text>
               <Form.Control
-                placeholder="Celular"
-                className="form-control"
-                name="phone"
                 type="number"
+                placeholder="Celular"
+                aria-label="Phone"
+                aria-describedby="basic-addon1"
+                name="phone"
               />
-            </Form.Group>
+            </InputGroup>
           </Row>
           <Row className="mb-3">
             <Form.Group controlId="formGridlabel" className="col col-sm-12">
