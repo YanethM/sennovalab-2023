@@ -1,26 +1,49 @@
 .card {
-  background-color: hsla(180, 2%, 9%, 0.19);
-  height: 17rem;
-  border-radius: 5px;
+  align-items: center;
+  animation: 10s rotate linear infinite;
+  border-radius: 0.5rem;
+  border: 5px solid;
+  border-image: linear-gradient(var(--angle), #cadfa1, #a7a6a6, #D9D9D9, #E6F2CE, #D4E9AB, #a7a6a6) 1;
+  box-shadow: rgba(0, 0, 0, 0.7);
+  background-color: #d9d9d9;
+  color: black;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.7);
-  color: white;
+  height: 17rem;
+  border-top: 5px;
+  width: 200px;
 }
 
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+.card::after {
+  filter: blur(3.5rem);
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+/* modificando el interior de la tarjeta */
+
 .card__name {
-  margin-top: 5px;
+  margin-top: 1px;
   font-size: 1em;
 }
 
 .card__image {
-  height: 90px;
-  width: 90px;
+  height: 120px;
+  width: 100%;
   border-radius: 5%;
-  border: 5px solid #272133;
-  margin-top: 5px;
- 
+  margin-bottom: 20px;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 
