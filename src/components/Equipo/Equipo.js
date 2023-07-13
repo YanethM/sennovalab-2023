@@ -7,34 +7,55 @@ import "./Equipo.css";
 import Image from 'react-bootstrap/Image';
 import Line from '../../assets/img/png/Line.png';
 import sennovalab from '../../assets/img/png/sennovalab.png';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import avatar from '../../assets/jpg/avatar1.jpg';
+import avatar2 from '../../assets/jpg/avatar2.jpg';
+import avatar3 from '../../assets/jpg/avatar3.jpg';
 
 
 const Equipo = () => {
     return (
 
         <Container >
-
             <Row>
                 <Col sm={3}></Col>
                 <Col sm={2}></Col>
-                <Col sm={2} className='text-center'>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="https://lh3.googleusercontent.com/ytP9VP86DItizVX2YNA-xTYzV09IS7rh4WexVp7eilIcfHmm74B7odbcwD5DTXmL0PF42i2wnRKSFPBHlmSjCblWHDCD2oD1oaM1CGFcSd48VBKJfsCi4bS170PKxGwji8CPmehwPw=w200-h247-no" alt="Person" className="card__image" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
+                <Col sm={2} className='d-flex justify-content-center text-center'>
+                    <div className="card">
+                        <img src={avatar} alt="Person" className="card__image" />
+                        <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
+                        <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
+                        <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
+                        <p className="card__line"><b> Linea de construccion </b></p>
+                    </div>
                 </Col>
                 <Col sm={2}></Col>
                 <Col sm={3}></Col>
 
+            </Row>
+            <br />
+            <br />
+            <br />
+            <Row>
+                <Col sm={4} className='text-center' ></Col>
+                <Col sm={2} className='text-center'>
+                    <div className="card">
+                        <img src={avatar3} alt="Person" className="card__image" />
+                        <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
+                        <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
+                        <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
+                        <p className="card__line"><b> Linea de construccion </b></p>
+                    </div>
+                </Col>
+                <Col sm={2} className='text-center'>
+                    <div className="card">
+                        <img src={avatar} alt="Person" className="card__image" />
+                        <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
+                        <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
+                        <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
+                        <p className="card__line"><b> Linea de construccion </b></p>
+                    </div>
+                </Col>
+                <Col sm={4} ></Col>
             </Row>
             <br />
             <br />
@@ -51,36 +72,30 @@ const Equipo = () => {
                 </Col>
 
                 <Col sm={2} className='text-center'>
-                    <div className="container">
-                        <div className="card">
-                            <button>Linea de Construcción</button>
-                            <img src="https://lh3.googleusercontent.com/ytP9VP86DItizVX2YNA-xTYzV09IS7rh4WexVp7eilIcfHmm74B7odbcwD5DTXmL0PF42i2wnRKSFPBHlmSjCblWHDCD2oD1oaM1CGFcSd48VBKJfsCi4bS170PKxGwji8CPmehwPw=w200-h247-no" alt="Person" className="card__image" />
-                            <p className="card__name">Laura Matilde Moreno Cardona</p>
-                            <p className="card__email">Correo: lammorenoc@sena.edu.co</p>
-                            <p className="card__Rol">Rol: Personal Tecnico</p>
-                        </div>
+                    <div className="card">
+                        <img src={avatar} alt="Person" className="card__image" />
+                        <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
+                        <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
+                        <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
+                        <p className="card__line"><b> Linea de construccion </b></p>
                     </div>
                 </Col>
                 <Col sm={2} className='text-center'>
-                    <div className="container">
-                        <div className="card">
-                            <button>Linea de Construcción</button>
-                            <img src="https://lh3.googleusercontent.com/ytP9VP86DItizVX2YNA-xTYzV09IS7rh4WexVp7eilIcfHmm74B7odbcwD5DTXmL0PF42i2wnRKSFPBHlmSjCblWHDCD2oD1oaM1CGFcSd48VBKJfsCi4bS170PKxGwji8CPmehwPw=w200-h247-no" alt="Person" className="card__image" />
-                            <p className="card__name">Laura Matilde Moreno Cardona</p>
-                            <p className="card__email">Correo: lammorenoc@sena.edu.co</p>
-                            <p className="card__Rol">Rol: Personal Tecnico</p>
-                        </div>
+                    <div className="card">
+                        <img src={avatar3} alt="Person" className="card__image" />
+                        <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
+                        <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
+                        <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
+                        <p className="card__line"><b> Linea de construccion </b></p>
                     </div>
                 </Col>
                 <Col sm={2} className='text-center'>
-                    <div className="container">
-                        <div className="card">
-                            <button>Linea de Construcción</button>
-                            <img src="https://lh3.googleusercontent.com/ytP9VP86DItizVX2YNA-xTYzV09IS7rh4WexVp7eilIcfHmm74B7odbcwD5DTXmL0PF42i2wnRKSFPBHlmSjCblWHDCD2oD1oaM1CGFcSd48VBKJfsCi4bS170PKxGwji8CPmehwPw=w200-h247-no" alt="Person" className="card__image" />
-                            <p className="card__name">Laura Matilde Moreno Cardona</p>
-                            <p className="card__email">Correo: lammorenoc@sena.edu.co</p>
-                            <p className="card__Rol">Rol: Personal Tecnico</p>
-                        </div>
+                    <div className="card">ssss
+                        <img src={avatar} alt="Person" className="card__image" />
+                        <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
+                        <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
+                        <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
+                        <p className="card__line"><b> Linea de construccion </b></p>
                     </div>
                 </Col>
                 <Col sm={3} ></Col>
@@ -88,73 +103,46 @@ const Equipo = () => {
             <br />
             <br />
             <br />
+            {/* Ultima fila de 4 en en piramide */}
             <Row>
+                <Col sm={2} className='text-center'></Col>
                 <Col sm={2} className='text-center'>
-                    <div className="container">
-                        <div className="card">
-                            <button>Linea de Industria</button>
-                            <img src="https://lh3.googleusercontent.com/oUUiPB9sq3ACq4bUaRmo8pgvC4FUpRRrQKcGIBSOsafawZfRpF1vruFeYt6uCfL6wGDQyvOi6Ez9Bpf1Fb7APKjIyVsft7FLGR6QqdRFTiceNQBm1In9aZyrXp33cZi9pUNqjHASdA=s170-no" alt="Person" className="card__image" />
-                            <p className="card__name">Luis Alberto Hernandez</p>
-                            <p className="card__email">Correo: lahernandezs@sena.edu.co</p>
-                            <p className="card__Rol">Rol: Responsable de la linea</p>
-                        </div>
+                    <div className="card">
+                        <img src={avatar} alt="Person" className="card__image" />
+                        <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
+                        <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
+                        <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
+                        <p className="card__line"><b> Linea de construccion </b></p>
                     </div>
                 </Col>
                 <Col sm={2} className='text-center'>
-                    <div className="container">
-                        <div className="card">
-                            <button>Linea de Software</button>
-                            <img src="https://lh3.googleusercontent.com/pZwZJ5HIL5iKbA91UGMUIPR0VJWa3K0vOGzDZmY6wU3EJBUdfsby3VEyxU162XxTyOyP3D154tjkr-4Jgcx8lygYUR8eB-jVmld4dsHi1c-mE_A8jKccseAG7bdEwVrcuuk6ciNtSw=s170-no" alt="Person" className="card__image" />
-                            <p className="card__name">Yaneth Mejía Rendón</p>
-                            <p className="card__email">Correo: ymejia@sena.edu.co</p>
-                            <p className="card__Rol">Rol: Responsable de la linea</p>
-                        </div>
+                    <div className="card">
+                        <img src={avatar2} alt="Person" className="card__image" />
+                        <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
+                        <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
+                        <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
+                        <p className="card__line"><b> Linea de construccion </b></p>
                     </div>
                 </Col>
                 <Col sm={2} className='text-center'>
-                    <div className="container">
-                        <div className="card">
-                            <button>Linea de Software</button>
-                            <img src="https://lh3.googleusercontent.com/pZwZJ5HIL5iKbA91UGMUIPR0VJWa3K0vOGzDZmY6wU3EJBUdfsby3VEyxU162XxTyOyP3D154tjkr-4Jgcx8lygYUR8eB-jVmld4dsHi1c-mE_A8jKccseAG7bdEwVrcuuk6ciNtSw=s170-no" alt="Person" className="card__image" />
-                            <p className="card__name">Yaneth Mejía Rendón</p>
-                            <p className="card__email">Correo: ymejia@sena.edu.co</p>
-                            <p className="card__Rol">Rol: Responsable de la linea</p>
-                        </div>
+                    <div className="card">
+                        <img src={avatar} alt="Person" className="card__image" />
+                        <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
+                        <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
+                        <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
+                        <p className="card__line"><b> Linea de construccion </b></p>
                     </div>
                 </Col>
                 <Col sm={2} className='text-center'>
-                    <div className="container">
-                        <div className="card">
-                            <button>Linea de Software</button>
-                            <img src="https://lh3.googleusercontent.com/pZwZJ5HIL5iKbA91UGMUIPR0VJWa3K0vOGzDZmY6wU3EJBUdfsby3VEyxU162XxTyOyP3D154tjkr-4Jgcx8lygYUR8eB-jVmld4dsHi1c-mE_A8jKccseAG7bdEwVrcuuk6ciNtSw=s170-no" alt="Person" className="card__image" />
-                            <p className="card__name">Yaneth Mejía Rendón</p>
-                            <p className="card__email">Correo: ymejia@sena.edu.co</p>
-                            <p className="card__Rol">Rol: Responsable de la linea</p>
-                        </div>
+                    <div className="card">
+                        <img src={avatar} alt="Person" className="card__image" />
+                        <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
+                        <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
+                        <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
+                        <p className="card__line"><b> Linea de construccion </b></p>
                     </div>
                 </Col>
-                <Col sm={2} className='text-center'>
-                    <div className="container">
-                        <div className="card">
-                            <button>Linea de Software</button>
-                            <img src="https://lh3.googleusercontent.com/pZwZJ5HIL5iKbA91UGMUIPR0VJWa3K0vOGzDZmY6wU3EJBUdfsby3VEyxU162XxTyOyP3D154tjkr-4Jgcx8lygYUR8eB-jVmld4dsHi1c-mE_A8jKccseAG7bdEwVrcuuk6ciNtSw=s170-no" alt="Person" className="card__image" />
-                            <p className="card__name">Yaneth Mejía Rendón</p>
-                            <p className="card__email">Correo: ymejia@sena.edu.co</p>
-                            <p className="card__Rol">Rol: Responsable de la linea</p>
-                        </div>
-                    </div>
-                </Col>
-                <Col sm={2} className='text-center'>
-                    <div className="container">
-                        <div className="card">
-                            <button>Linea de Industria</button>
-                            <img src="https://lh3.googleusercontent.com/pZwZJ5HIL5iKbA91UGMUIPR0VJWa3K0vOGzDZmY6wU3EJBUdfsby3VEyxU162XxTyOyP3D154tjkr-4Jgcx8lygYUR8eB-jVmld4dsHi1c-mE_A8jKccseAG7bdEwVrcuuk6ciNtSw=s170-no" alt="Person" className="card__image" />
-                            <p className="card__name"> Luz Giovanna Garcia Hernandez </p>
-                            <p className="card__email">Correo: lugarcia@sena.edu.co</p>
-                            <p className="card__Rol">Rol: Personal Tecnico</p>
-                        </div>
-                    </div>
-                </Col>
+                <Col sm={2} className='text-center'></Col>
             </Row>
 
         </Container>
