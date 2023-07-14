@@ -7,9 +7,8 @@ import "./Equipo.css";
 import Image from 'react-bootstrap/Image';
 import Line from '../../assets/img/png/Line.png';
 import sennovalab from '../../assets/img/png/sennovalab.png';
-import avatar from '../../assets/jpg/avatar1.jpg';
-import avatar2 from '../../assets/jpg/avatar2.jpg';
-import avatar3 from '../../assets/jpg/avatar3.jpg';
+import avatar from '../../assets/img/jpg/avatar1.jpg';
+
 
 
 const Equipo = () => {
@@ -39,7 +38,7 @@ const Equipo = () => {
                 <Col sm={4} className='text-center' ></Col>
                 <Col sm={2} className='text-center'>
                     <div className="card">
-                        <img src={avatar3} alt="Person" className="card__image" />
+                        <img src={avatar} alt="Person" className="card__image" />
                         <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
                         <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
                         <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
@@ -82,7 +81,7 @@ const Equipo = () => {
                 </Col>
                 <Col sm={2} className='text-center'>
                     <div className="card">
-                        <img src={avatar3} alt="Person" className="card__image" />
+                        <img src={avatar} alt="Person" className="card__image" />
                         <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
                         <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
                         <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
@@ -90,7 +89,7 @@ const Equipo = () => {
                     </div>
                 </Col>
                 <Col sm={2} className='text-center'>
-                    <div className="card">ssss
+                    <div className="card">
                         <img src={avatar} alt="Person" className="card__image" />
                         <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
                         <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
@@ -117,7 +116,7 @@ const Equipo = () => {
                 </Col>
                 <Col sm={2} className='text-center'>
                     <div className="card">
-                        <img src={avatar2} alt="Person" className="card__image" />
+                        <img src={avatar} alt="Person" className="card__image" />
                         <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
                         <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
                         <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
