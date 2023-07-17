@@ -3,14 +3,13 @@
   animation: 10s rotate linear infinite;
   border-radius: 0.5rem;
   border: 5px solid;
-  border-image: linear-gradient(var(--angle), #cadfa1, #a7a6a6, #D9D9D9, #E6F2CE, #D4E9AB, #a7a6a6) 1;
+  border-image: linear-gradient(var(--angle), #cadfa1, #a7a6a6, #D9D9D9, #E6F2CE, #D4E9AB, #ffbf47)2;
   box-shadow: rgba(0, 0, 0, 0.7);
   background-color: #d9d9d9;
   color: black;
   display: flex;
   flex-direction: column;
   height: 17rem;
-  border-top: 5px;
   width: 200px;
 }
 
@@ -18,10 +17,6 @@
   to {
     --angle: 360deg;
   }
-}
-
-.card::after {
-  filter: blur(3.5rem);
 }
 
 @property --angle {
