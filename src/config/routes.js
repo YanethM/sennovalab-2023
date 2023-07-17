@@ -13,7 +13,7 @@ import Informacion from '../components/GestionInnovacion/Informacion';
 import Politica from '../components/GestionInnovacion/Politica';
 import Servicios from '../components/Servicios/Servicios'; 
 import Contact from '../pages/General/Contact/Contact'; 
-
+import Pqrs from '../components/Pqrs/Pqrs'; 
 
 import { NotFound } from "../pages/General/NotFound/NotFound";
 import { ClientLayout } from "../layouts/ClientLayout/ClientLayout";
