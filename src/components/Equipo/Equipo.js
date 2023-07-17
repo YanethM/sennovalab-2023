@@ -16,9 +16,8 @@ const Equipo = () => {
 
         <Container >
             <Row>
-                <Col sm={3}></Col>
-                <Col sm={2}></Col>
-                <Col sm={2} className='d-flex justify-content-center text-center'>
+                <Col sm={4}></Col>
+                <Col sm={4} className='d-flex flex-row text-center'>
                     <div className="card">
                         <img src={avatar} alt="Person" className="card__image" />
                         <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
@@ -27,27 +26,23 @@ const Equipo = () => {
                         <p className="card__line"><b> Linea de construccion </b></p>
                     </div>
                 </Col>
-                <Col sm={2}></Col>
-                <Col sm={3}></Col>
-
+                <Col sm={4}></Col>
             </Row>
             <br />
             <br />
             <br />
             <Row>
                 <Col sm={4} className='text-center' ></Col>
-                <Col sm={2} className='text-center'>
+                <Col sm={4} className='text-center d-flex flex-row'>
                     <div className="card">
-                        <img src={avatar} alt="Person" className="card__image" />
+                        <img alt="Person" className="card__image" />
                         <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
                         <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
                         <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
                         <p className="card__line"><b> Linea de construccion </b></p>
                     </div>
-                </Col>
-                <Col sm={2} className='text-center'>
                     <div className="card">
-                        <img src={avatar} alt="Person" className="card__image" />
+                        <img alt="Person" className="card__image" />
                         <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
                         <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
                         <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
@@ -72,7 +67,7 @@ const Equipo = () => {
 
                 <Col sm={2} className='text-center'>
                     <div className="card">
-                        <img src={avatar} alt="Person" className="card__image" />
+                        <img alt="Person" className="card__image" />
                         <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
                         <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
                         <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
@@ -81,7 +76,7 @@ const Equipo = () => {
                 </Col>
                 <Col sm={2} className='text-center'>
                     <div className="card">
-                        <img src={avatar} alt="Person" className="card__image" />
+                        <img alt="Person" className="card__image" />
                         <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
                         <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
                         <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
@@ -90,7 +85,7 @@ const Equipo = () => {
                 </Col>
                 <Col sm={2} className='text-center'>
                     <div className="card">
-                        <img src={avatar} alt="Person" className="card__image" />
+                        <img alt="Person" className="card__image" />
                         <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
                         <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
                         <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
@@ -107,7 +102,7 @@ const Equipo = () => {
                 <Col sm={2} className='text-center'></Col>
                 <Col sm={2} className='text-center'>
                     <div className="card">
-                        <img src={avatar} alt="Person" className="card__image" />
+                        <img alt="Person" className="card__image" />
                         <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
                         <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
                         <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
@@ -116,7 +111,7 @@ const Equipo = () => {
                 </Col>
                 <Col sm={2} className='text-center'>
                     <div className="card">
-                        <img src={avatar} alt="Person" className="card__image" />
+                        <img alt="Person" className="card__image" />
                         <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
                         <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
                         <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
@@ -125,7 +120,7 @@ const Equipo = () => {
                 </Col>
                 <Col sm={2} className='text-center'>
                     <div className="card">
-                        <img src={avatar} alt="Person" className="card__image" />
+                        <img alt="Person" className="card__image" />
                         <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
                         <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
                         <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
@@ -134,7 +129,7 @@ const Equipo = () => {
                 </Col>
                 <Col sm={2} className='text-center'>
                     <div className="card">
-                        <img src={avatar} alt="Person" className="card__image" />
+                        <img alt="Person" className="card__image" />
                         <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
                         <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
                         <p className="card__Rol"><b>Rol:</b> Personal Tecnico</p>
