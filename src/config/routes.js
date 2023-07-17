@@ -13,7 +13,7 @@ import Informacion from '../components/GestionInnovacion/Informacion';
 import Politica from '../components/GestionInnovacion/Politica';
 import Servicios from '../components/Servicios/Servicios'; 
 import Contact from '../pages/General/Contact/Contact'; 
-
+import Pqrs from '../components/Pqrs/Pqrs'; 
 
 import { NotFound } from "../pages/General/NotFound/NotFound";
 import { ClientLayout } from "../layouts/ClientLayout/ClientLayout";
@@ -35,6 +35,7 @@ const GeneralRoutes = [
     {path:"/gestion", component: Gestion, layout: ClientLayout},
     {path:"/informacion", component: Informacion, layout: ClientLayout},
     {path:"/politica", component: Politica, layout: ClientLayout},
+    {path:"/Pqrs", component: Pqrs, layout: ClientLayout},
     {path:"/servicios", component: Servicios, layout: ClientLayout},
     {path: "*", component: NotFound, layout: ClientLayout}
 ];

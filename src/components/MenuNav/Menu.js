@@ -69,7 +69,7 @@ function Menu() {
           <Col sm={7}> 
           <Nav className="align-items-center px-4 ms-5">
           <Nav.Link href="/contacto" >Contacto</Nav.Link>
-            <Nav.Link href="#link" className="mx-3 link-hover">PQRS</Nav.Link>
+            <Nav.Link href="/Pqrs" className="mx-3 link-hover">PQRS</Nav.Link>
             <Nav.Link href="#link" className="mx-3 link-hover">Preguntas Frecuentes</Nav.Link>
 
             <NavDropdown title={UserMenu} className="ms-5 link-hover">

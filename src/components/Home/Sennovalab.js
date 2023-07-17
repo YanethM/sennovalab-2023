@@ -26,22 +26,23 @@ function Sennovalab() {
       <div className="Contenedor">
 
         <Row>
-          <Col sm={6}  >
-            <div className='content-center'>
-
-              <h1> ACTUALIDAD</h1>
-              <Image src={sennovalab} />
-              <Image className='imgn' src={Line} />
-              <h1>SENNOVALAB</h1>
+          <Col sm={5}  >
+            <div className='Container'>
+              <h1 className='Centrado' > ACTUALIDAD</h1>
+              <div className='Imagenes-container'>
+                <Image className='Imagen' src={sennovalab} style={{ width: '45px', height: '45px', }} />
+                <Image className='Imagen' src={Line} style={{ width: '305px', height: '4px', }} />
+              </div>
+              <h1 className='Centrado'>SENNOVALAB</h1>
             </div>
-
 
 
 
           </Col>
 
+
           <Col sm={6}>
-            <div className='text-center'>
+            <div className="Contenedor">
               <Carousel variant="dark">
                 <Carousel.Item>
                   <img
@@ -138,26 +139,25 @@ function Sennovalab() {
 
       <div className="Contenedor">
         <Row>
-
-          <Col sm={7} className='text-center'>
-            <div className='text-center'>
-              <h1> NUESTRAS</h1>
-              <Image src={sennovalab} />
-              <Image className='imgn' src={Line}  />
-              <h1>LINEAS</h1>
+          <Col sm={6} className='text-center'>
+            <div className='Container'>
+              <h1 className='Centrado' > NUESTRAS</h1>
+              <div className='Imagenes-container'>
+                <Image className='Imagen' src={sennovalab} style={{ width: '45px', height: '45px', }} />
+                <Image className='Imagen' src={Line} style={{ width: '305px', height: '4px', }} />
+              </div>
+              <h1 className='Centrado'>LINEAS</h1>
             </div>
           </Col>
           <Col sm={5}>
             <div className='text-center'>
-              <Image className='image' src={Construccion} style={{ width: '160px', height: '295px', }} />
-              <Image className='image' src={Industria} style={{ width: '160px', height: '295px', }} />
-              <Image className='image' src={Software} style={{ width: '160px', height: '295px', }} />
+              <Image className='Imag' src={Construccion} style={{ width: '160px', height: '295px', }} />
+              <Image className='Imag' src={Industria} style={{ width: '160px', height: '295px', }} />
+              <Image className='Imag' src={Software} style={{ width: '160px', height: '295px', }} />
             </div>
           </Col>
-
         </Row>
       </div>
-
     </Container >
 
 
