@@ -30,15 +30,8 @@ const Nosotros = () => {
             <div className="linea-recta"></div>
               <Image className='i' src={Logon} style={{ width: '20px', height: '20px', }} />
               <h5 className="h">Información General</h5>
-            
-
-
           </div>
-
-
-
           < div>
-
             <p> Somos un ambiente de servicios tecnológicos en actividades de I+D+i del Centro de Proceso Industriales y Construcción, SENA Regional Caldas. Hacemos parte del Ecosistema SENNOVA y de la línea “Fortalecimiento de la Oferta de Servicios Tecnológicos para las Empresas”.</p>
           </div>
         </Col>
@@ -89,9 +82,6 @@ const Nosotros = () => {
           <br />
           <br />
           <br />
-
-
-
           <div className="container-s">
             <div className="linea-diagonal"></div>
             <div className="triangulo"></div>
