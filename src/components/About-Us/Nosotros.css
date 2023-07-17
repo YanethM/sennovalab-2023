@@ -1,40 +1,88 @@
-.h {
-    flex: 1;
-    text-align: left;
-    justify-content: right;
-    line-height: 100px;
-
-
+.Contenedor {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px;
 }
 
-.c {
-    flex: 1;
-    text-align: left;
-    justify-content: right;
-    line-height: 100px;
-    position: initial;
-
-
+.Contenedori {
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px;
 }
 
-.image {
-    margin: 0%;
-    padding: 0%;
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    justify-content: center;
+}
 
+.container-d {
+    display: flex;
+    position: relative;
+    height: 50vh;
+    margin-top: 30px;
+}
+
+.container-r {
+    margin-top: 120px;
+}
+
+.container-j {
+    margin-top: 40px;
 }
 
 .imagen {
+    justify-content: center;
+}
 
-    margin-left: '50%';
-    margin-right: '0%';
-
+.container-a {
+    display: flex;
+    height: 20vh;
 }
 
 
-.img {
-    width: 198px;
-    height: 2px;
-    margin-left: 82px;
+.Der {
+    margin-left: auto;
+}
+
+.Imagene {
+    margin-left: auto;
+}
+
+.Imagenes-container {
+    display: flex;
+
+}
+
+.in {
+    position: absolute;
+    bottom: 0;
+    left: 63%;
+    width: 20px;
+    height: 20px;
+    top: 225px;
+
+}
+
+.ha {
+    position: absolute;
+    bottom: 0;
+    left: 65%;
+    top: 225px;
+    color: black;
+
+}
+
+.Imagen {
+    margin: auto;
+    position: relative;
+}
+
+.Imag {
+    margin: 0 7px;
+    margin-top: 20px;
 }
 
 .triangle {
@@ -43,56 +91,321 @@
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
     border-bottom: 50px solid hsl(0, 3%, 70%);
-    /* Puedes ajustar el color aquí */
+    text-align: left;
+    margin-top: 10px;
 }
 
+.trianglen {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 40px solid hsl(0, 3%, 70%);
+    left: 41%;
+    margin-top: 30px;
+    position: absolute;
+}
+.trianglene{
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 40px solid hsl(0, 3%, 70%);
+    left: 46%;
+    margin-top: 145px;
+    position: absolute;
+}
 .container-s {
     display: flex;
     position: relative;
     height: 10vh;
-   
+}
+
+.container-i {
+    display: flex;
+    position: relative;
+    height: 2vh;
+}
+
+.linea {
+    display: flex;
+    align-items: flex-end;
+
+
 }
 
 .linea-diagonal {
     width: 2px;
+    height: 85px;
+    background-color: #f35618;
+    transform: rotate(-35deg);
+}
+
+.linea-diagonali {
+    width: 2px;
+    height: 52px;
+    background-color: #f35618;
+    transform: rotate(-33deg);
+    top: 940px;
+    left: 44%;
+    position: absolute;
+}
+.linea-diagonalin{
+    width: 2px;
     height: 65px;
     background-color: #f35618;
-    transform: rotate(-25deg);
-  
-    /* Puedes ajustar el color aquí */
+    transform: rotate(-35deg);
+    top: 1020px;
+    left: 46.2%;
+    position: absolute; 
+}
+.linea-diagonala {
+    width: 2px;
+    height: 85px;
+    background-color: #f35618;
+    transform: rotate(-35deg);
+    position: absolute;
+    top: 810px;
+    left: 39%;
 }
 
 .linea-recta {
-   /* width: 70px;
-    /* Ajusta la anchura de la línea horizontal según tus necesidades */
-    /*height: 2px;
+
+    height: 2px;
     background-color: #f35618;
-    padding-bottom: 0%;
+    width: 380px;
     position: absolute;
-   
-     Puedes ajustar el color aquí */
-     position: absolute;
-     bottom: 0;
-     left: 25%;
-     width: 240px;
-     height: 2px;
-     background-color:  #f35618;
-     transform: (-50deg);
-    
+    top: 65px;
+    left: 20%;
 }
-.triangulo{
+
+.linea-rectas {
+    height: 2px;
+    background-color: #f35618;
+    width: 380px;
+    position: absolute;
+    top: 888px;
+    left: 40.7%;
+}
+
+.im {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    width: 20px;
+    height: 20px;
+    top: -25px;
+}
+
+.linea-rect {
+    margin-top: -59px;
+    height: 3px;
+    background-color: #f35618;
+    width: 380px;
+    position: absolute;
+    top: 65px;
+    left: 20%;
+}
+
+.container-b {
+    display: flex;
+    height: 12vh;
+
+
+}
+
+.triangulo {
+    width: 0;
+    height: 10vh;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 50px solid rgb(155, 150, 148);
+
+}
+
+.linea-dia {
+    width: 2px;
+    height: 88px;
+    background-color: #f35618;
+    transform: rotate(-38deg);
+}
+
+.linea-re {
+    height: 2px;
+    background-color: #f35618;
+    width: 425px;
+    position: absolute;
+    left: 61%;
+    align-items: flex-start;
+    top: 262px;
+}
+
+.linea-rec {
+    height: 2px;
+    background-color: #f35618;
+    width: 425px;
+    position: absolute;
+    left: 61%;
+    align-items: flex-start;
+    top: 667px;
+}
+
+.ini {
+    position: absolute;
+    bottom: 0;
+    left: 63%;
+    width: 20px;
+    height: 20px;
+    top: 634px;
+}
+
+.init {
+    position: absolute;
+    bottom: 0;
+    left: 63%;
+    width: 20px;
+    height: 20px;
+    top: 570px;
+}
+
+.hb {
+    position: absolute;
+    bottom: 0;
+    left: 65%;
+    top: 634px;
+    color: black;
+}
+
+.ho {
+    position: absolute;
+    bottom: 0;
+    left: 65%;
+    top: 570px;
+    color: black;
+}
+
+.i {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    width: 20px;
+    height: 20px;
+    top: 30px;
+}
+
+.io {
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    top: 858px;
+    left: 41%;
+}
+
+.trianglo {
     width: 0;
     height: 0;
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
-    border-top: 50px solid rgb(155, 150, 148);
+    border-bottom: 50px solid hsl(0, 3%, 70%);
+    margin-top: -50px;
 }
 
-.i{
+.linea-dian {
+    width: 2px;
+    height: 89px;
+    background-color: #f35618;
+    transform: rotate(-38deg);
+    margin-top: -86px;
+}
+
+.linea-reci {
+    height: 2px;
+    background-color: #f35618;
+    width: 425px;
+    position: absolute;
+    left: 61%;
+    align-items: flex-start;
+    top: 609px;
+}
+
+.triangulon {
+    width: 0;
+    height: 10vh;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 50px solid rgb(155, 150, 148);
+    margin-top: 250;
+}
+
+.h {
     position: absolute;
     bottom: 0;
-    left: 27%;
-    width: 20px;
-    height: 20px;
+    top: -10px;
+    margin-left: 48px;
+    height: 40px;
+    color: black
+}
+
+.hu {
+    position: absolute;
+    bottom: 0;
+    top: 858px;
+    left: 43%;
+    height: 40px;
+    color: black
+}
+
+.vertical {
+    width: 3px;
+    height: 270px;
+    background-color: #f35618;
+    top: 988px;
+    left: 44.9%;
+    position: absolute;
+  
+}
+
+.hj {
+    position: absolute;
+    bottom: 0;
+    top: -25px;
+    margin-left: 48px;
+    height: 40px;
+    color: black
+}
+
+.texto {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 10px;
+}
+.textou{
+    color: black;
+    font-size: 12px;
+    padding: 70px; 
+    margin-left: 180px;
+    font-weight: bold;
     
+}
+
+.outer-triangle{
+position: relative;
+width: 50px;
+height: 50px;
+background-color: rgb(155, 150, 148);
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+left: 38%;
+top: 146px;
+}
+.inner-triangle{
+position: absolute;
+top: 25%;
+left: 25%;
+width: 50%;
+height: 50%;
+background-color: #f35618;
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }

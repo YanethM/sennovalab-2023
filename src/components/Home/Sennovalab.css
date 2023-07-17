@@ -1,40 +1,31 @@
-.h {
-    flex: 1;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 50px;
-    padding-bottom: 50px;
-    border-bottom: 2px ;
-  
-
-}
-
-.img {
-    width: 55px;
-    height: 55px;
-    align-content: unsafe;
-}
-.imgn{
-    width: 305px;
-    height: 4px;
-    margin-right: 159px;
-}
 .Contenedor {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px;
 
-    margin-bottom: 50px;
-    padding-bottom: 50px;
-    border-bottom: 2px ;
-    
 }
 
-.content-center{
-    
-
-    text-align: center;
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
     justify-content: center;
-    margin-bottom: 50px;
-    padding-bottom: 50px;
-    border-bottom: 2px ;
-    min-height: 100vh;
-   
+}
+
+.Centrado {
+    text-align: center;
+}
+
+.Imagenes-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Imagen {
+    margin: auto;
+    position: relative;
+}
+.Imag{
+    margin: 0 7px;
 }
