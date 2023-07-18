@@ -47,5 +47,3 @@ const Pqrs = () => {
 }
 
 export default Pqrs;
-
-
