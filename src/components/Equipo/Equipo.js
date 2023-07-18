@@ -16,8 +16,8 @@ const Equipo = () => {
 
         <Container >
             <Row>
-                <Col sm={4}></Col>
-                <Col sm={4} className='d-flex flex-row text-center'>
+                <Col sm={4} className="text-center"></Col>
+                <Col sm={4} className='d-flex flex-row text-center justify-content-center'>
                     <div className="card">
                         <img src={avatar} alt="Person" className="card__image" />
                         <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
