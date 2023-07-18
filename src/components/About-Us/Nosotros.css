@@ -37,6 +37,15 @@
     justify-content: center;
 }
 
+.um{
+
+ justify-content: center;
+ margin-left: auto;
+ top: 1350px;
+ left: 83%;
+ position: absolute;
+}
+
 .container-a {
     display: flex;
     height: 20vh;
@@ -62,7 +71,7 @@
     left: 63%;
     width: 20px;
     height: 20px;
-    top: 225px;
+    top: 305px;
 
 }
 
@@ -70,7 +79,7 @@
     position: absolute;
     bottom: 0;
     left: 65%;
-    top: 225px;
+    top: 305px;
     color: black;
 
 }
@@ -92,7 +101,7 @@
     border-right: 35px solid transparent;
     border-bottom: 50px solid hsl(0, 3%, 70%);
     text-align: left;
-    margin-top: 10px;
+    margin-top: 3px;
 }
 
 .trianglen {
@@ -105,7 +114,8 @@
     margin-top: 30px;
     position: absolute;
 }
-.trianglene{
+
+.trianglene {
     width: 0;
     height: 0;
     border-left: 25px solid transparent;
@@ -115,6 +125,7 @@
     margin-top: 145px;
     position: absolute;
 }
+
 .container-s {
     display: flex;
     position: relative;
@@ -136,9 +147,10 @@
 
 .linea-diagonal {
     width: 2px;
-    height: 85px;
+    height: 72px;
     background-color: #f35618;
     transform: rotate(-35deg);
+    left: 43%;
 }
 
 .linea-diagonali {
@@ -146,26 +158,48 @@
     height: 52px;
     background-color: #f35618;
     transform: rotate(-33deg);
-    top: 940px;
+    top: 979px;
     left: 44%;
     position: absolute;
 }
-.linea-diagonalin{
+
+.linea-diagonalin {
     width: 2px;
     height: 65px;
     background-color: #f35618;
     transform: rotate(-35deg);
-    top: 1020px;
-    left: 46.2%;
-    position: absolute; 
+    top: 1070px;
+    left: 46.5%;
+    position: absolute;
 }
+
+.linea-d {
+    width: 2px;
+    height: 65px;
+    background-color: #f35618;
+    transform: rotate(-35deg);
+    top: 1190px;
+    left: 46.5%;
+    position: absolute;
+}
+
+.linea-ds {
+    width: 2px;
+    height: 65px;
+    background-color: #f35618;
+    transform: rotate(-35deg);
+    top: 1320px;
+    left: 46.5%;
+    position: absolute;
+}
+
 .linea-diagonala {
     width: 2px;
-    height: 85px;
+    height: 80px;
     background-color: #f35618;
     transform: rotate(-35deg);
     position: absolute;
-    top: 810px;
+    top: 850px;
     left: 39%;
 }
 
@@ -173,10 +207,10 @@
 
     height: 2px;
     background-color: #f35618;
-    width: 380px;
+    width: 331px;
     position: absolute;
-    top: 65px;
-    left: 20%;
+    top: 55px;
+    left: 21%;
 }
 
 .linea-rectas {
@@ -184,7 +218,7 @@
     background-color: #f35618;
     width: 380px;
     position: absolute;
-    top: 888px;
+    top: 921px;
     left: 40.7%;
 }
 
@@ -199,12 +233,12 @@
 
 .linea-rect {
     margin-top: -59px;
-    height: 3px;
+    height: 2px;
     background-color: #f35618;
-    width: 380px;
+    width: 331px;
     position: absolute;
-    top: 65px;
-    left: 20%;
+    top: 64px;
+    left: 21%;
 }
 
 .container-b {
@@ -225,9 +259,12 @@
 
 .linea-dia {
     width: 2px;
-    height: 88px;
+    height: 89px;
     background-color: #f35618;
     transform: rotate(-38deg);
+    position: absolute;
+    top: 258px;
+    left: 59%;
 }
 
 .linea-re {
@@ -237,7 +274,7 @@
     position: absolute;
     left: 61%;
     align-items: flex-start;
-    top: 262px;
+    top: 336px;
 }
 
 .linea-rec {
@@ -265,7 +302,7 @@
     left: 63%;
     width: 20px;
     height: 20px;
-    top: 570px;
+    top: 612px;
 }
 
 .hb {
@@ -280,14 +317,14 @@
     position: absolute;
     bottom: 0;
     left: 65%;
-    top: 570px;
+    top: 614px;
     color: black;
 }
 
 .i {
     position: absolute;
     bottom: 0;
-    left: 20%;
+    left: 22%;
     width: 20px;
     height: 20px;
     top: 30px;
@@ -298,7 +335,7 @@
     bottom: 0;
     width: 20px;
     height: 20px;
-    top: 858px;
+    top: 890px;
     left: 41%;
 }
 
@@ -316,7 +353,9 @@
     height: 89px;
     background-color: #f35618;
     transform: rotate(-38deg);
-    margin-top: -86px;
+    top: 561px;
+    left: 59%;
+    position: absolute;
 }
 
 .linea-reci {
@@ -326,7 +365,7 @@
     position: absolute;
     left: 61%;
     align-items: flex-start;
-    top: 609px;
+    top: 639px;
 }
 
 .triangulon {
@@ -350,20 +389,20 @@
 .hu {
     position: absolute;
     bottom: 0;
-    top: 858px;
+    top: 890px;
     left: 43%;
     height: 40px;
     color: black
 }
 
 .vertical {
-    width: 3px;
-    height: 270px;
+    width: 2px;
+    height: 302px;
     background-color: #f35618;
-    top: 988px;
-    left: 44.9%;
+    top: 1025px;
+    left: 45.1%;
     position: absolute;
-  
+
 }
 
 .hj {
@@ -382,30 +421,79 @@
     margin: 0;
     padding: 10px;
 }
-.textou{
+.texton{
     color: black;
     font-size: 12px;
-    padding: 70px; 
-    margin-left: 180px;
-    font-weight: bold;
-    
+    left: 80%;
+    position: absolute;
+    top: 1320px;
+    margin: 0;  
+}
+.textou {
+    color: black;
+    font-size: 12px;
+    padding: 350px;
+    left: 24%;
+    position: absolute;
+    top: 780px;
+    margin: 0;
 }
 
-.outer-triangle{
-position: relative;
-width: 50px;
-height: 50px;
-background-color: rgb(155, 150, 148);
-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-left: 38%;
-top: 146px;
+.text {
+    color: black;
+    font-size: 12px;
+    padding: 350px;
+    left: 24%;
+    position: absolute;
+    top: 900px;
+    margin: 0;
 }
-.inner-triangle{
-position: absolute;
-top: 25%;
-left: 25%;
-width: 50%;
-height: 50%;
-background-color: #f35618;
-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+.texti {
+    color: black;
+    font-size: 12px;
+    padding: 350px;
+    left: 24%;
+    position: absolute;
+    top: 1025px;
+    margin: 0;
+}
+
+.outer-triangle {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(155, 150, 148);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    left: 38%;
+    top: 146px;
+}
+
+.outer-trianglen {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(155, 150, 148);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    left: 38%;
+    top: 220px;
+}
+
+.outer-triangleno {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(155, 150, 148);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    left: 38%;
+    top: 294px;
+}
+
+.inner-triangle {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: #f35618;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
