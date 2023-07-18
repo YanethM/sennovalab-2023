@@ -150,7 +150,7 @@ function Sennovalab() {
             </div>
           </Col>
           <Col sm={5}>
-            <div className='text-center'>
+            <div>
               <Image className='Imag' src={Construccion} style={{ width: '160px', height: '295px', }} />
               <Image className='Imag' src={Industria} style={{ width: '160px', height: '295px', }} />
               <Image className='Imag' src={Software} style={{ width: '160px', height: '295px', }} />
@@ -165,5 +165,3 @@ function Sennovalab() {
 }
 
 export default Sennovalab;
-
-

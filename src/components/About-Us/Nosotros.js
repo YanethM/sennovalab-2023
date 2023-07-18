@@ -25,8 +25,8 @@ const Nosotros = () => {
               </div>
               <h2 className='Der'>SENNOVALAB</h2>
             </div>
-            </Col>
-        <Col sm={1}></Col>
+          </Col>
+          <Col sm={1}></Col>
           <Col md={4} className='text-right' >
             <div className="container-s">
               <div className="triangle"></div>
@@ -53,60 +53,59 @@ const Nosotros = () => {
               </div>
             </div>
             < div>
-
               <p className="texto"> SENNOVALAB considera las actividades de Investigación, Desarrollo Tecnológico e Innovación (I+D+i) como los pilares básicos de su estrategia, para aportar al desarrollo de la región capacidades técnicas y tecnológicas en la gestión y desarrollo de procesos de Ciencia, Tecnología e Innovación, vinculando al sector productivo y la academia.</p>
             </div>
           </Col>
-
         </Row>
       </div>
+
       <Row>
         <Col md={3}></Col>
         <Col md={4} className='text-right' >
-            <div className="container-i">
-              <div className="trianglo"></div>
-              <div className="linea">
-                <div className="linea-diagonal"></div>
-                <div className="linea-rect"></div>
-                <Image className='im' src={Logon} style={{ width: '20px', height: '20px', }} />
-                <h5 className="hj">MISIÓN</h5>
-              </div>
+          <div className="container-i">
+            <div className="trianglo"></div>
+            <div className="linea">
+              <div className="linea-diagonal"></div>
+              <div className="linea-rect"></div>
+              <Image className='im' src={Logon} style={{ width: '20px', height: '20px', }} />
+              <h5 className="hj">MISIÓN</h5>
             </div>
+          </div>
           <div >
-          <p className="texto"> SENNOVALAB aporta al desarrollo de la región capacidades técnicas y tecnológicas para la formulación y gestión de procesos de Ciencia, Tecnología e Innovación, vinculando al sector productivo y la academia, y alineado con los planes de desarrollo territoriales, a través de servicios de asesoría y consultoría en actividades científico-tecnológicas y la transferencia de conocimiento, aumentando la competitividad de empresas y comunidades académicas.</p>
+            <p className="texto"> SENNOVALAB aporta al desarrollo de la región capacidades técnicas y tecnológicas para la formulación y gestión de procesos de Ciencia, Tecnología e Innovación, vinculando al sector productivo y la academia, y alineado con los planes de desarrollo territoriales, a través de servicios de asesoría y consultoría en actividades científico-tecnológicas y la transferencia de conocimiento, aumentando la competitividad de empresas y comunidades académicas.</p>
           </div>
         </Col>
         <Col md={4} className='text-right' >
-            <div className="container-b">
-              <div className="linea">
-                <div className="linea-dian"></div>
-                <div className="linea-reci"></div>
-                <div className="triangulon"></div>
-                <Image className='init' src={Logon} style={{ width: '20px', height: '20px', }} />
-                <h5 className="ho" >VISIÓN</h5>
-              </div>
+          <div className="container-b">
+            <div className="linea">
+              <div className="linea-dian"></div>
+              <div className="linea-reci"></div>
+              <div className="triangulon"></div>
+              <Image className='init' src={Logon} style={{ width: '20px', height: '20px', }} />
+              <h5 className="ho" >VISIÓN</h5>
             </div>
-            < div>
-          <p className="texto"> SENNOVALAB aporta al desarrollo de la región capacidades técnicas y tecnológicas para la formulación y gestión de procesos de Ciencia, Tecnología e Innovación, vinculando al sector productivo y la academia, y alineado con los planes de desarrollo territoriales, a través de servicios de asesoría y consultoría en actividades científico-tecnológicas y la transferencia de conocimiento, aumentando la competitividad de empresas y comunidades académicas</p>
+          </div>
+          < div>
+            <p className="texto"> SENNOVALAB aporta al desarrollo de la región capacidades técnicas y tecnológicas para la formulación y gestión de procesos de Ciencia, Tecnología e Innovación, vinculando al sector productivo y la academia, y alineado con los planes de desarrollo territoriales, a través de servicios de asesoría y consultoría en actividades científico-tecnológicas y la transferencia de conocimiento, aumentando la competitividad de empresas y comunidades académicas</p>
           </div>
         </Col>
       </Row>
       <div className="Contenedori">
-      <Row>
-      <Col md={4} className='text-center' >
+        <Row>
+          <Col md={4} className='text-center' >
             <div className="container-r">
-            <div className='Imagenes-container'>
-               <Image className='imagen' src={Construccion} style={{ width: '220px', height: '225px', }} />
-               </div>
-               </div>
-               <div className="container-d">
-               <Image className='Imag' src={Industria} style={{ width: '220px', height: '225px', }} />
-               <Image className='Imag' src={Software} style={{ width: '220px', height: '225px', }} />
-               
-          </div>
-        </Col>
-       
-        <Col md={4} className='text-right' >
+              <div className='Imagenes-container'>
+                <Image className='imagen' src={Construccion} style={{ width: '220px', height: '225px', }} />
+              </div>
+            </div>
+            <div className="container-d">
+              <Image className='Imag' src={Industria} style={{ width: '220px', height: '225px', }} />
+              <Image className='Imag' src={Software} style={{ width: '220px', height: '225px', }} />
+
+            </div>
+          </Col>
+
+          <Col md={4} className='text-right' >
             <div className="container-j">
               <div className="triangle"></div>
               <div className="linea">
@@ -116,33 +115,48 @@ const Nosotros = () => {
                 <h5 className="hu">OBJETIVO</h5>
               </div>
             </div>
-            <div className="container-j"> 
-            <div className="trianglen"></div>
-            <div className="linea-diagonali"></div>
-            <div className='vertical'></div> 
-            <div className="linea-diagonalin"></div>
-            <div> 
-            <div className='outer-triangle'>
-              <div className='inner-triangle'></div>
-              </div> 
+            <div className="container-j">
+              <div className="trianglen"></div>
+              <div className="linea-diagonali"></div>
+              <div className='vertical'></div>
+              <div className="linea-diagonalin"></div>
               <div>
-              <p className="textou">1. Prestar servicios de asesoría y consultoría en actividades I+D+i a las empresas de la región, de acuerdo con sus necesidades brindando soluciones innovadoras contribuyendo al aumento de su productividad y competitividad.</p>
-            </div> 
-          <p className="texto">2. Promover el portafolio del ambiente de servicios tecnológicos SENOVALAB en las empresas y entidades de iniciativa privada o pública, dirigidas a extender la innovación y el desarrollo tecnológico.</p>
-          <p className="texto">3. Contribuir al fortalecimiento de la formación profesional integral de los aprendices e instructores del Centro de Procesos Industriales y Construcción del SENA regional Caldas, a través de actividades de I+D+i bajo criterios de calidad y excelencia que permitan la acreditación de programas formativos, la empleabilidad y la creación de nuevas empresas.</p>
-          </div>
-          </div>
-        </Col>
-        
-        <Col md={2} className='text-right' >
-            <div className="container-r">
-         
+                <div className='outer-triangle'>
+                  <div className='inner-triangle'></div>
+                </div>
+                <div>
+                  <p className="textou">1. Prestar servicios de asesoría y consultoría en actividades I+D+i a las empresas de la región, de acuerdo con sus necesidades brindando soluciones innovadoras contribuyendo al aumento de su productividad y competitividad.</p>
+                </div>
+                </div>
+                <div className="linea-d"></div>
+                <div>
+                <div className='outer-trianglen'>
+                  <div className='inner-triangle'></div>
+                </div>
+                <div>
+                <p className="text">2. Promover el portafolio del ambiente de servicios tecnológicos SENOVALAB en las empresas y entidades de iniciativa privada o pública, dirigidas a extender la innovación y el desarrollo tecnológico.</p>
+                </div>
+                </div>
+                <div className="linea-ds"></div>
+                <div>
+                <div className='outer-triangleno'>
+                  <div className='inner-triangle'></div>
+                </div>
+                <div>
+                <p className="texti">3. Contribuir al fortalecimiento de la formación profesional integral de los aprendices e instructores del Centro de Procesos Industriales y Construcción del SENA regional Caldas, a través de actividades de I+D+i bajo criterios de calidad y excelencia que permitan la acreditación de programas formativos, la empleabilidad y la creación de nuevas empresas.</p>
+                </div>
+                </div>
+                
+            </div>
+          </Col>
 
-          <p className="texto" >Ver portafolio de Servicios</p>
-          <Image className='image' src={Portafolio} style={{ width: '60px', height: '75px', }} />
-          </div>
-        </Col>
-      </Row>
+          <Col md={2} className='text-center' >
+            <div className="container-r">
+              <p className="texton" >Ver portafolio de Servicios</p>
+              <Image className='um' src={Portafolio} style={{ width: '60px', height: '75px', }} />
+            </div>
+          </Col>
+        </Row>
       </div>
     </Container >
   );

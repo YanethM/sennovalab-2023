@@ -34,7 +34,7 @@ function Menu() {
             <Image src={sennovalab} style={style} />
           </a>
           {/* enlaces parte inicial del navbar */}
-          <Col sm={5}>
+          <Col sm={6}>
           <Nav className="me-5 align-items-center px-4">
           <Nav.Link href="/nosotros" >Nosotros</Nav.Link>
             <NavDropdown title="Gestión de la innovación" className="mx-3 link-hover">
@@ -64,9 +64,9 @@ function Menu() {
             <Nav.Link href="/servicios" >Servicios</Nav.Link>
           </Nav>
           </Col>
-          <Col sm={3}>  </Col>
+          <Col sm={1}>  </Col>
           {/* enlaces parte final del navbar */}
-          <Col sm={7}> 
+          <Col sm={5}> 
           <Nav className="align-items-center px-4 ms-5">
           <Nav.Link href="/contacto" >Contacto</Nav.Link>
             <Nav.Link href="/Pqrs" className="mx-3 link-hover">PQRS</Nav.Link>
