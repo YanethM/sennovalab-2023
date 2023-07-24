@@ -15,7 +15,7 @@ const Gestion = () => {
         </Col>
 
         <Col xs={6} md={5}>
-          <h5>
+          <h5 style={{ color: 'black' }}>
             El Ambiente de Servicios Tecnológicos en I+D+i SENNOVALAB cuenta con
             una estrategia de innovación que promueve la creatividad, la cultura
             de la innovación y la generación de ideas y oportunidades con el fin
@@ -29,7 +29,7 @@ const Gestion = () => {
           </h5>
         </Col>
         <Col xs={6} md={3}>
-          <h5>
+          <h5 style={{ color: 'black' }}>
             Esta estrategia se enfoca en convertir a SENNOVALAB en referente
             regional en la prestación de servicios de asesoría y consultoría en
             formulación y gestión de proyectos de I+D+i, y en el cumplimiento de
