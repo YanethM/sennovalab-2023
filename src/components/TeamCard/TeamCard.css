@@ -1,0 +1,46 @@
+.card {
+  align-items: center;
+  animation: 6s rotate linear infinite;
+  border: 6px solid;
+  border-image: linear-gradient(var(--angle), #cadfa1, #a7a6a6, #D9D9D9, #E6F2CE, #D4E9AB)1;
+  box-shadow: rgba(0, 0, 0, 0.7);
+  background-color: #d9d9d9;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  height: 17rem;
+  width: 200px;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+/* modificando el interior de la tarjeta */
+
+.card__name {
+  margin-top: 1px;
+  font-size: 1em;
+}
+
+.card__image {
+  height: 120px;
+  width: 100%;
+  border-radius: 5%;
+  margin-bottom: 20px;
+  object-position: center;
+  object-fit: fill;
+}
+
+.class-header{
+  padding: 0px;
+  margin: 0px;
+}
