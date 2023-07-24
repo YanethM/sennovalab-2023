@@ -7,7 +7,7 @@ import image from '../../assets/img/jpg/avatar2.jpg'
 const TeamCard = () => {
   return (
     <>
-      <div className="card">
+      <div className="card-team">
           <img src={image} alt="Person" className="card__image" />
           <p className="card__name"><b>Yaneth Mejía Rendón</b></p>
           <p className="card__email"><b>Correo:</b> lammorenoc@sena.edu.co</p>
