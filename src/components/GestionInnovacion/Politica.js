@@ -11,7 +11,7 @@ import sennovalab from '../../assets/img/png/sennovalab.png';
 const Politica = () => {
   
     return (
-            <Container fluid>
+            <Container fluid className="mt-5">
             
               <Row>
                 <Col xs={12} md={3}>
