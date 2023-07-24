@@ -39,7 +39,7 @@ function Menu() {
           <Col sm={6}>
             <Nav className="me-5 align-items-center px-4">
               <Nav.Link href="/nosotros">Nosotros</Nav.Link>
-              <Nav.Link href="/gestion">Gestion</Nav.Link>
+              <Nav.Link href="/gestion">Gestion de la innovacion</Nav.Link>
 
               <NavDropdown title="Lineas de Acción" className="link-hover mx-3">
                 <NavDropdown.Item href="/const">

@@ -7,6 +7,7 @@ import "./InnovationPage.css";
 const InnovationPage = () => {
   return (
     <>
+      <h1 className='text-center'>GESTION DE LA INNOVACION</h1>
       <Gestion />
       <Informacion />
       <Politica />
