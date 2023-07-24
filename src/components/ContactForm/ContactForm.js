@@ -29,7 +29,6 @@ const ContactForm = () => {
           <Row className="row-flex">
             <Form.Group className="col">
               <Form.Select
-                defaultValue="ti"
                 className="form-control"
                 name="a_state"
               >
@@ -123,12 +122,6 @@ const ContactForm = () => {
                 className="me-4 btn btn-success btn-lg btn-block"
               >
                 Confirmar y enviar
-              </Button>
-              <Button
-                type="reset"
-                className="me-4 btn btn-danger btn-lg btn-block"
-              >
-                Cancelar
               </Button>
             </Form.Group>
           </Row>

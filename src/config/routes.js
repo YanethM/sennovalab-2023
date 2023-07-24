@@ -3,7 +3,7 @@ import { AdminHome } from "../pages/Admin/AdminHome";
 import { SignIn } from "../pages/Admin/SignIn";
 import Nosotros from "../components/About-Us/Nosotros";
 import Sennovalab from '../components/Home/Sennovalab';
-import Equipo from '../components/Equipo/Equipo';
+import OurTeam from '../pages/General/OurTeam/OurTeam';
 import Constr from '../components/LineasS/Const';
 import Ind from '../components/LineasS/Ind';
 import Desa from '../components/LineasS/Desa';
@@ -27,7 +27,7 @@ const GeneralRoutes = [
     {path: "/", component: Sennovalab, layout: ClientLayout},
     {path: "/nosotros", component: Nosotros, layout: ClientLayout},
     {path:"/contacto", component: Contact, layout: ClientLayout },
-    {path:"/equipo", component: Equipo, layout: ClientLayout},
+    {path:"/equipo", component: OurTeam, layout: ClientLayout},
     {path:"/const", component: Constr, layout: ClientLayout},
     {path:"/ind", component: Ind, layout: ClientLayout},
     {path:"/desa", component: Desa, layout: ClientLayout},
