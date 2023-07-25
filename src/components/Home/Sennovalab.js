@@ -1,4 +1,5 @@
-import Carousel from 'react-bootstrap/Carousel';
+import React from 'react';
+import { Carousel, Col, Container, Image, Row } from 'react-bootstrap';
 import carusel1 from '../../assets/img/png/carusel1.png';
 import carusel2 from '../../assets/img/png/carusel2.png';
 import carusel3 from '../../assets/img/png/carusel3.png';
@@ -6,10 +7,6 @@ import carusel4 from '../../assets/img/png/carusel4.png';
 import carusel5 from '../../assets/img/png/carusel5.png';
 import carusel6 from '../../assets/img/png/carusel6.png';
 import carusel7 from '../../assets/img/png/carusel7.png';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
 import Line from '../../assets/img/png/Line.png';
 import Construccion from '../../assets/img/png/Construccion.png';
 import Industria from '../../assets/img/png/Industria.png';
@@ -17,8 +14,8 @@ import Software from '../../assets/img/png/Software.png';
 import "./Sennovalab.css";
 import sennovalab from '../../assets/img/png/sennovalab.png';
 
-
 function Sennovalab() {
+
 
   return (
 
@@ -43,28 +40,28 @@ function Sennovalab() {
 
           <Col sm={6}>
             <div className="Contenedor">
-              <Carousel variant="dark">
+              <Carousel variant="dark" indicators={true}>
+
                 <Carousel.Item>
                   <img
                     className="carrusel"
                     src={carusel1}
-                    alt=""
-                  />
-
-                  <Carousel.Caption>
-                    <h5>Nombre de la noticia</h5>
-                    <p>Descripción</p>
-                    <p>Leer mas..</p>
-
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="carrusel"
-                    src={carusel2}
                     alt="Second slide"
                   />
-                  <Carousel.Caption>
+                  <Carousel.Caption className="texto1">
+                    <h5>Nombre de la noticia</h5>
+                    <p>Descripción</p>
+                    <p>Leer mas..</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="carrusel"
+                    src={carusel1}
+                    alt="Second slide"
+                  />
+                  <Carousel.Caption className="texto1">
                     <h5>Nombre de la noticia</h5>
                     <p>Descripción</p>
                     <p>Leer mas..</p>
@@ -73,10 +70,10 @@ function Sennovalab() {
                 <Carousel.Item>
                   <img
                     className="carrusel"
-                    src={carusel3}
+                    src={carusel1}
                     alt="Third slide"
                   />
-                  <Carousel.Caption>
+                  <Carousel.Caption className="texto1">
                     <h5>Nombre de la noticia</h5>
                     <p>Descripción</p>
                     <p>Leer mas..</p>
@@ -85,10 +82,10 @@ function Sennovalab() {
                 <Carousel.Item>
                   <img
                     className="carrusel"
-                    src={carusel4}
+                    src={carusel1}
                     alt="Third slide"
                   />
-                  <Carousel.Caption>
+                  <Carousel.Caption className="texto1">
                     <h5>Nombre de la noticia</h5>
                     <p>Descripción</p>
                     <p>Leer mas..</p>
@@ -97,34 +94,10 @@ function Sennovalab() {
                 <Carousel.Item>
                   <img
                     className="carrusel"
-                    src={carusel5}
+                    src={carusel1}
                     alt="Third slide"
                   />
-                  <Carousel.Caption>
-                    <h5>Nombre de la noticia</h5>
-                    <p>Descripción</p>
-                    <p>Leer mas..</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="carrusel"
-                    src={carusel6}
-                    alt="Third slide"
-                  />
-                  <Carousel.Caption>
-                    <h5>Nombre de la noticia</h5>
-                    <p>Descripción</p>
-                    <p>Leer mas..</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="carrusel"
-                    src={carusel7}
-                    alt="Third slide"
-                  />
-                  <Carousel.Caption>
+                  <Carousel.Caption className="texto1">
                     <h5>Nombre de la noticia</h5>
                     <p>Descripción</p>
                     <p>Leer mas..</p>
@@ -151,9 +124,15 @@ function Sennovalab() {
           </Col>
           <Col sm={5}>
             <div>
+            <a href="/const">
               <Image className='Imag' src={Construccion} style={{ width: '160px', height: '295px', }} />
+              </a>
+              <a href="/ind">
               <Image className='Imag' src={Industria} style={{ width: '160px', height: '295px', }} />
+              </a>
+              <a href="/desa">
               <Image className='Imag' src={Software} style={{ width: '160px', height: '295px', }} />
+              </a>
             </div>
           </Col>
         </Row>

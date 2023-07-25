@@ -19,6 +19,7 @@ function Menu() {
     <Image
       src={"https://github.com/mshaaban0.png"}
       alt="UserName profile image"
+
       roundedCircle
       style={{ width: "40px", height: "35px" }}
     />
@@ -59,7 +60,7 @@ function Menu() {
                   <Link to="/ind">Linea de Industria</Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/desa">
-                  <Link to="/desa">Linea de Software</Link>
+                  <Link to="/ind">Linea de Software</Link>
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/equipo" >Equipo</Nav.Link>

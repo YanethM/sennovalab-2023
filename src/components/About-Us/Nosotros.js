@@ -99,9 +99,8 @@ const Nosotros = () => {
               </div>
             </div>
             <div className="container-d">
-              <Image className='Imag' src={Industria} style={{ width: '220px', height: '225px', }} />
-              <Image className='Imag' src={Software} style={{ width: '220px', height: '225px', }} />
-
+            <Image className='Imag' src={Software} style={{ width: '220px', height: '225px', }} />
+            <Image className='Imag' src={Industria} style={{ width: '220px', height: '225px', }} />
             </div>
           </Col>
 

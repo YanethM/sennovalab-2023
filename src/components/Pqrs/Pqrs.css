@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+
+section.carrusel {
+
+    transform-style: preserve-3d;
+    width: 200px;
+    height: 250px;
+    position: relative;
+    animation: rotate 20s linear infinite
+}
+
+@keyframes rotate {
+    0% {
+        transform: perspective(2000px)rotatey(0deg)
+    }
+
+    100% {
+
+        transform: perspective(2000px)rotatey(360deg)
+    }
+}
+
+section.carrusel span.carrusel {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    transform: rotatey(calc(var(--i)*72deg)) translateZ(300px);
+
+}
+
+section.carrusel span.carrusel img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    border-radius: 50px;
+    transition: 2s;
+    padding: 20px;
+
+}
+
+section.carrusel span.carrusel img:hover {
+    transform: translatey(-50px) scale(1.2)
+}

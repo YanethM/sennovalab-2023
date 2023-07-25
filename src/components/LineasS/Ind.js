@@ -7,181 +7,205 @@ import Image from 'react-bootstrap/Image';
 import Construccion from '../../assets/img/png/Construccion.png';
 import Industria from '../../assets/img/png/Industria.png';
 import Software from '../../assets/img/png/Software.png';
-import Lnara from '../../assets/img/png/Lnara.png';
-import Lvertical from '../../assets/img/png/Lvertical.png';
-import Polygo from '../../assets/img/png/Polygo.png';
-import Polygon from '../../assets/img/png/Polygon.png';
 import Logon from '../../assets/img/png/Logon.png';
-import Line from '../../assets/img/png/Line.png';
+import Servi from '../../assets/img/png/Servi.png';
 import "./Ind.css";
 
 
+
 const Ind = () => {
+
   return (
     <Container fluid>
-    
-      <Row>
-        <Col md={3} className='text-center'>
-          <br />
-          <br />
-          <br />
-          <br />
-          <Image src={Industria} style={{ width: '220px', height: '265px', }} />
-          <br />
-          <br />
+      <div className="Contenedor1">
 
-        </Col>
-        <Col md={3}>
-          <Image className='image' src={Logon} style={{ width: '20px', height: '20px', }} />Objetivo
-          <Image className='img' src={Lnara} style={{ width: '210px', height: '2px', }} />
+        <Row>
+          <Col sm={2} className='text-center' >
+            <div className="Imag5">
+              <Image src={Industria} style={{ width: '280px', height: '265px', }} />
+            </div>
 
+          </Col>
+          <Col md={1}></Col>
+          <Col md={3}>
+            <div className="container-b1">
+              <div className="linea1">
+                <div className="linea-rectaa1"></div>
+                <Image className='ia1' src={Logon} style={{ width: '20px', height: '20px', }} />
+                <h2 className="hc1">OBJETIVO</h2>
+              </div>
+            </div>
+            < div>
+              <p className="textoa1">  Aportar al desarrollo de ideas creativas, el conocimiento en áreas relacionadas al sector de la construcción e ingeniería, diseño y materiales y redes eléctricas, incentivando la generación de proyectos en I+D+i y apoyando los programas de capacitación en el Centro de Procesos industriales y Construcción, además de empresas en el departamento de Caldas.</p>
+            </div>
+          </Col>
+          <Col md={3}>
+            <div className="container-c1">
+              <div className="linea1">
+                <div className="linea-diaa1"></div>
+                <div className="linea-ree1"></div>
+                <div className="trianglea1"></div>
+                <Image className='ina1' src={Logon} style={{ width: '20px', height: '20px', }} />
+                <h2 className="haa1">MISIÓN</h2>
+              </div>
+            </div>
+            < div>
+              <p className="textoa1">Brindar servicios de asesoría en proyectos de construcción basados en enfoques de arquitectura, ingeniería, materiales y redes eléctricas con un capital humano calificado, buscando la satisfacción de los clientes, el crecimiento intelectual y el desarrollo de ideas creativas.</p>
+            </div>
+            <div className="linea-diaaa1"></div>
+          </Col>
+          <Col md={3}>
+            <div className="container-b2">
+              <div className="linea1">
+                <div className="linea-dian1"></div>
+                <div className="linea-reci1"></div>
+                <div className="triangulon1"></div>
+                <Image className='init1' src={Logon} style={{ width: '20px', height: '20px', }} />
+                <h2 className="ho1" >VISIÓN</h2>
+              </div>
+            </div>
+            < div>
+              <p className="texto2"> Para el año 2025 la línea de construcción estará prestando, servicios de asesoría y consultoría en I+D+i en temáticas como: ingeniería, materiales y redes eléctricas, asesorando a nuestros aliados internos y externos en el departamento de Caldas.</p>
+            </div>
 
+          </Col>
 
-          <p> Aportar al desarrollo de ideas creativas, el conocimiento en áreas relacionadas al sector de la construcción e ingeniería, diseño y materiales y redes eléctricas, incentivando la generación de proyectos en I+D+i y apoyando los programas de capacitación en el Centro de Procesos industriales y Construcción, además de empresas en el departamento de Caldas.</p>
-        </Col>
-        <Col md={3}>
-          <br />
-          <br />
-          <br />
-          <Image src={Polygo} style={{ width: '50px', height: '25px', }} />
-          <Image src={Lvertical} style={{ width: '40px', height: '55px', }} />
-          <Image src={Logon} style={{ width: '20px', height: '20px', }} /> Misión
-          <Image className='img' src={Lnara} style={{ width: '210px', height: '2px', }} />
-          <p> Brindar servicios de asesoría en proyectos de construcción basados en enfoques de arquitectura, ingeniería, materiales y redes eléctricas con un capital humano calificado, buscando la satisfacción de los clientes, el crecimiento intelectual y el desarrollo de ideas creativas.</p>
-        </Col>
-        <Col md={3}>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <Image src={Lvertical} style={{ width: '40px', height: '55px', }} />
-          <Image src={Polygon} style={{ width: '50px', height: '25px', }} />
-          <Image src={Logon} style={{ width: '20px', height: '20px', }} /> Visión
-          <Image className='img' src={Lnara} style={{ width: '210px', height: '2px', }} />
-          <p> Para el año 2025 la línea de construcción estará prestando, servicios de asesoría y consultoría en I+D+i en temáticas como: ingeniería, materiales y redes eléctricas, asesorando a nuestros aliados internos y externos en el departamento de Caldas.</p>
-        </Col>
-
-      </Row>
-
+        </Row>
+      </div>
       {/*     Contenido 2 */}
       <Row>
-        <Col md={3}>
-          <br />
-          <br />
-          <h3 className="h">LINEA DE</h3>
-          <Image src={Lnara} style={{ width: '220px', height: '2px', }} />
-          <h3 className="h">INDUSTRIA</h3>
+        <Col md={2} >
+          <div className='Container3'>
+            <h2 className='Der1' >LINEA DE</h2>
+            <div className='Imagenes-container1'>
+              <div className="linea-recta11"></div>
+            </div>
+            <h2 className='Der223'>INDUSTRIA</h2>
+          </div>
         </Col>
-        <Col md={3} className='text-center'>
-          <br />
-          <br />
 
-          <h3>SUBLINEAS DE </h3>
-          <Image src={Logon} style={{ width: '20px', height: '20px', }} />
-          <Image src={Lnara} style={{ width: '220px', height: '2px', }} />
-          <h3>ACCIÓN</h3>
+        <Col md={3} >
+          <div className='Container3'>
+            <h2 className='Der221' >SUBLINEAS DE</h2>
+            <div className='Imagenes-container1'>
+              <Image className='i11' src={Logon} style={{ width: '20px', height: '20px', }} />
+              <div className="linea-recta112"></div>
+            </div>
+            <h2 className='Der222'>ACCIÓN</h2>
+          </div>
         </Col>
-        <Col md={1} className='text-center' >
-          <br />
-          <br />
-          <br />
-          <br />
-          <Image src={Polygo} style={{ width: '150px', height: '50px', }} />
-          <br />
-          <Image src={Polygon} style={{ width: '150px', height: '50px', }} />
+        <Col md={1} >
+          <div className="container-b2">
+            <div className="linea1">
+              <div className="trianglea2"></div>
+              <div className="triangulon2">
+                <h6 className='Der22'>SUBLINEA</h6>
+              </div>
+            </div>
+          </div>
         </Col>
-        <Col md={1} className='text-center' >
-          <Image src={Polygo} style={{ width: '150px', height: '50px', }} />
-          <br />
-          <Image src={Polygon} style={{ width: '150px', height: '50px', }} />
-          <br />
-          <Image src={Polygo} style={{ width: '150px', height: '50px', }} />
-          <br />
-          <Image src={Polygon} style={{ width: '150px', height: '50px', }} />
+        <Col md={1} >
+          <div className="container-b2">
+            <div className="linea1">
+              <div className="trianglea3"></div>
+              <div className="triangulon3">
+                <h6 className='Der22'>SUBLINEA</h6>
+              </div>
+            </div>
+          </div>
         </Col>
-        <Col md={1} className='text-center' >
-          <br />
-          <br />
-          <br />
-          <br />
-          <Image src={Polygo} style={{ width: '150px', height: '50px', }} />
-          <br />
-          <Image src={Polygon} style={{ width: '150px', height: '50px', }} />
+        <Col md={1} >
+          <div className="container-b2">
+            <div className="linea1">
+              <div className="trianglea4"></div>
+              <div className="triangulon4">
+                <h6 className='Der22'>SUBLINEA</h6>
+              </div>
+            </div>
+          </div>
         </Col>
-        <Col md={3}>
+        <Col md={1} >
+          <div className="container-b2">
+            <div className="linea1">
+              <div className="trianglea5"></div>
+              <div className="triangulon5">
+                <h6 className='Der22'>SUBLINEA</h6>
+              </div>
+            </div>
+          </div>
+        </Col>
+        <Col sm={3} >
+          <div className="container">
+            <div className='outer-card123'>
+              <div className='inner-card12'>
+                <img className="image-with-text" src={Servi} />
+                <h5 className="image-with-text-h">SUBLINEA</h5>
+                <p className="image-with-text-p">DESCRIPCIÓN</p>
+              </div>
+            </div>
+          </div>
+          <div className="linea1">
+            <div className="linea-dian11"></div>
+            <div className="linea-reci11"></div>
+            <div className="outer-circle">
+              <circle color=" #f35618" />
+              <div className="inner-circle">
+                <circle color="gray" />
+              </div>
+            </div>
+          </div>
         </Col>
       </Row>
       <Row>
-        <Col md={3} className='text-center'>
-          <Image src={Construccion} style={{ width: '99px', height: '105px', }} />
-          <Image src={Software} style={{ width: '99px', height: '105px', }} />
-        </Col>
-        <Col md={3} className='text-center'>
-          <br />
-          <br />
-
-          <h3>PROFESIONAL</h3>
-          <Image src={Logon} style={{ width: '20px', height: '20px', }} />
-          <Image src={Lnara} style={{ width: '220px', height: '2px', }} />
-        </Col>
-      </Row>
-      <Row>
-        <Col md={3}></Col>
         <Col md={2} className='text-center'>
-        <img src="https://lh3.googleusercontent.com/ytP9VP86DItizVX2YNA-xTYzV09IS7rh4WexVp7eilIcfHmm74B7odbcwD5DTXmL0PF42i2wnRKSFPBHlmSjCblWHDCD2oD1oaM1CGFcSd48VBKJfsCi4bS170PKxGwji8CPmehwPw=w200-h247-no" alt="Person" className="card__image" />
+          <div className="container-di">
+          <Image className='Imag13' src={Software} style={{ width: '150px', height: '205px', }} />
+            <Image className='Imag12' src={Construccion} style={{ width: '150px', height: '205px', }} />
+          </div>
         </Col>
-        <Col md={1} className='text-right'>
-
-          <p className="card__name">Nombre:</p>
-          <p className="card__email">Profesión:</p>
-          <p className="card__Rol">Cargo:</p>
-          <p className="card__Rol">Contacto:</p>
-
-
+        <Col md={3} className='text-center'>
+          <div className='Container31'>
+            <h2 className='Der225' >PROFESIONAL</h2>
+            <div className='Imagenes-container1'>
+              <Image className='i12' src={Logon} style={{ width: '20px', height: '20px', }} />
+              <div className="linea-recta115"></div>
+            </div>
+          </div>
         </Col>
-        <Col md={1} className='text-center'>
-          <img src="https://lh3.googleusercontent.com/ytP9VP86DItizVX2YNA-xTYzV09IS7rh4WexVp7eilIcfHmm74B7odbcwD5DTXmL0PF42i2wnRKSFPBHlmSjCblWHDCD2oD1oaM1CGFcSd48VBKJfsCi4bS170PKxGwji8CPmehwPw=w200-h247-no" alt="Person" className="card__image" />
+        <Col>
+          <div className='outer-card124'> </div>
         </Col>
-        <Col md={1} className='text-right'>
-
-          <p className="card__name">Nombre:</p>
-          <p className="card__email">Profesión:</p>
-          <p className="card__Rol">Cargo:</p>
-          <p className="card__Rol">Contacto:</p>
-
-
+        <Col md={1}>
+          <div className='text-container'>
+            <p className="bold-text">Nombre:</p>
+            <p>Profesión:</p>
+            <p>Cargo:</p>
+            <p>Contacto:</p>
+          </div>
         </Col>
-        <Col md={1} className='text-center'>
-
-          <img src="https://lh3.googleusercontent.com/ytP9VP86DItizVX2YNA-xTYzV09IS7rh4WexVp7eilIcfHmm74B7odbcwD5DTXmL0PF42i2wnRKSFPBHlmSjCblWHDCD2oD1oaM1CGFcSd48VBKJfsCi4bS170PKxGwji8CPmehwPw=w200-h247-no" alt="Person" className="card__image" />
+        <Col>
+          <div className='outer-card125'> </div>
         </Col>
-        <Col md={1} className='text-right'>
-
-          <p className="card__name">Nombre:</p>
-          <p className="card__email">Profesión:</p>
-          <p className="card__Rol">Cargo:</p>
-          <p className="card__Rol">Contacto:</p>
+        <Col md={1}>
+          <div className='text-container1'>
+            <p className="bold-text">Nombre:</p>
+            <p>Profesión:</p>
+            <p>Cargo:</p>
+            <p>Contacto:</p>
+          </div>
         </Col>
-        <Col md={1} className='text-center'>
-          <img src="https://lh3.googleusercontent.com/oUUiPB9sq3ACq4bUaRmo8pgvC4FUpRRrQKcGIBSOsafawZfRpF1vruFeYt6uCfL6wGDQyvOi6Ez9Bpf1Fb7APKjIyVsft7FLGR6QqdRFTiceNQBm1In9aZyrXp33cZi9pUNqjHASdA=s170-no" alt="Person" className="card__image" />
+        <Col>
+          <div className='outer-card126'> </div>
         </Col>
-        <Col md={1} className='text-right'>
-
-          <p className="card__name">Nombre:</p>
-          <p className="card__email">Profesión:</p>
-          <p className="card__Rol">Cargo:</p>
-          <p className="card__Rol">Contacto:</p>
+        <Col md={1}>
+          <div className='text-container2'>
+            <p className="bold-text">Nombre:</p>
+            <p>Profesión:</p>
+            <p>Cargo:</p>
+            <p>Contacto:</p>
+          </div>
         </Col>
-        <Col md={1} className='text-right'></Col>
-
       </Row>
-
-     
     </Container>
 
   );

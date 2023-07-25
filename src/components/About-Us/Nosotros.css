@@ -37,13 +37,13 @@
     justify-content: center;
 }
 
-.um{
+.um {
 
- justify-content: center;
- margin-left: auto;
- top: 1350px;
- left: 83%;
- position: absolute;
+    justify-content: center;
+    margin-left: auto;
+    top: 1350px;
+    left: 83%;
+    position: absolute;
 }
 
 .container-a {
@@ -421,14 +421,16 @@
     margin: 0;
     padding: 10px;
 }
-.texton{
+
+.texton {
     color: black;
     font-size: 12px;
     left: 80%;
     position: absolute;
     top: 1320px;
-    margin: 0;  
+    margin: 0;
 }
+
 .textou {
     color: black;
     font-size: 12px;
@@ -448,6 +450,7 @@
     top: 900px;
     margin: 0;
 }
+
 .texti {
     color: black;
     font-size: 12px;

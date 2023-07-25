@@ -26,6 +26,33 @@
     margin: auto;
     position: relative;
 }
-.Imag{
+
+.Imag {
     margin: 0 7px;
+}
+
+.carousel-item {
+    transform: translateY(0);
+    transition: transform 0.01s ease-in-out;
+    /* Reduced duration to 0.01s
+    animation: rotate 20s linear infinite;
+    transform-style: preserve-3d; */
+
+}
+
+
+.carousel-item.active .carrusel {
+    transform: translateY(-80px);
+    box-shadow: 0 10px 20px rgba(15, 146, 3, 0.694);
+    /* Añadir sombra para efecto cortina */
+}
+
+.texto1 {
+    color: black;
+    font-size: 12px;
+    padding: 50px;
+    left: 20%;
+    position: absolute;
+    top: 260px;
+    margin: 0;
 }
