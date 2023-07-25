@@ -50,7 +50,7 @@ function Menu() {
                   <Link to="/ind">Linea de Industria</Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/desa">
-                  <Link to="/ind">Linea de Software</Link>
+                  <Link to="/desa">Linea de Software</Link>
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/equipo" >Equipo</Nav.Link>

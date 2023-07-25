@@ -12,21 +12,20 @@ import Color from '../../assets/img/png/Color.png';
 import "./Servicios.css";
 
 const Servicios = () => {
-    
+
     return (
         <Container fluid>
-            
+
             <Row>
                 <Col sm={3} >
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-
-                    <h3 className="h">PORTAFOLIO</h3>
-                    <Image className='image' src={Logon} style={{ width: '30px', height: '30px', }} />
-                    <Image src={Lnara} style={{ width: '220px', height: '2px', }} />
-                    <h3 className="h">DE SERVICIOS</h3>
+                    <div className='Container3'>
+                        <h1 className='Derd' >PORTAFOLIO</h1>
+                        <div className='Imagenes-container1'>
+                            <Image className='i11dd' src={Logon} style={{ width: '30px', height: '30px', }} />
+                            <div className="linea-recta11dd"></div>
+                        </div>
+                        <h1 className='Der229d'>DE SERVICIOS</h1>
+                    </div>
 
                 </Col>
                 <Col sm={3} className='text-center'>
@@ -82,12 +81,15 @@ const Servicios = () => {
                 <Col sm={3}></Col>
                 <Col sm={3}></Col>
                 <Col sm={3}>
-                    <br />
-                    <br />
-                    <h3 className="h">NUESTROS </h3>
-                    <Image src={Lnara} style={{ width: '220px', height: '2px', }} />
-                    <Image className='image' src={Logon} style={{ width: '30px', height: '30px', }} />
-                    <h3 className="h">CLIENTES</h3>
+                <div className='Container3'>
+                        <h1 className='Derb' >NUESTROS</h1>
+                        <div className='Imagenes-container1'>
+                            <Image className='i11db' src={Logon} style={{ width: '30px', height: '30px', }} />
+                            <div className="linea-recta11db"></div>
+                        </div>
+                        <h1 className='Der229b'>CLIENTES</h1>
+                    </div>
+
                 </Col>
             </Row>
             <Row>
@@ -95,7 +97,7 @@ const Servicios = () => {
                     <Image src={Color} style={{ width: '990px', height: '300px', }} />
                 </Col>
             </Row>
-            
+
         </Container>
     );
 }

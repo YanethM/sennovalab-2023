@@ -5,7 +5,7 @@
 
 
 }
-
+/*
 section.carrusel {
 
     transform-style: preserve-3d;
@@ -32,7 +32,7 @@ section.carrusel span.carrusel {
     width: 100%;
     top: 0;
     left: 0;
-    transform-style: preserve-3d;
+    /*transform-style: preserve-3d;
     transform-origin: center;
     transform: rotatey(calc(var(--i)*72deg)) translateZ(300px);
 
@@ -53,4 +53,4 @@ section.carrusel span.carrusel img {
 
 section.carrusel span.carrusel img:hover {
     transform: translatey(-50px) scale(1.2)
-}
+}*/

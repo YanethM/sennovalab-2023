@@ -1,3 +1,64 @@
 h5 {
     color: hsl(36, 78%, 41%);
 }
+
+.Derd {
+    color: black;
+    top: 420;
+    position: absolute;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+.Der229d {
+    color: black;
+    top: 410px;
+    position: absolute;
+    left: 14%;
+    transform: translate(-50%, -50%);
+}
+.i11dd {
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+    width: 20px;
+    height: 20px;
+    top: 320px;
+}
+.linea-recta11dd {
+    height: 2px;
+    background-color: #f35618;
+    width: 290px;
+    position: absolute;
+    top: 370px;
+    left: 3%;
+}
+.Derb {
+    color: black;
+    top: 420;
+    position: absolute;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+.Der229b {
+    color: black;
+    top: 710px;
+    position: absolute;
+    left: 81%;
+    transform: translate(-50%, -50%);
+}
+.i11db {
+    position: absolute;
+    bottom: 0;
+    left: 90%;
+    width: 20px;
+    height: 20px;
+    top: 633px;
+}
+.linea-recta11db {
+    height: 2px;
+    background-color: #f35618;
+    width: 299px;
+    position: absolute;
+    top: 677px;
+    left: 66%;
+}
