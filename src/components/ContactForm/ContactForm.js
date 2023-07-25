@@ -27,7 +27,7 @@ const ContactForm = () => {
             </InputGroup>
           </Row>
           <Row className="row-flex">
-            <Form.Group className="col">
+            <Form.Group className="col mobile-space">
               <Form.Select
                 className="form-control"
                 name="a_state"
@@ -64,7 +64,7 @@ const ContactForm = () => {
             </InputGroup>
           </Row>
           <Row className="row-flex">
-            <InputGroup className="col">
+            <InputGroup className="col mobile-space">
               <InputGroup.Text id="basic-addon1">{<BsListUl />}</InputGroup.Text>
               <Form.Control
                 type="text"
@@ -85,7 +85,7 @@ const ContactForm = () => {
               />
             </InputGroup>
           </Row>
-          <Row className="mb-3">
+          <Row className="mb-4">
             <Form.Group controlId="formGridlabel" className="col col-sm-12">
               <Form.Control
                 as="textarea"
@@ -96,7 +96,7 @@ const ContactForm = () => {
               />
             </Form.Group>
           </Row>
-          <Row className="mb-3">
+          <Row className="mb-4">
             <Form.Group controlId="formFile" className="mb-3">
               <Form.Control type="file" placeholder="Adjuntar archivo" />
             </Form.Group>

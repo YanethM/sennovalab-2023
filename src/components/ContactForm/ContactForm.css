@@ -7,52 +7,7 @@
   padding: 0;
 }
 
-
-/* ============ .contact-form CSS grid ============ */
-
-/* contact form CSS grid layout */
-.contact-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 35px;
-}
-
-/* grid item */
-.submit-button {
-  justify-self: center;
-}
-
-@media screen and (min-width: 736px) {
-  
-  .contact-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 40px 40px 140px 40px;
-    grid-gap: 35px;
-  }
-
-  /* --- grid items --- */
-  .comment-box {
-    grid-column: 1 / -1;
-  }
-  
-  .submit-button {
-    justify-self: start;
-  }
-  
-}
-
 /* ============ form styles ============ */
-
-/* adds space on top for label */
-.contact-form {
-  margin-top: 30px;
-}
-
-/* positioning .form-field relative, so .lable can be positioned on-top (absolute) */
-.form-field {
-  position: relative;
-}
 
 /* label styles */
 .label {
@@ -65,6 +20,8 @@
   color: #000000;
   cursor: text;
 }
+
+/* ============ form styles ============ */
 
 /* input styles */
 input[type="text"],
@@ -92,15 +49,6 @@ select {
   font-weight: bold;
 }
 
-/* text area styles */
-textarea {
-  height: 140px !important;
-  padding: 10px 10px;
-  width: 50%;
-  
-}
-
-
 /* ============ submit button styles ============ */
 .btn {
   background-color: #ffffff;
@@ -123,20 +71,7 @@ textarea {
 .btn:active {
   box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
 }
-.h {
-    flex: 1;
-    text-align: center;
-    justify-content: center;
-    line-height: 100px;
-  
 
-}
-
-.img {
-    width: 55px;
-    height: 55px;
-    align-content: center;
-}
 
 .mod-form{
   background-color: #D9D9D9;
@@ -144,9 +79,43 @@ textarea {
   border-radius: 15px;
 }
 
+/* text area styles */
+textarea {
+  height: 140px !important;
+  padding: 10px 10px;
+  width: 50%;
+  
+}
+
+
+.class-header{
+  padding: 0px;
+  margin: 0px;
+}
+
+.text-center{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-line-margin{
+  margin-top: 250px;
+}
+
 .row-flex{
   display: flex;
   flex-direction: row;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+  /* Aquí puedes definir los estilos para las pantallas de móvil */
+  .row-flex{
+    flex-direction: column;
+  }
+  .mobile-space{
+    margin-bottom: 2rem;
+  }
 }
 
