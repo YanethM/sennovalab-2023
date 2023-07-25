@@ -24,7 +24,7 @@ function Contact() {
             <Col>
               <h2 className="class-header">CONTACTANOS</h2>
               <Image src={Line} />
-              <h3 className="p-0 m-0">Sennovalab</h3>
+              <h3 className="p-0 m-0">SENNOVALAB</h3>
             </Col>
           </Row>
           <Row className="cards-line-margin">
