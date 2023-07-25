@@ -9,17 +9,15 @@ export const ClientLayout = (props) => {
 
   return (
     <>
-      <div className="header">
+      <header className="header">
         <Menu />
-      </div>
-      <div className="my-4">
+      </header>
+      <content className="main">
         {children}
-      </div>
-      <div className="footer">
+      </content>
+      <footer className="footer">
         <FooterClient />
-      </div>
+      </footer>
     </>
-    
-
   );
 };
