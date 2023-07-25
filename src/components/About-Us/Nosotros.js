@@ -6,7 +6,6 @@ import Portafolio from '../../assets/img/png/Portafolio.png';
 import Construccion from '../../assets/img/png/Construccion.png';
 import Industria from '../../assets/img/png/Industria.png';
 import Software from '../../assets/img/png/Software.png';
-import Lnara from '../../assets/img/png/Lnara.png';
 import Logon from '../../assets/img/png/Logon.png';
 import "./Nosotros.css";
 
@@ -17,14 +16,14 @@ const Nosotros = () => {
       <div className="Contenedor">
         <Row>
           <Col sm={2}>
-            <div className='Container'>
-              <h2 className='Der' >SOBRE</h2>
-              <div className='Imagenes-container'>
-                <Image className='Imagen' src={Logon} style={{ width: '30px', height: '30px', }} />
-                <Image className='Imagen' src={Lnara} style={{ width: '200px', height: '2px', }} />
-              </div>
-              <h2 className='Der'>SENNOVALAB</h2>
+          <div className='Container3'>
+            <h1 className='Der' >SOBRE</h1>
+            <div className='Imagenes-container1'>
+              <Image className='i11d' src={Logon} style={{ width: '30px', height: '30px', }} />
+              <div className="linea-recta11d"></div>
             </div>
+            <h1 className='Der229'>SENNOVALAB</h1>
+          </div>
           </Col>
           <Col sm={1}></Col>
           <Col md={4} className='text-right' >
