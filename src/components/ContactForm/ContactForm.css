@@ -99,10 +99,6 @@ textarea {
   flex-direction: column;
 }
 
-.cards-line-margin{
-  margin-top: 250px;
-}
-
 .row-flex{
   display: flex;
   flex-direction: row;

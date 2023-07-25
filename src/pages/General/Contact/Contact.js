@@ -17,7 +17,7 @@ function Contact() {
     <Container>
       <Row>
         <Col className="text-center" md={3}>
-          <Row className="mt-3">
+          <Row className="mt-3 row-query-flex">
             <Col>
               <Image src={figura} style={{ width: "50px", height: "55px" }} />
             </Col>
