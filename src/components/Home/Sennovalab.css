@@ -43,7 +43,6 @@
 
 .carousel-item.active .carrusel {
     transform: translateY(-80px);
-    box-shadow: 0 10px 20px rgba(15, 146, 3, 0.694);
     /* Añadir sombra para efecto cortina */
 }
 
@@ -56,3 +55,17 @@
     top: 260px;
     margin: 0;
 }
+
+@media (max-width: 767px) {
+    /* Aquí puedes definir los estilos para las pantallas de móvil */
+    .card-home-direction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-home-margin {
+        margin: 20px 0px;
+    }
+  }
