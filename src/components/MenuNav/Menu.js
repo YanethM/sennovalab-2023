@@ -37,12 +37,12 @@ function Menu() {
           <Image src={sennovalab} style={style} />
         </a>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Col sm={6}>
-            <Nav className="me-5 align-items-center px-4">
-              <Nav.Link href="/nosotros">Nosotros</Nav.Link>
-              <Nav.Link href="/gestion">Gestion de la innovacion</Nav.Link>
+          <Col sm={6} className="query-col-navbar">
+            <Nav className="me-5 align-items-center px-4 query-navbar">
+              <Nav.Link href="/nosotros" className="link-hover">Nosotros</Nav.Link>
+              <Nav.Link href="/gestion" className="link-hover">Gestion de la innovacion</Nav.Link>
 
-              <NavDropdown title="Lineas de Acción" className="link-hover mx-3">
+              <NavDropdown title="Lineas de Acción" className="mx-3">
                 <NavDropdown.Item href="/const">
                   <Link to="/const">Linea de Construccion</Link>
                 </NavDropdown.Item>
@@ -53,19 +53,19 @@ function Menu() {
                   <Link to="/desa">Linea de Software</Link>
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/equipo" >Equipo</Nav.Link>
-              <Nav.Link href="/servicios" >Servicios</Nav.Link>
+              <Nav.Link href="/equipo" className="link-hover">Equipo</Nav.Link>
+              <Nav.Link href="/servicios" className="link-hover">Servicios</Nav.Link>
             </Nav>
           </Col>
           <Col sm={1}></Col>
-          <Col sm={5}>
-            <Nav className="align-items-center px-4 ms-5">
-              <Nav.Link href="/contacto">Contacto</Nav.Link>
+          <Col sm={5} className="query-col-navbar">
+            <Nav className="align-items-center px-4 ms-5 query-navbar">
+              <Nav.Link href="/contacto" className="query-col-navbar link-hover">Contacto</Nav.Link>
 
               <Nav.Link href="/Pqrs" className="mx-3 link-hover">PQRSD</Nav.Link>
               <Nav.Link href="#link" className="mx-3 link-hover">Preguntas Frecuentes</Nav.Link>
 
-              <NavDropdown title={UserMenu} className="ms-5 link-hover">
+              <NavDropdown title={UserMenu} className="ms-5 query-icon-navbar">
                 <NavDropdown.Item href="#action/3.1">Registrarse</NavDropdown.Item>
 
                 <NavDropdown.Item href="#action/3.3">Ingresar</NavDropdown.Item>
