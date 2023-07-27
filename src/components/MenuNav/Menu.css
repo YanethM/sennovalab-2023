@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
 }
-
 .Navbar{
     margin: 0px;
     padding: 3px 0px 3px 15px;
@@ -10,6 +9,43 @@
     background-color: rgb(228, 228, 225);
     color: black;  
     display: flex;
+}
+
+.link-hover:hover{
+    background-color: rgb(212, 212, 210);
+    padding: 18px;
+}
+
+
+@media (max-width: 767px) {
+    /* Aquí puedes definir los estilos para las pantallas de móvil */
+    .Navbar{
+        padding: 0px;
+    }
+
+    .dropdown-toggle{
+        display: flex;
+        justify-content: center;
+    }
+    .query-col-navbar{
+        display: flex;
+        justify-content: center;
+    }
+    .query-navbar{
+        display: flex;
+        margin: 0px !important;
+    }
+    .query-icon-navbar{
+        margin: 0px !important;
+    }
+
+    .nav-link{
+        padding: 13px;
+    }
+    .nav-link:hover{
+        background-color: rgb(212, 212, 210);
+        padding: 13px;
+    }
 }
 
 
