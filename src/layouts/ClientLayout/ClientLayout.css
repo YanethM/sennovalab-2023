@@ -2,6 +2,10 @@
   margin-bottom: 100px;
 }
 
+.main{
+  width: 100vw;
+}
+
 .footer{
   margin-top: 100px;
 }
