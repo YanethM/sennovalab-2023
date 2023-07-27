@@ -1,16 +1,10 @@
-import React from "react";
-import { Carousel, Col, Container, Image, Row } from "react-bootstrap";
-import carusel1 from "../../assets/img/png/carusel1.png";
-import carusel2 from "../../assets/img/png/carusel2.png";
-import carusel3 from "../../assets/img/png/carusel3.png";
-import carusel4 from "../../assets/img/png/carusel4.png";
-import carusel5 from "../../assets/img/png/carusel5.png";
-import carusel6 from "../../assets/img/png/carusel6.png";
-import carusel7 from "../../assets/img/png/carusel7.png";
-import Line from "../../assets/img/png/Line.png";
-import Construccion from "../../assets/img/png/Construccion.png";
-import Industria from "../../assets/img/png/Industria.png";
-import Software from "../../assets/img/png/Software.png";
+import React from 'react';
+import { Carousel, Col, Container, Image, Row } from 'react-bootstrap';
+import carusel1 from '../../assets/img/png/carusel1.png';
+import Line from '../../assets/img/png/Line.png';
+import Construccion from '../../assets/img/png/Construccion.png';
+import Industria from '../../assets/img/png/Industria.png';
+import Software from '../../assets/img/png/Software.png';
 import "./Sennovalab.css";
 import sennovalab from "../../assets/img/png/figura-pajaro.png";
 

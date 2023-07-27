@@ -41,18 +41,18 @@ const Desa = () => {
           </Col>
           <Col md={3}>
             <div className="container-c1">
-              <div className="linea1">
-                <div className="linea-diaa1"></div>
-                <div className="linea-ree1"></div>
+              <div className="linea1a">
+                <div className="linea-di1"></div>
+                <div className="linea-re1"></div>
                 <div className="trianglea1"></div>
-                <Image className='ina1' src={Logon} style={{ width: '20px', height: '20px', }} />
-                <h2 className="haa1">MISIÓN</h2>
+                <Image className='in1' src={Logon} style={{ width: '20px', height: '20px', }} />
+                <h2 className="ha1">MISIÓN</h2>
               </div>
             </div>
             < div>
-              <p className="textoa1">Brindar servicios de asesoría en proyectos de construcción basados en enfoques de arquitectura, ingeniería, materiales y redes eléctricas con un capital humano calificado, buscando la satisfacción de los clientes, el crecimiento intelectual y el desarrollo de ideas creativas.</p>
+              <p className="texa1">Brindar servicios de asesoría en proyectos de construcción basados en enfoques de arquitectura, ingeniería, materiales y redes eléctricas con un capital humano calificado, buscando la satisfacción de los clientes, el crecimiento intelectual y el desarrollo de ideas creativas.</p>
             </div>
-            <div className="linea-diaaa1"></div>
+            <div className="linea-die1"></div>
           </Col>
           <Col md={3}>
             <div className="container-b2">
@@ -80,7 +80,7 @@ const Desa = () => {
             <div className='Imagenes-container1'>
               <div className="linea-recta11"></div>
             </div>
-            <h2 className='Der223'>SOFTWARE</h2>
+            <h2 className='Der213'>SOFTWARE</h2>
           </div>
         </Col>
 
@@ -135,12 +135,12 @@ const Desa = () => {
           </div>
         </Col>
         <Col sm={3} >
-          <div className="container">
-            <div className='outer-card123'>
-              <div className='inner-card12'>
-                <img className="image-with-text" src={Servi} />
-                <h5 className="image-with-text-h">SUBLINEA</h5>
-                <p className="image-with-text-p">DESCRIPCIÓN</p>
+          <div className="container-d">
+            <div className='outer-cards1'>
+              <div className='inner-ca1'>
+                <img className="image-tex" src={Servi} />
+                <h5 className="image-tex-h">SUBLINEA</h5>
+                <p className="image-tex-p">DESCRIPCIÓN</p>
               </div>
             </div>
           </div>

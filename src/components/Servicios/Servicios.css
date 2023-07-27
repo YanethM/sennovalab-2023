@@ -2,13 +2,14 @@ h5 {
     color: hsl(36, 78%, 41%);
 }
 
-.Derd {
+.Derdi {
     color: black;
-    top: 420;
+    top: 340px;
     position: absolute;
     left: 15%;
     transform: translate(-50%, -50%);
 }
+
 .Der229d {
     color: black;
     top: 410px;
@@ -16,6 +17,7 @@ h5 {
     left: 14%;
     transform: translate(-50%, -50%);
 }
+
 .i11dd {
     position: absolute;
     bottom: 0;
@@ -24,6 +26,7 @@ h5 {
     height: 20px;
     top: 320px;
 }
+
 .linea-recta11dd {
     height: 2px;
     background-color: #f35618;
@@ -32,34 +35,38 @@ h5 {
     top: 370px;
     left: 3%;
 }
-.Derb {
+
+.Derb9 {
     color: black;
-    top: 420;
+    top: 300;
     position: absolute;
     left: 80%;
     transform: translate(-50%, -50%);
 }
+
 .Der229b {
     color: black;
-    top: 710px;
+    top: 650px;
     position: absolute;
     left: 81%;
     transform: translate(-50%, -50%);
 }
+
 .i11db {
     position: absolute;
     bottom: 0;
     left: 90%;
     width: 20px;
     height: 20px;
-    top: 633px;
+    top: 603px;
 }
+
 .linea-recta11db {
     height: 2px;
     background-color: #f35618;
     width: 299px;
     position: absolute;
-    top: 677px;
+    top: 625px;
     left: 66%;
 }
 

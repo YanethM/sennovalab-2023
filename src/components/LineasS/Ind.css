@@ -11,7 +11,7 @@
     height: 1vh;
 }
 
-.linea1 {
+.linea1a {
     display: flex;
     align-items: flex-end;
 }
@@ -44,12 +44,11 @@
     color: black
 }
 
-.textoa1 {
+.texa1 {
     color: #333;
     font-size: 14px;
     line-height: 1.5;
-    margin: 0;
-    padding: 10px;
+    padding: 15px;
 }
 
 .container-c1 {
@@ -57,34 +56,34 @@
     height: 12vh;
 }
 
-.linea-diaa1 {
+.linea-di1 {
     width: 2px;
     height: 80px;
     background-color: #f35618;
     transform: rotate(-38deg);
     position: absolute;
-    top: 216px;
+    top: 167px;
     left: 55.1%;
 }
 
-.linea-diaaa1 {
+.linea-die1 {
     width: 2px;
     height: 80px;
     background-color: #f35618;
     transform: rotate(-38deg);
     position: absolute;
-    top: 278px;
+    top: 229px;
     left: 76.4%;
 }
 
-.linea-ree1 {
+.linea-re1 {
     height: 2px;
     background-color: #f35618;
     width: 238px;
     position: absolute;
     left: 57%;
     align-items: flex-start;
-    top: 286px;
+    top: 237px;
 }
 
 
@@ -98,20 +97,20 @@
     margin-top: 3px;
 }
 
-.ina1 {
+.in1 {
     position: absolute;
     bottom: 0;
     left: 57%;
     width: 20px;
     height: 20px;
-    top: 259px;
+    top: 210px;
 }
 
-.haa1 {
+.ha1 {
     position: absolute;
     bottom: 0;
     left: 59%;
-    top: 250px;
+    top: 200px;
     color: black;
 }
 
@@ -208,6 +207,13 @@
     height: 50vh;
     justify-content: center;
 }
+.Container-d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    justify-content: center;
+}
 
 .Der1 {
     color: black;
@@ -217,11 +223,11 @@
     transform: translate(-50%, -50%);
 }
 
-.Der223 {
+.Der214 {
     color: black;
     top: 665px;
     position: absolute;
-    left: 12%;
+    left: 15%;
     transform: translate(-50%, -50%);
 }
 
@@ -261,57 +267,57 @@
     top: 522px;
 }
 
-.outer-card123 {
+.outer-cards1 {
 
-    left: -25%;
-    top: 125px;
+    left: -20%;
+    top: 120px;
     background-color: gainsboro;
     position: relative;
     width: 320px;
-    height: 270px;
+    height: 290px;
     border-radius: 28px;
     padding: 30%;
 
 }
 
-.inner-card12 {
+.inner-ca1 {
     border: 15px solid gray;
     padding: 10%;
     background-color: gainsboro;
     width: 300px;
-    height: 255px;
-    left: -51%;
-    top: -80px;
+    height: 270px;
+    left: -63%;
+    top: -85px;
     position: relative;
     border-radius: 28px;
 
 }
 
-.image-with-text-h {
-    left: -8%;
-    top: -5px;
-    position: relative;
-    color: black;
-    padding: 8px;
-    margin: 0;
-
-}
-
-.image-with-text-p {
-    left: -8%;
-    top: -15px;
+.image-tex-h {
+    left: -5%;
+    top: -65px;
     position: relative;
     color: black;
     padding: 8px;
     margin: 0;
 }
-
-.image-with-text {
+.image-tex-p {
+    left: -5%;
+    top: -75px;
     position: relative;
-    width: 113%;
-    height: 70%;
-    left: -7%;
-    top: -14px;
+    color: black;
+    padding: 8px;
+    margin: 0;
+}
+
+.image-tex {
+    padding: 10%;
+    width: 319px;
+    height: 205px;
+    left: -15.5%;
+    top: -37px;
+    position: relative;
+    
 
 }
 
@@ -583,4 +589,10 @@
 
 .text-container p:not(.bold-text) {
     color: #000;
+}
+.textoa1{
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 15px;  
 }

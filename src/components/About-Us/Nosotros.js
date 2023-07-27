@@ -151,7 +151,9 @@ const Nosotros = () => {
           <Col md={2} className='text-center' >
             <div className="container-r">
               <p className="texton" >Ver portafolio de Servicios</p>
-              <Image className='um' src={Portafolio} style={{ width: '60px', height: '75px', }} />
+              <a href="/servicios">
+              <Image className='um' src={Portafolio} style={{ width: '250px', height: '190px', }} />
+              </a>
             </div>
           </Col>
         </Row>
