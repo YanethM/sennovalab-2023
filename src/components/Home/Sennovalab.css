@@ -34,17 +34,12 @@
 .carousel-item {
     transform: translateY(0);
     transition: transform 0.01s ease-in-out;
-    /* Reduced duration to 0.01s
-    animation: rotate 20s linear infinite;
-    transform-style: preserve-3d; */
 
 }
 
 
 .carousel-item.active .carrusel {
     transform: translateY(-80px);
-     /*  box-shadow: 0 10px 20px rgba(15, 146, 3, 0.694);
-     Añadir sombra para efecto cortina */
 }
 
 .texto1 {
