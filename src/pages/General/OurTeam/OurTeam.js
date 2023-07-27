@@ -54,24 +54,24 @@ const OurTeam = () => {
                 <Col sm={3}></Col>
             </Row>
             {/* Ultima fila de 4 en en piramide */}
-            <Row>
-                <Col sm={2} className="text-center"></Col>
-                <Col sm={2} className="text-center">
-                    <TeamCard />
-                </Col>
-                <Col sm={2} className="text-center">
-                    <TeamCard />
-                </Col>
-                <Col sm={2} className="text-center">
-                    <TeamCard />
-                </Col>
-                <Col sm={2} className="text-center">
-                    <TeamCard />
-                </Col>
-                <Col sm={2} className="text-center"></Col>
-            </Row>
-        </Container>
-    );
+/* <Row>
+     <Col sm={2} className="text-center"></Col>
+     <Col sm={2} className="text-center">
+         <TeamCard />
+     </Col>
+     <Col sm={2} className="text-center">
+         <TeamCard />
+     </Col>
+     <Col sm={2} className="text-center">
+         <TeamCard />
+     </Col>
+     <Col sm={2} className="text-center">
+         <TeamCard />
+     </Col>
+     <Col sm={2} className="text-center"></Col>
+ </Row>
+</Container>
+);
 };
 
 export default OurTeam;

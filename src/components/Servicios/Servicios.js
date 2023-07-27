@@ -19,7 +19,7 @@ const Servicios = () => {
             <Row>
                 <Col sm={3} >
                     <div className='Container3'>
-                        <h1 className='Derd' >PORTAFOLIO</h1>
+                        <h1 className='Derdi' >PORTAFOLIO</h1>
                         <div className='Imagenes-container1'>
                             <Image className='i11dd' src={Logon} style={{ width: '30px', height: '30px', }} />
                             <div className="linea-recta11dd"></div>
@@ -31,16 +31,11 @@ const Servicios = () => {
                 <Col sm={3} className='text-center'>
                     <div className="container">
                         <div className="card">
-                            <br />
-
-                            <br />
                             <img src={image5} style={{ width: '200px', height: '150px', }} />
                             <br />
                             <h5>ASESORIA</h5>
                             <Image src={Lnara} style={{ width: '200px', height: '2px', }} />
-
                         </div>
-
                     </div>
                 </Col>
                 <Col sm={3} className='text-center'>
@@ -82,7 +77,7 @@ const Servicios = () => {
                 <Col sm={3}></Col>
                 <Col sm={3}>
                 <div className='Container3'>
-                        <h1 className='Derb' >NUESTROS</h1>
+                        <h1 className='Derb9' >NUESTROS</h1>
                         <div className='Imagenes-container1'>
                             <Image className='i11db' src={Logon} style={{ width: '30px', height: '30px', }} />
                             <div className="linea-recta11db"></div>

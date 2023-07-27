@@ -43,8 +43,8 @@
 
 .carousel-item.active .carrusel {
     transform: translateY(-80px);
-    box-shadow: 0 10px 20px rgba(15, 146, 3, 0.694);
-    /* Añadir sombra para efecto cortina */
+     /*  box-shadow: 0 10px 20px rgba(15, 146, 3, 0.694);
+     Añadir sombra para efecto cortina */
 }
 
 .texto1 {
