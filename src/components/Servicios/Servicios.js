@@ -8,7 +8,6 @@ import image5 from '../../assets/img/png/image5.png';
 import image6 from '../../assets/img/png/image6.png';
 import image7 from '../../assets/img/png/image7.png';
 import Color from '../../assets/img/png/Color.png';
-
 import "./Servicios.css";
 
 const Servicios = () => {
