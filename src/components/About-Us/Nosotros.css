@@ -59,6 +59,7 @@
     left: 16%;
     transform: translate(-50%, -50%);
 }
+
 .Der229 {
     color: black;
     top: 505px;
@@ -66,6 +67,7 @@
     left: 12%;
     transform: translate(-50%, -50%);
 }
+
 .i11d {
     position: absolute;
     bottom: 0;
@@ -74,6 +76,7 @@
     height: 20px;
     top: 440px;
 }
+
 .linea-recta11d {
     height: 2px;
     background-color: #f35618;
@@ -82,6 +85,7 @@
     top: 480px;
     left: 1%;
 }
+
 .Imagene {
     margin-left: auto;
 }
@@ -177,6 +181,7 @@
     background-color: #f35618;
     transform: rotate(-35deg);
     left: 43%;
+
 }
 
 .linea-diagonali {
@@ -184,7 +189,7 @@
     height: 52px;
     background-color: #f35618;
     transform: rotate(-33deg);
-    top: 930px;
+    top: 924px;
     left: 44%;
     position: absolute;
 }
@@ -214,7 +219,7 @@
     height: 65px;
     background-color: #f35618;
     transform: rotate(-35deg);
-    top: 1273px;
+    top: 1268px;
     left: 46.5%;
     position: absolute;
 }
@@ -289,7 +294,7 @@
     background-color: #f35618;
     transform: rotate(-38deg);
     position: absolute;
-    top: 208px;
+    top: 204px;
     left: 59%;
 }
 
@@ -300,7 +305,7 @@
     position: absolute;
     left: 61%;
     align-items: flex-start;
-    top: 286px;
+    top: 282px;
 }
 
 .linea-rec {
@@ -379,7 +384,7 @@
     height: 89px;
     background-color: #f35618;
     transform: rotate(-38deg);
-    top: 510px;
+    top: 505px;
     left: 59%;
     position: absolute;
 }
@@ -391,7 +396,7 @@
     position: absolute;
     left: 61%;
     align-items: flex-start;
-    top: 588px;
+    top: 583px;
 }
 
 .triangulon {
@@ -423,7 +428,7 @@
     width: 2px;
     height: 302px;
     background-color: #f35618;
-    top: 977px;
+    top: 972px;
     left: 45.1%;
     position: absolute;
 
