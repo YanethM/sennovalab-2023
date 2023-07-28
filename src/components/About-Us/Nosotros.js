@@ -12,10 +12,10 @@ import "./Nosotros.css";
 const Nosotros = () => {
 
   return (
-    <Container fluid>
+    <Container fluid className='query-container-aboutus'>
       <div className="Contenedor">
-        <Row>
-          <Col sm={2}>
+        <Row className='query-box1-aboutus'>
+          <Col sm={2} className='query-box1-aboutus'>
           <div className='Container3'>
             <h1 className='Der' >SOBRE</h1>
             <div className='Imagenes-container1'>
@@ -26,80 +26,80 @@ const Nosotros = () => {
           </div>
           </Col>
           <Col sm={1}></Col>
-          <Col md={4} className='text-right' >
-            <div className="container-s">
+          <Col md={4} className='text-right query-box1-aboutus' >
+            <div className="container-s query-box1-aboutus">
               <div className="triangle"></div>
               <div className="linea">
                 <div className="linea-diagonal"></div>
                 <div className="linea-recta"></div>
                 <Image className='i' src={Logon} style={{ width: '20px', height: '20px', }} />
-                <h5 className="h">INFORMACIÓN GENERAL</h5>
+                <h5 className="h query-box1-aboutus">INFORMACIÓN GENERAL</h5>
               </div>
             </div>
-            < div>
+            < div className="query-box1-aboutus">
               <p className="texto"> Somos un ambiente de servicios tecnológicos en actividades de I+D+i del Centro de Proceso Industriales y Construcción, SENA Regional Caldas. Hacemos parte del Ecosistema SENNOVA y de la línea “Fortalecimiento de la Oferta de Servicios Tecnológicos para las Empresas”.</p>
             </div>
           </Col>
 
-          <Col md={4} className='text-right' >
+          <Col md={4} className='text-right query-box1-aboutus' >
             <div className="container-a">
-              <div className="linea">
+              <div className="linea query-box1-aboutus">
                 <div className="linea-dia"></div>
                 <div className="linea-re"></div>
                 <div className="triangulo"></div>
                 <Image className='in' src={Logon} style={{ width: '20px', height: '20px', }} />
-                <h5 className="ha"> DESCRIPCION</h5>
+                <h5 className="ha query-box1-aboutus"> DESCRIPCION</h5>
               </div>
             </div>
             < div>
-              <p className="texto"> SENNOVALAB considera las actividades de Investigación, Desarrollo Tecnológico e Innovación (I+D+i) como los pilares básicos de su estrategia, para aportar al desarrollo de la región capacidades técnicas y tecnológicas en la gestión y desarrollo de procesos de Ciencia, Tecnología e Innovación, vinculando al sector productivo y la academia.</p>
+              <p className="texto query-box1-aboutus"> SENNOVALAB considera las actividades de Investigación, Desarrollo Tecnológico e Innovación (I+D+i) como los pilares básicos de su estrategia, para aportar al desarrollo de la región capacidades técnicas y tecnológicas en la gestión y desarrollo de procesos de Ciencia, Tecnología e Innovación, vinculando al sector productivo y la academia.</p>
             </div>
           </Col>
         </Row>
       </div>
 
-      <Row>
+      <Row className='query-box1-aboutus'>
         <Col md={3}></Col>
         <Col md={4} className='text-right' >
           <div className="container-i">
             <div className="trianglo"></div>
-            <div className="linea">
+            <div className="linea query-box1-aboutus">
               <div className="linea-diagonal"></div>
               <div className="linea-rect"></div>
               <Image className='im' src={Logon} style={{ width: '20px', height: '20px', }} />
-              <h5 className="hj">MISIÓN</h5>
+              <h5 className="hj query-box1-aboutus">MISIÓN</h5>
             </div>
           </div>
           <div >
             <p className="texto"> SENNOVALAB aporta al desarrollo de la región capacidades técnicas y tecnológicas para la formulación y gestión de procesos de Ciencia, Tecnología e Innovación, vinculando al sector productivo y la academia, y alineado con los planes de desarrollo territoriales, a través de servicios de asesoría y consultoría en actividades científico-tecnológicas y la transferencia de conocimiento, aumentando la competitividad de empresas y comunidades académicas.</p>
           </div>
         </Col>
-        <Col md={4} className='text-right' >
-          <div className="container-b">
-            <div className="linea">
+        <Col md={4} className='text-right query-box1-aboutus' >
+          <div className="container-b query-box1-aboutus">
+            <div className="linea query-box1-aboutus">
               <div className="linea-dian"></div>
               <div className="linea-reci"></div>
               <div className="triangulon"></div>
-              <Image className='init' src={Logon} style={{ width: '20px', height: '20px', }} />
-              <h5 className="ho" >VISIÓN</h5>
+              <Image className='init query-box1-aboutus' src={Logon} style={{ width: '20px', height: '20px', }} />
+              <h5 className="ho query-box1-aboutus" >VISIÓN</h5>
             </div>
           </div>
           < div>
-            <p className="texto"> SENNOVALAB aporta al desarrollo de la región capacidades técnicas y tecnológicas para la formulación y gestión de procesos de Ciencia, Tecnología e Innovación, vinculando al sector productivo y la academia, y alineado con los planes de desarrollo territoriales, a través de servicios de asesoría y consultoría en actividades científico-tecnológicas y la transferencia de conocimiento, aumentando la competitividad de empresas y comunidades académicas</p>
+            <p className="texto query-box1-aboutus"> SENNOVALAB aporta al desarrollo de la región capacidades técnicas y tecnológicas para la formulación y gestión de procesos de Ciencia, Tecnología e Innovación, vinculando al sector productivo y la academia, y alineado con los planes de desarrollo territoriales, a través de servicios de asesoría y consultoría en actividades científico-tecnológicas y la transferencia de conocimiento, aumentando la competitividad de empresas y comunidades académicas</p>
           </div>
         </Col>
       </Row>
-      <div className="Contenedori">
-        <Row>
-          <Col md={4} className='text-center' >
+      <div className="Contenedori query-box1-aboutus">
+        <Row className='query-box1-aboutus'>
+          <Col md={4} className='text-center query-box1-aboutus' >
             <div className="container-r">
               <div className='Imagenes-container'>
                 <Image className='imagen' src={Construccion} style={{ width: '220px', height: '225px', }} />
               </div>
             </div>
-            <div className="container-d">
-            <Image className='Imag' src={Software} style={{ width: '220px', height: '225px', }} />
-            <Image className='Imag' src={Industria} style={{ width: '220px', height: '225px', }} />
+            <div className="container-d query-box1-aboutus">
+              <Image className='Imag' src={Software} style={{ width: '220px', height: '225px', }} />
+              <Image className='Imag' src={Industria} style={{ width: '220px', height: '225px', }} />
             </div>
           </Col>
 
