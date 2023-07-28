@@ -529,3 +529,68 @@
     background-color: #f35618;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
+
+/* responsive section about us */
+@media (max-width: 767px) {
+    /* Aquí puedes definir los estilos para las pantallas de móvil */
+    .linea-recta11d,
+    .linea-dia,
+    .linea-re,
+    .linea-diagonal,
+    .linea-recta,
+    .linea-rect,
+    .linea-dian,
+    .linea-reci,
+    .linea-diagonala,
+    .linea-rectas,
+    .linea-diagonali,
+    .vertical,
+    .linea-diagonali,
+    .linea-diagonalin,
+    .linea-d,
+    .linea-ds,
+    .triangle,
+    .triangulo,
+    .trianglo,
+    .triangulon,
+    .triangle,
+    .trianglen,
+    .outer-triangle,
+    .inner-triangle,
+    .outer-trianglen,
+    .outer-triangleno
+    {
+        display: none;
+    }
+
+
+    .query-container-aboutus{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .query-box1-aboutus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Container3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Der{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
