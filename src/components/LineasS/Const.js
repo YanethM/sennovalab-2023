@@ -41,8 +41,8 @@ const Const = () => {
           <Col md={3}>
             <div className="container-c1">
               <div className="linea1a">
-                <div className="linea-di1"></div>
-                <div className="linea-re1"></div>
+                <div className="linea-diagonal1"></div>
+                <div className="linea-rectas1"></div>
                 <div className="trianglea1"></div>
                 <Image className='in1' src={Logon} style={{ width: '20px', height: '20px', }} />
                 <h2 className="ha1">MISIÓN</h2>
@@ -51,7 +51,7 @@ const Const = () => {
             < div>
               <p className="texa1">Brindar servicios de asesoría en proyectos de construcción basados en enfoques de arquitectura, ingeniería, materiales y redes eléctricas con un capital humano calificado, buscando la satisfacción de los clientes, el crecimiento intelectual y el desarrollo de ideas creativas.</p>
             </div>
-            <div className="linea-die1"></div>
+            <div className="linea-diagonal2"></div>
           </Col>
           <Col md={3}>
             <div className="container-b2">
