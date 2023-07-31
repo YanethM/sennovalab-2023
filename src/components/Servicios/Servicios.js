@@ -20,13 +20,13 @@ const Servicios = () => {
                         <h1 className="huno">PORTAFOLIO</h1>
                         <div className="Imagenes-container1">
                             <Image
-                                className="i11dd"
+                                className="icon-text-service"
                                 src={Logon}
                                 style={{ width: "30px", height: "30px" }}
                             />
                             <div className="linea-recta11dd"></div>
                         </div>
-                        <h1 className="Der229d">DE SERVICIOS</h1>
+                        <h1 className="word-service">DE SERVICIOS</h1>
                     </div>
                 </Col>
                 <Col sm={3} className="text-center">
@@ -63,7 +63,7 @@ const Servicios = () => {
                         <h1 className="h-uno">NUESTROS</h1>
                         <div className="Imagenes-container1">
                             <Image
-                                className="i11db"
+                                className="icon-text-client"
                                 src={Logon}style={{ width: "30px", height: "30px" }}
                             />
                             <div className="linea-recta11db"></div>
@@ -74,7 +74,7 @@ const Servicios = () => {
             </Row>
              <Row>
         <Col sm={12} className="text-center">
-          <Image src={Color} style={{ width: "1300px", height: "300px" }} />
+          <Image src={Color} className="image-service"/>
         </Col>
       </Row> 
         </Container>
