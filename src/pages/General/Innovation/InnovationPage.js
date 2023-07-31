@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import Gestion from '../../../components/GestionInnovacion/Gestion';
 import Informacion from '../../../components/GestionInnovacion/Informacion';
 import Politica from '../../../components/GestionInnovacion/Politica';
@@ -15,4 +15,4 @@ const InnovationPage = () => {
   )
 }
 
-export default InnovationPage
+export default InnovationPage*/
