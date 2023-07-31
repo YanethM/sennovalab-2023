@@ -63,7 +63,7 @@ function Menu() {
               <Nav.Link href="/contacto" className="query-col-navbar link-hover">Contacto</Nav.Link>
 
               <Nav.Link href="/Pqrs" className="mx-3 link-hover">PQRSD</Nav.Link>
-              <Nav.Link href="#link" className="mx-3 link-hover">Preguntas Frecuentes</Nav.Link>
+              <Nav.Link href="/Preguntas" className="mx-3 link-hover">Preguntas Frecuentes</Nav.Link>
 
               <NavDropdown title={UserMenu} className="ms-5 query-icon-navbar">
                 <NavDropdown.Item href="#action/3.1">Registrarse</NavDropdown.Item>

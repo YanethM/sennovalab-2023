@@ -1,14 +1,8 @@
-.Contenedorp {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 2px;
-}
-
 .Contain1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50vh;
+    height: 40vh;
     justify-content: center;
 }
 
@@ -209,5 +203,81 @@
     line-height: 1.5;
     padding: 14px;
     top: 830px;
+    position: absolute;
+}
+.h-u {
+    color: black;
+    top: 950px;
+    position: absolute;
+    left: 18%;
+    transform: translate(-50%, -50%);
+}
+
+.linea-rp5 {
+    height: 2px;
+    background-color: #f35618;
+    width: 255px;
+    position: absolute;
+    top: 975px;
+    left: 6%;
+}
+
+.texto-p3 {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 14px;
+    top: 930px;
+    position: absolute;
+}
+.h-1 {
+    color: black;
+    top: 1050px;
+    position: absolute;
+    left: 17%;
+    transform: translate(-50%, -50%);
+}
+
+.linea-rp6 {
+    height: 2px;
+    background-color: #f35618;
+    width: 255px;
+    position: absolute;
+    top: 1075px;
+    left: 6%;
+}
+
+.texto-p4 {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 14px;
+    top: 1030px;
+    position: absolute;
+}
+
+.h-2 {
+    color: black;
+    top: 1150px;
+    position: absolute;
+    left: 17%;
+    transform: translate(-50%, -50%);
+}
+
+.linea-rp7 {
+    height: 2px;
+    background-color: #f35618;
+    width: 255px;
+    position: absolute;
+    top: 1175px;
+    left: 6%;
+}
+
+.texto-p5 {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 14px;
+    top: 1130px;
     position: absolute;
 }

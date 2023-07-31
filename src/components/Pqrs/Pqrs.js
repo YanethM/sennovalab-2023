@@ -8,7 +8,6 @@ function Pqrs() {
 
     return (
         <Container fluid >
-            <div className="Contenedorp">
 
                 <Row>
                     <Col sm={3}>
@@ -34,9 +33,9 @@ function Pqrs() {
                         </div>
                     </Col>
                 </Row>
-            </div>
+         
 
-            <div className="Contenedorp">
+        
                 <Row>
                     <Col sm={3}>
                         <div className='Contain2'>
@@ -54,8 +53,7 @@ function Pqrs() {
                     </Col>
                     <Col sm={1}></Col>
                 </Row >
-            </div >
-            <div className="Contenedorp">
+         
                 <Row>
                     <Col sm={3}>
                         <div className='Contain3'>
@@ -73,8 +71,8 @@ function Pqrs() {
                     </Col>
                     <Col sm={1}></Col>
                 </Row >
-            </div >
-            <div className="Contenedorp">
+         
+          
                 <Row>
                     <Col sm={3}>
                         <div className='Contain3'>
@@ -92,8 +90,8 @@ function Pqrs() {
                     </Col>
                     <Col sm={1}></Col>
                 </Row >
-            </div >
-            <div className="Contenedorq">
+         
+        
                 <Row>
                     <Col sm={3}>
                         <div className='Contain4'>
@@ -111,8 +109,59 @@ function Pqrs() {
                     </Col>
                     <Col sm={1}></Col>
                 </Row >
-            </div >
+          
+        
+                <Row>
+                    <Col sm={3}>
+                        <div className='Contain4'>
+                            <h1 className='h-u'>Denuncia</h1>
+                            <div className='Imagenes-container1'>
+                                <div className="linea-rp5"></div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col sm={1}></Col>
+                    <Col sm={7}>
+                        <div className='texto-p3'>
+                            <p>Es dar a conocer un acto sospechoso, posible hecho de corrupción o riesgo de fraude que esté realizando una persona a nombre del Ambiente de Servicios Tecnológicos en I+D+i SENNOVALAB o dentro de ella.</p>
+                        </div >
+                    </Col>
+                    <Col sm={1}></Col>
+                </Row >
+
+                <Row>
+                    <Col sm={3}>
+                        <div className='Contain4'>
+                            <h1 className='h-1'>Felicitación</h1>
+                            <div className='Imagenes-container1'>
+                                <div className="linea-rp6"></div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col sm={1}></Col>
+                    <Col sm={7}>
+                        <div className='texto-p4'>
+                            <p>Es la manifestación positiva frente al servicio o gestión del Ambiente de Servicios Tecnológicos en I+D+i SENNOVALAB. </p>
+                        </div >
+                    </Col>
+                </Row >
            
+                <Row>
+                    <Col sm={3}>
+                        <div className='Contain4'>
+                            <h1 className='h-2'>Agradecimiento</h1>
+                            <div className='Imagenes-container1'>
+                                <div className="linea-rp7"></div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col sm={1}></Col>
+                    <Col sm={7}>
+                        <div className='texto-p5'>
+                            <p>Es la manifestación de gratitud frente a un servicio o gestión del Ambiente de Servicios Tecnológicos en I+D+i SENNOVALAB. </p>
+                        </div >
+                    </Col>
+                </Row >
         </Container >
     );
 }

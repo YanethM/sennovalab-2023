@@ -1,0 +1,135 @@
+.Con1 {
+    border: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.ht-1 {
+    color: black;
+    justify-content: center;
+}
+
+.i-1 {
+    bottom: 0;
+    width: 20px;
+    height: 20px; 
+    position: absolute;
+    top: 190px;
+    left: 38%;
+}
+
+.linea-diagonal-1{
+    height: 2px;
+    background-color: #f35618;
+    width: 320px;
+    left: 38%;
+    top: 235px;
+    position: absolute;
+}
+.ht-2 {
+    color: black;
+    justify-content: center;
+}
+.ht-3 {
+    color: #f35618;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+}
+.Con2{
+  border: 10px;
+  padding: 50px;
+  margin: 30px;
+  justify-content: center;
+}
+.Con3{
+    border: 10px;
+    padding: 10px;
+    margin: 40px;
+    justify-content: center;
+  }
+  .Con4{
+    border: 20px;
+    padding: 10px;
+    margin: 80px;
+    justify-content: center;
+  }
+  .Con5{
+    border: 20px;
+    padding: 10px;
+    margin: 50px;
+    justify-content: center;
+  }
+  .Con6{
+    border: 20px;
+    padding: 10px;
+    margin: 97px;
+    justify-content: center;
+  }
+  .Con7{
+    border: 10px;
+    padding: 10px;
+    margin: 170px;
+    justify-content: center;
+  }
+
+  .ht-4 {
+    color: #f35618;
+    text-align: center;
+}
+.texto-p0 {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    top: 847px;
+    max-width: 900px;
+    left: 19%;
+    position: absolute;
+}
+.texto-p6 {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    top: 1040px;
+    max-width: 900px;
+    left: 19%;
+    position: absolute;
+}
+.texto-p7 {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    top: 1240px;
+    max-width: 900px;
+    left: 19%;
+    position: absolute;
+}
+.texto-p8 {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    top: 1384px;
+    max-width: 900px;
+    left: 19%;
+    position: absolute;
+}
+
+.texto-p9 {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    top: 1600px;
+    max-width: 900px;
+    left: 19%;
+    position: absolute;
+}
+.texto-p10 {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    top: 1940px;
+    max-width: 900px;
+    left: 19%;
+    position: absolute;
+}
