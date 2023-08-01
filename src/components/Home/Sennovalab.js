@@ -33,10 +33,10 @@ function Sennovalab() {
             </div>
           </Col>
 
-          <Col sm={6}>
+          <Col sm={6} className='container-carousel'>
             <div className="Contenedor">
-              <Carousel variant="dark" indicators={true}>
-                <Carousel.Item>
+              <Carousel variant="dark" indicators={true} className='container-slide'>
+                <Carousel.Item className='container-item'>
                   <img className="carrusel" style={{ width: "565px", height: "361px" }} src={Publicidad} alt="Second slide" />
                   <div>
                   <Carousel.Caption className="texto1">
