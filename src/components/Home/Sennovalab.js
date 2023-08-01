@@ -5,6 +5,7 @@ import Line from '../../assets/img/png/Line.png';
 import Construccion from '../../assets/img/png/Construccion.png';
 import Industria from '../../assets/img/png/Industria.png';
 import Software from '../../assets/img/png/Software.png';
+import Publicidad from '../../assets/img/png/Publicidad.png';
 import "./Sennovalab.css";
 import sennovalab from "../../assets/img/png/figura-pajaro.png";
 
@@ -36,12 +37,14 @@ function Sennovalab() {
             <div className="Contenedor">
               <Carousel variant="dark" indicators={true}>
                 <Carousel.Item>
-                  <img className="carrusel" src={carusel1} alt="Second slide" />
+                  <img className="carrusel" style={{ width: "565px", height: "361px" }} src={Publicidad} alt="Second slide" />
+                  <div>
                   <Carousel.Caption className="texto1">
-                    <h5>Nombre de la noticia</h5>
-                    <p>Descripción</p>
-                    <p>Leer mas..</p>
+                    <h5>Asistencia técnica de la NTC 5801:2018</h5>
+                    <p>Desde SENNOVALAB, lo invitamos a participar en la asistencia.</p>
+                    <p><a href="/Blog">Leer mas..</a></p>
                   </Carousel.Caption>
+                  </div>
                 </Carousel.Item>
 
                 <Carousel.Item>
