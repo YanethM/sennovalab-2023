@@ -52,7 +52,6 @@
     top: 260px;
     margin: 0;
     max-width: 900px;
-
 }
 
 @media (max-width: 767px) {
@@ -66,5 +65,35 @@
 
     .card-home-margin {
         margin: 20px 0px;
+    }
+
+    .container-carousel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .Contenedor{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .container-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
   }
