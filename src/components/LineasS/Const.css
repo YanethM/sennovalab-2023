@@ -598,4 +598,130 @@
     font-size: 14px;
     line-height: 1.5;
     padding: 15px;
+    margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+    /* Aquí puedes definir los estilos para las pantallas de móvil */
+    .contain{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container-b1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    .linea1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .linea-rectaa1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2px;
+        background-color: #f35618;
+        width: 358px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        margin-top: 15px;
+    }
+    .ia1{
+        display: none;
+    }
+    .hc1 {
+        position: relative;
+        bottom: 0;
+        top: 0px;
+        margin-left:0px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .textoa1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .contain2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container-c1 {
+        display: flex;
+        height: 300px;
+        width: 300px;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid black;
+    }
+    .linea1a {
+        display: flex;
+        justify-content: center;
+    }
+    .ha1 {
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        top: 0px;
+        color: black;
+    }
+    .texa1 {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 15px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .container-b2 {
+        display: flex;
+        height: 150px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contain3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ho1 {
+        position: relative;
+        bottom: 0;
+        left: 0px;
+        top: 0px;
+    }
+    .texto2 {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0;
+        left: 0px;
+        position: relative;
+        top: 0px;
+    }
+
+    .query-col-construccion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
