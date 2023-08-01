@@ -13,6 +13,8 @@ import Contact from '../pages/General/Contact/Contact';
 import Pqrs from '../components/Pqrs/Pqrs';
 import GestionI from '../components/GestionI/GestionI';
 import Preguntas from '../components/Preguntas/Preguntas';
+import Blog from '../components/Noticias/Blog';
+
 
 import { NotFound } from "../pages/General/NotFound/NotFound";
 import { ClientLayout } from "../layouts/ClientLayout/ClientLayout";
@@ -35,6 +37,7 @@ const GeneralRoutes = [
     { path: "/contacto", component: Contact, layout: ClientLayout },
     { path: "/Pqrs", component: Pqrs, layout: ClientLayout },
     { path: "/Preguntas", component: Preguntas, layout: ClientLayout },
+    { path: "/Blog", component: Blog, layout: ClientLayout },
     { path: "*", component: NotFound, layout: ClientLayout }
 ];
 
