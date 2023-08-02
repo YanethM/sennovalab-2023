@@ -38,13 +38,13 @@ function Sennovalab() {
               <Carousel variant="dark" indicators={true} className='container-slide'>
                 <Carousel.Item className='container-item'>
                   <img className="carrusel" style={{ width: "565px", height: "361px" }} src={Publicidad} alt="Second slide" />
-                  <div>
+               
                   <Carousel.Caption className="texto1">
                     <h5>Asistencia técnica de la NTC 5801:2018</h5>
                     <p>Desde SENNOVALAB, lo invitamos a participar en la asistencia.</p>
                     <p><a href="/Blog">Leer mas..</a></p>
                   </Carousel.Caption>
-                  </div>
+                 
                 </Carousel.Item>
 
                 <Carousel.Item>
