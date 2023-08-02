@@ -2,12 +2,13 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AllRoutesProject from "./config/routes";
 
+
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         {AllRoutesProject.map((route, index) => (
-       
+
           <Route
             key={index}
             path={route.path}
@@ -17,8 +18,8 @@ const App = () => {
               </route.layout>
             }
           />
-        ))} 
-        </Routes>
+        ))}
+      </Routes>
     </BrowserRouter>
   );
 };
