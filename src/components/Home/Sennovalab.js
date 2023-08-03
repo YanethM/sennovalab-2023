@@ -3,7 +3,7 @@ import { Carousel, Col, Container, Image, Row } from 'react-bootstrap';
 import carusel1 from '../../assets/img/png/carusel1.png';
 import Line from '../../assets/img/png/Line.png';
 import industri from '../../assets/img/png/Industria.png';
-import publicidad from '../../assets/img/jpg/publicity.jpg';
+import publicity from '../../assets/img/jpg/publicity.jpg';
 import softwar from '../../assets/img/png/Software.png';
 import "./Sennovalab.css";
 import construccio from '../../assets/img/png/Construccion.png';
@@ -36,15 +36,14 @@ function Sennovalab() {
           <Col sm={6} className='container-carousel'>
             <div className="Contenedor">
               <Carousel variant="dark" indicators={true} className='container-slide'>
+
                 <Carousel.Item className='container-item'>
-                  <img className="carrusel" src={publicidad} alt="Second slide" />
-               
+                  <img className="carrusel" src={publicity} alt="" />
                   <Carousel.Caption className="texto1">
                     <h5>Asistencia técnica de la NTC 5801:2018</h5>
                     <p>Desde SENNOVALAB, lo invitamos a participar en la asistencia.</p>
                     <p><a href="/Blog">Leer mas..</a></p>
                   </Carousel.Caption>
-                 
                 </Carousel.Item>
 
                 <Carousel.Item>
