@@ -2,11 +2,11 @@ import React from 'react';
 import { Carousel, Col, Container, Image, Row } from 'react-bootstrap';
 import carusel1 from '../../assets/img/png/carusel1.png';
 import Line from '../../assets/img/png/Line.png';
-import industri from '../../assets/img/png/industria.png';
+import industri from '../../assets/img/png/Industria.png';
 import publicidad from '../../assets/img/jpg/publicity.jpg';
-import softwar from '../../assets/img/png/software.png';
+import softwar from '../../assets/img/png/Software.png';
 import "./Sennovalab.css";
-import construccio from '../../assets/img/png/construccion.png';
+import construccio from '../../assets/img/png/Construccion.png';
 import sennovalab from "../../assets/img/png/figura-pajaro.png";
 
 function Sennovalab() {

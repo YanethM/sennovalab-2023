@@ -6,9 +6,9 @@ import Container from "react-bootstrap/Container";
 import "./Contact.css";
 import Image from "react-bootstrap/Image";
 import Line from "../../../assets/img/png/Line.png";
-import construccion from "../../../assets/img/png/construccion.png";
-import industria from "../../../assets/img/png/industria.png";
-import software from "../../../assets/img/png/software.png";
+import construccion from "../../../assets/img/png/Construccion.png";
+import industria from "../../../assets/img/png/Industria.png";
+import software from "../../../assets/img/png/Software.png";
 import figura from "../../../assets/img/png/figura-pajaro.png";
 import ContactForm from "../../../components/ContactForm/ContactForm";
 
