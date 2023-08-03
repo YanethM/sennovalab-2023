@@ -34,13 +34,17 @@
 .carousel-item {
     transform: translateY(0);
     transition: transform 0.01s ease-in-out;
-    object-fit: cover;
 
 }
 
 
-.carousel-item.active .carrusel {
+/* .carousel-item.active .carrusel {
     transform: translateY(-80px);
+} */
+
+.carrusel{
+    width: 565px;
+    height: 361px;
 }
 
 .texto1 {

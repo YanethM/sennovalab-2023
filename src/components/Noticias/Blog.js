@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
-import Publicidad from '../../assets/img/png/Publicidad.png';
+import publicidad from '../../assets/img/jpg/publicity.jpg';
 import Qr from '../../assets/img/png/Qr.png';
 import "./Blog.css";
 
@@ -13,7 +13,7 @@ function Blog() {
                     <Col sm={12}>
                         <div className="Contai1">
                             <Image
-                                style={{ width: "565px", height: "861px" }} className="Pulicidad" src={Publicidad}
+                                style={{ width: "565px", height: "861px" }} className="Pulicidad" src={publicidad}
                             />
                         </div>
                         <div className="Contai2">
