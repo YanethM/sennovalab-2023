@@ -2,11 +2,11 @@ import React from 'react';
 import { Carousel, Col, Container, Image, Row } from 'react-bootstrap';
 import carusel1 from '../../assets/img/png/carusel1.png';
 import Line from '../../assets/img/png/Line.png';
-import Construccion from '../../assets/img/png/Construccion.png';
-import Industria from '../../assets/img/png/Industria.png';
-import Software from '../../assets/img/png/Software.png';
-import Publicidad from '../../assets/img/png/Publicidad.png';
+import industria from '../../assets/img/png/industria.png';
+import software from '../../assets/img/png/software.png';
+import publicidad from '../../assets/img/jpg/publicity.jpg';
 import "./Sennovalab.css";
+import construccion from '../../assets/img/png/construccion.png';
 import sennovalab from "../../assets/img/png/figura-pajaro.png";
 
 function Sennovalab() {
@@ -37,7 +37,7 @@ function Sennovalab() {
             <div className="Contenedor">
               <Carousel variant="dark" indicators={true} className='container-slide'>
                 <Carousel.Item className='container-item'>
-                  <img className="carrusel" style={{ width: "565px", height: "361px" }} src={Publicidad} alt="Second slide" />
+                  <img className="carrusel" src={publicidad} alt="Second slide" />
                
                   <Carousel.Caption className="texto1">
                     <h5>Asistencia técnica de la NTC 5801:2018</h5>
@@ -110,21 +110,21 @@ function Sennovalab() {
               <a href="/const" className="card-home-margin">
                 <Image
                   className="Imag"
-                  src={Construccion}
+                  src={construccion}
                   style={{ width: "200px", height: "295px" }}
                 />
               </a>
               <a href="/ind" className="card-home-margin">
                 <Image
                   className="Imag"
-                  src={Industria}
+                  src={industria}
                   style={{ width: "200px", height: "295px" }}
                 />
               </a>
               <a href="/desa" className="card-home-margin">
                 <Image
                   className="Imag"
-                  src={Software}
+                  src={software}
                   style={{ width: "200px", height: "295px" }}
                 />
               </a>

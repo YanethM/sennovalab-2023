@@ -4,9 +4,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
-import Construccion from "../../assets/img/png/Construccion.png";
-import Industria from "../../assets/img/png/Industria.png";
-import Software from "../../assets/img/png/Software.png";
+import construccion from "../../../src/assets/img/png/construccion.png";
+import industria from "../../../src/assets/img/png/industria.png";
+import software from "../../../src/assets/img/png/software.png";
 import Logon from "../../assets/img/png/Logon.png";
 import Servi from "../../assets/img/png/Servi.png";
 import "./Const.css";
@@ -19,7 +19,7 @@ const Const = () => {
           <Col sm={2} className="text-center">
             <div className="Imag5">
               <Image
-                src={Construccion}
+                src={construccion}
                 style={{ width: "280px", height: "265px" }}
               />
             </div>
@@ -193,12 +193,12 @@ const Const = () => {
           <div className="container-di">
             <Image
               className="Imag12"
-              src={Industria}
+              src={industria}
               style={{ width: "150px", height: "205px" }}
             />
             <Image
               className="Imag13"
-              src={Software}
+              src={software}
               style={{ width: "150px", height: "205px" }}
             />
           </div>

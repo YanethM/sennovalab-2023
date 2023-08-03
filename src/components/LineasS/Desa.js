@@ -4,9 +4,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
-import Construccion from '../../assets/img/png/Construccion.png';
-import Industria from '../../assets/img/png/Industria.png';
-import Software from '../../assets/img/png/Software.png';
+import construccion from "../../../src/assets/img/png/construccion.png";
+import industria from "../../../src/assets/img/png/industria.png";
+import software from "../../../src/assets/img/png/software.png";
 import Logon from '../../assets/img/png/Logon.png';
 import Servi from '../../assets/img/png/Servi.png';
 import "./Desa.css";
@@ -22,7 +22,7 @@ const Desa = () => {
         <Row>
           <Col sm={2} className='text-center' >
             <div className="Imag5">
-              <Image src={Software} style={{ width: '280px', height: '265px', }} />
+              <Image src={software} style={{ width: '280px', height: '265px', }} />
             </div>
 
           </Col>
@@ -159,8 +159,8 @@ const Desa = () => {
       <Row>
         <Col md={2} className='text-center'>
           <div className="container-di">
-            <Image className='Imag13' src={Construccion} style={{ width: '150px', height: '205px', }} />
-            <Image className='Imag12' src={Industria} style={{ width: '150px', height: '205px', }} />
+            <Image className='Imag13' src={construccion} style={{ width: '150px', height: '205px', }} />
+            <Image className='Imag12' src={industria} style={{ width: '150px', height: '205px', }} />
           </div>
         </Col>
         <Col md={3} className='text-center'>

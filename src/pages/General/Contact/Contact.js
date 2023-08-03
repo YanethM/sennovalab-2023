@@ -6,9 +6,9 @@ import Container from "react-bootstrap/Container";
 import "./Contact.css";
 import Image from "react-bootstrap/Image";
 import Line from "../../../assets/img/png/Line.png";
-import Construccion from "../../../assets/img/png/Construccion.png";
-import Industria from "../../../assets/img/png/Industria.png";
-import Software from "../../../assets/img/png/Software.png";
+import construccion from "../../../assets/img/png/construccion.png";
+import industria from "../../../assets/img/png/industria.png";
+import software from "../../../assets/img/png/software.png";
 import figura from "../../../assets/img/png/figura-pajaro.png";
 import ContactForm from "../../../components/ContactForm/ContactForm";
 
@@ -30,11 +30,11 @@ function Contact() {
           <Row className="cards-line-margin">
             <Col>
               <Image
-              src={Construccion}
+              src={construccion}
               style={{ width: "120px", height: "140px" }}
               />
-              <Image src={Industria} style={{ width: "120px", height: "140px" }} />
-              <Image src={Software} style={{ width: "120px", height: "140px" }} />
+              <Image src={industria} style={{ width: "120px", height: "140px" }} />
+              <Image src={software} style={{ width: "120px", height: "140px" }} />
             </Col>
           </Row>
         </Col>
