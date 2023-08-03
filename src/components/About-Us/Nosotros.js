@@ -3,9 +3,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Portafolio from "../../assets/img/png/Portafolio.png";
-import industria from "../../assets/img/png/industria.png";
-import software from "../../assets/img/png/software.png";
-import construccion from "../../assets/img/png/construccion.png";
+import industri from "../../assets/img/png/industria.png";
+import softwar from "../../assets/img/png/software.png";
+import construccio from "../../assets/img/png/construccion.png";
 import Logon from "../../assets/img/png/Logon.png";
 import "./Nosotros.css";
 
@@ -150,7 +150,7 @@ const Nosotros = () => {
               <div className="Imagenes-container">
                 <Image
                   className="imagen"
-                  src={construccion}
+                  src={construccio}
                   style={{ width: "220px", height: "225px" }}
                 />
               </div>
@@ -158,12 +158,12 @@ const Nosotros = () => {
             <div className="container-d ">
               <Image
                 className="Imag"
-                src={software}
+                src={softwar}
                 style={{ width: "220px", height: "225px" }}
               />
               <Image
                 className="Imag"
-                src={industria}
+                src={industri}
                 style={{ width: "220px", height: "225px" }}
               />
             </div>
