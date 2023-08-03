@@ -2,11 +2,11 @@ import React from 'react';
 import { Carousel, Col, Container, Image, Row } from 'react-bootstrap';
 import carusel1 from '../../assets/img/png/carusel1.png';
 import Line from '../../assets/img/png/Line.png';
-import industria from '../../assets/img/png/industria.png';
+import industri from '../../assets/img/png/industria.png';
 import publicidad from '../../assets/img/jpg/publicity.jpg';
-import software from '../../assets/img/png/software.png';
+import softwar from '../../assets/img/png/software.png';
 import "./Sennovalab.css";
-import construccion from '../../assets/img/png/construccion.png';
+import construccio from '../../assets/img/png/construccion.png';
 import sennovalab from "../../assets/img/png/figura-pajaro.png";
 
 function Sennovalab() {
@@ -110,21 +110,21 @@ function Sennovalab() {
               <a href="/const" className="card-home-margin">
                 <Image
                   className="Imag"
-                  src={construccion}
+                  src={construccio}
                   style={{ width: "200px", height: "295px" }}
                 />
               </a>
               <a href="/ind" className="card-home-margin">
                 <Image
                   className="Imag"
-                  src={industria}
+                  src={industri}
                   style={{ width: "200px", height: "295px" }}
                 />
               </a>
               <a href="/desa" className="card-home-margin">
                 <Image
                   className="Imag"
-                  src={software}
+                  src={softwar}
                   style={{ width: "200px", height: "295px" }}
                 />
               </a>
