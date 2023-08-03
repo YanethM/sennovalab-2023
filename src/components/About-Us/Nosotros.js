@@ -3,9 +3,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Portafolio from "../../assets/img/png/Portafolio.png";
-import construccion from "../../assets/img/png/construccion.png";
 import industria from "../../assets/img/png/industria.png";
 import software from "../../assets/img/png/software.png";
+import construccion from "../../assets/img/png/construccion.png";
 import Logon from "../../assets/img/png/Logon.png";
 import "./Nosotros.css";
 
