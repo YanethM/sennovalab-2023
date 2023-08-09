@@ -7,7 +7,7 @@ import './GestionI.css';
 const GestionI = () => {
   return (
     <Container fluid >
-
+     <div className="Con0">
       <Row>
         <Col sm={3}>
           <div className='Co1'>
@@ -31,7 +31,8 @@ const GestionI = () => {
           </div>
         </Col>
       </Row>
-
+      </div>
+      <div className="Con0">
       <Row>
         <Col sm={3}>
           <div className='Co2'>
@@ -62,9 +63,11 @@ const GestionI = () => {
         </Col>
         <Col sm={2}></Col>
       </Row>
+      </div>
+      <div className="Con0">
       <Row>
         <Col sm={3}>
-          <div className='Co1'>
+          <div className='Co3'>
             <h1 className='h-p7' >ESTRATEGIA DE</h1>
             <div className='Imagenes-container1'>
               <Image className='i-m3' src={sennovalab} style={{ width: '70px', height: '70px', }} />
@@ -75,12 +78,13 @@ const GestionI = () => {
         </Col>
         <Col sm={1}></Col>
         <Col sm={7}>
-            <div className='texto-pa-1'>
+            <div className='texto-pa-4'>
               <p>El Ambiente de Servicios Tecnológicos en I+D+i SENNOVALAB cuenta con una estrategia de innovación que promueve la creatividad, la cultura de la innovación y la generación de ideas y oportunidades con el fin de dar respuesta a las necesidades del sector productivo y del SENA a través de los servicios de asesoría y consultoría en actividades de investigación, desarrollo tecnológico e innovación (I+D+i), para contribuir al incremento de la productividad y la competitividad de las empresas de Caldas, generando capacidades en I+D+i, nuevos o mejorados productos (bienes o servicios) y procesos a través de soluciones innovadoras.</p>
               <p>Esta estrategia se enfoca en convertir a SENNOVALAB en referente regional en la prestación de servicios de asesoría y consultoría en formulación y gestión de proyectos de I+D+i, y en el cumplimiento de su propuesta de valor: Contribuir al incremento de la productividad y la competitividad de las empresas de Caldas y a la calidad de la formación del SENA, a través de la prestación de nuestros servicios en actividades de I+D+i.</p>
             </div>
         </Col>
       </Row>
+      </div>
     </Container>
   );
 };

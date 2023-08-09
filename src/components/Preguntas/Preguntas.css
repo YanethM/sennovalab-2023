@@ -32,10 +32,11 @@
     justify-content: center;
 }
 .ht-3 {
-    color: #f35618;
+    color: #ec5210;
     justify-content: center;
     align-items: center;
     max-width: 1100px;
+    text-align: justify;
 }
 .Con2{
   border: 10px;
@@ -83,9 +84,10 @@
     font-size: 16px;
     line-height: 1.5;
     top: 847px;
-    max-width: 900px;
     left: 19%;
     position: absolute;
+    text-align: justify;
+    max-width: 900px;
 }
 .texto-p6 {
     color: #333;
@@ -95,6 +97,7 @@
     max-width: 900px;
     left: 19%;
     position: absolute;
+    text-align: justify;
 }
 .texto-p7 {
     color: #333;
@@ -104,6 +107,7 @@
     max-width: 900px;
     left: 19%;
     position: absolute;
+    text-align: justify;
 }
 .texto-p8 {
     color: #333;
@@ -113,6 +117,7 @@
     max-width: 900px;
     left: 19%;
     position: absolute;
+    text-align: justify;
 }
 
 .texto-p9 {
@@ -123,6 +128,7 @@
     max-width: 900px;
     left: 19%;
     position: absolute;
+    text-align: justify;
 }
 .texto-p10 {
     color: #333;
@@ -132,4 +138,179 @@
     max-width: 900px;
     left: 19%;
     position: absolute;
+    text-align: justify;
+}
+
+@media (max-width: 1150px) {
+    /* estilos para las pantallas de móvil */
+    
+    /*contain1*/
+    .Con1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: auto;
+        height: 60%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .ht-1,
+    .ht-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+        top: 0px;
+        position: relative;
+        left: 0px;
+        transform: none;
+        padding: 0px;
+    }
+    .linea-diagonal-1{
+        position: relative;
+        bottom: 0;
+        left: 110px;
+        width: 200px;
+        height: 2px;
+        top: 12px;;
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .i-1{
+        position: relative;
+        bottom: 0;
+        left: 100px;
+        width: 20px;
+        height: 20px;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Con2{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px; 
+        
+    }
+
+    .Con3{
+        display: flex;
+        position: relative;
+        height: 60%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ht-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    top: 0px;
+    position: relative;
+    left: 0px;
+    transform: none;
+    padding: 0px;
+    
+}
+.texto-p0{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: -20px;
+    top: 40px;
+    position: relative;
+    left: 0px;
+    text-align: justify;
+}
+.Con4{
+    display: flex;
+    position: relative;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.texto-p6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: -60px;
+    top: 90px;
+    position: relative;
+    left: 0px;
+    text-align: justify;
+}
+.Con5{
+    display: flex;
+    position: relative;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.texto-p7{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: -30px;
+    top: 70px;
+    position: relative;
+    left: 0px;
+    text-align: justify;
+}
+.texto-p8{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: -10px;
+    top: 50px;
+    position: relative;
+    left: 0px; 
+    text-align: justify;
+}
+.Con6{
+    display: flex;
+    position: relative;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+.texto-p9{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: -60px;
+    top: 117px;
+    position: relative;
+    left: 0px;
+    text-align: justify;
+    
+}
+.Con7{
+    display: flex;
+    position: relative;
+    height: 0%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+.texto-p10{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: -135px;
+    top: 167px;
+    position: relative;
+    left: 0px;
+    text-align: justify;
+}
 }

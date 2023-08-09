@@ -1,3 +1,4 @@
+
 .Co1 {
     display: flex;
     flex-direction: column;
@@ -5,6 +6,7 @@
     height: 40vh;
     justify-content: center;
 }
+
 .h-p1 {
     color: black;
     top: 240px;
@@ -20,6 +22,7 @@
     left: 20%;
     transform: translate(-50%, -50%);
 }
+
 .i-m1 {
     height: 2px;
     position: absolute;
@@ -29,6 +32,7 @@
     height: 20px;
     top: 208px;
 }
+
 .li-1 {
     height: 2px;
     background-color: #f35618;
@@ -37,16 +41,20 @@
     top: 263px;
     left: 6%;
 }
+
 .h-p3 {
     transform: translate(1%, -50%);
     color: black;
 }
+
 .texto-pa-1 {
     color: black;
     font-size: 22px;
     line-height: 1.5;
     margin: 0;
     padding: 10px;
+    text-align: justify;
+    max-width: 700px;
 }
 
 .Co2 {
@@ -56,6 +64,7 @@
     height: 140vh;
     justify-content: center;
 }
+
 .h-p4 {
     color: black;
     top: 790px;
@@ -71,6 +80,7 @@
     left: 18%;
     transform: translate(-50%, -50%);
 }
+
 .i-m2 {
     height: 2px;
     position: absolute;
@@ -80,7 +90,8 @@
     height: 20px;
     top: 765px;
 }
-.li-2{
+
+.li-2 {
     height: 2px;
     background-color: #f35618;
     width: 295px;
@@ -88,6 +99,7 @@
     top: 810px;
     left: 6%;
 }
+
 .h-p6 {
     transform: translate(1%, -50%);
     color: black;
@@ -95,6 +107,7 @@
     top: 493px;
     left: 34%;
 }
+
 .texto-pa-2 {
     color: black;
     font-size: 22px;
@@ -104,7 +117,10 @@
     position: absolute;
     top: 543px;
     left: 34%;
+    text-align: justify;
+    max-width: 700px;
 }
+
 .texto-pa-3 {
     color: black;
     font-size: 17px;
@@ -114,7 +130,10 @@
     position: absolute;
     top: 943px;
     left: 14%;
+    text-align: justify;
+    max-width: 1000px;
 }
+
 .Co1 {
     display: flex;
     flex-direction: column;
@@ -122,6 +141,16 @@
     height: 40vh;
     justify-content: center;
 }
+
+.Co3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    justify-content: center;
+    margin-bottom: -auto;
+}
+
 .h-p7 {
     color: black;
     top: 1490px;
@@ -137,6 +166,7 @@
     left: 19%;
     transform: translate(-50%, -50%);
 }
+
 .i-m3 {
     height: 2px;
     position: absolute;
@@ -146,6 +176,7 @@
     height: 20px;
     top: 1480px;
 }
+
 .li-3 {
     height: 2px;
     background-color: #f35618;
@@ -154,10 +185,241 @@
     top: 1520px;
     left: 6%;
 }
-.texto-pa-1 {
+
+.texto-pa-4 {
     color: black;
     font-size: 22px;
     line-height: 1.5;
     margin: 0;
     padding: 10px;
+    text-align: justify;
+    max-width: 700px;
+}
+
+@media (max-width: 1150px) {
+
+    /* estilos para las pantallas de móvil */
+
+
+    .Co1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: auto;
+        height: 60%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .h-p1,
+    .h-p2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+        top: 0px;
+        position: relative;
+        left: 0px;
+        transform: none;
+        padding: 0px;
+    }
+
+    .li-1 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 200px;
+        height: 2px;
+        top: 40px;
+        ;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .i-m1 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .h-p3 {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        top: 0px;
+        position: relative;
+        left: 0px;
+        transform: none;
+        padding: 0px;
+    }
+
+    .texto-pa-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+        top: 20px;
+        position: relative;
+        left: 0px;
+        transform: none;
+        padding: 0px;
+        text-align: justify;
+    }
+
+    .Co2 {
+        display: flex;
+        position: relative;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .h-p4,
+    .h-p5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+        top: 90px;
+        position: relative;
+        left: 0px;
+        transform: none;
+        padding: 0px;
+    }
+
+    .i-m2 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        top: 90px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .li-2 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 200px;
+        height: 2px;
+        top: 130px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .h-p6 {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        top: 190px;
+        position: relative;
+        left: 0px;
+        transform: none;
+        padding: 0px;
+    }
+
+    .texto-pa-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+        top: 210px;
+        position: relative;
+        left: 0px;
+        transform: none;
+        padding: 0px;
+        text-align: justify;
+    }
+
+
+    .texto-pa-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+        top: 230px;
+        position: relative;
+        left: 0px;
+        transform: none;
+        padding: 0px;
+        text-align: justify;
+    }
+    
+    .Co3 {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px;
+       
+
+    }
+    .h-p7,
+    .h-p8 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+        top: 110px;
+        position: relative;
+        left: 0px;
+        transform: none;
+        padding: 0px;
+    }
+
+    .i-m3 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        top: 110px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .li-3 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 200px;
+        height: 2px;
+        top: 150px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .texto-pa-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+        top: 2px;
+        position: relative;
+        left: 0px;
+        transform: none;
+        padding: 0px;
+        text-align: justify;
+    }
 }
