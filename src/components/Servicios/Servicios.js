@@ -33,7 +33,7 @@ const Servicios = () => {
                     <div className="container card">
                         <div className="container-image-service">
                             <img src={image5} alt="portfolio" className="img-service" />
-                            <h4 className="text-service">ASESORIA</h4>
+                            <p className="text-service">ASESORÍA EN FORMULACIÓN O GESTION DE PROYECTOS DE I+D+i </p>
                             <Image src={Lnara} className="line-service-bottom" />
                         </div>
                     </div>
@@ -42,7 +42,7 @@ const Servicios = () => {
                     <div className="container card">
                         <div className="container-image-service">
                             <img src={image6} alt="portfolio" className="img-service" />
-                            <h4 className="text-service">CONSULTORIA</h4>
+                            <p className="text-service">CONSULTORÍA EN COMPONENTES DE FORMULACIÓN Y GESTIÓN DE PROYECTOS DE I+D+i</p>
                             <Image src={Lnara} className="line-service-bottom" />
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const Servicios = () => {
                     <div className="container card">
                         <div className="container-image-service">
                             <img src={image7} alt="portfolio" className="img-service" />
-                            <h4 className="text-service">TRANSFERENCIA</h4>
+                            <p className="text-service">TRANSFERENCIA DE CONOCIMIENTOS EN ACTIVIDADES DE I+D+i</p>
                             <Image src={Lnara} className="line-service-bottom" />
                         </div>
                     </div>
@@ -64,7 +64,7 @@ const Servicios = () => {
                         <div className="Imagenes-container1">
                             <Image
                                 className="icon-text-client"
-                                src={Logon}style={{ width: "30px", height: "30px" }}
+                                src={Logon} style={{ width: "30px", height: "30px" }}
                             />
                             <div className="linea-recta11db"></div>
                         </div>
@@ -72,11 +72,11 @@ const Servicios = () => {
                     </div>
                 </Col>
             </Row>
-             <Row>
-        <Col sm={12} className="text-center">
-          <Image src={Color} className="image-service"/>
-        </Col>
-      </Row> 
+            <Row>
+                <Col sm={12} className="text-center">
+                    <Image src={Color} className="image-service" />
+                </Col>
+            </Row>
         </Container>
     );
 };

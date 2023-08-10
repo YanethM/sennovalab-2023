@@ -35,21 +35,20 @@ function Sennovalab() {
 
           <Col sm={6} className='container-carousel'>
             <div className="Contenedor">
-              <Carousel variant="dark" indicators={true} className='container-slide'>
+              <Carousel variant="dark" className='container-slide'>
 
                 <Carousel.Item className='container-item'>
                   <img className="carrusel" src={publicity} alt="" />
                   <Carousel.Caption className="texto1">
-                    <h5>Asistencia técnica de la NTC 5801:2018</h5>
-                    <p>Desde SENNOVALAB, lo invitamos a participar en la asistencia.</p>
-                    <p><a href="/Blog">Leer mas..</a></p>
+                    <h6 className='hseis'>Asistencia técnica de la NTC 5801:2018</h6>
+                    <p className='parrafo'>Desde SENNOVALAB, lo invitamos a participar en la asistencia.<a href="/Blog">  Click aqui</a></p>
                   </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item>
                   <img className="carrusel" src={carusel1} alt="Second slide" />
                   <Carousel.Caption className="texto1">
-                    <h5>Nombre de la noticia</h5>
+                    <h6 className='hseis'>Nombre de la noticia</h6>
                     <p>Descripción</p>
                     <p>Leer mas..</p>
                   </Carousel.Caption>
@@ -57,7 +56,7 @@ function Sennovalab() {
                 <Carousel.Item>
                   <img className="carrusel" src={carusel1} alt="Third slide" />
                   <Carousel.Caption className="texto1">
-                    <h5>Nombre de la noticia</h5>
+                    <h6 className='hseis'>Nombre de la noticia</h6>
                     <p>Descripción</p>
                     <p>Leer mas..</p>
                   </Carousel.Caption>
@@ -65,7 +64,7 @@ function Sennovalab() {
                 <Carousel.Item>
                   <img className="carrusel" src={carusel1} alt="Third slide" />
                   <Carousel.Caption className="texto1">
-                    <h5>Nombre de la noticia</h5>
+                    <h6 className='hseis'>Nombre de la noticia</h6>
                     <p>Descripción</p>
                     <p>Leer mas..</p>
                   </Carousel.Caption>
@@ -73,7 +72,7 @@ function Sennovalab() {
                 <Carousel.Item>
                   <img className="carrusel" src={carusel1} alt="Third slide" />
                   <Carousel.Caption className="texto1">
-                    <h5>Nombre de la noticia</h5>
+                    <h6 className='hseis'>Nombre de la noticia</h6>
                     <p>Descripción</p>
                     <p>Leer mas..</p>
                   </Carousel.Caption>
