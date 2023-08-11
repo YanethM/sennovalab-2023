@@ -8,14 +8,14 @@ import construccion from "../../../src/assets/img/png/Construccion.png";
 import industria from "../../../src/assets/img/png/Industria.png";
 import software from "../../../src/assets/img/png/Software.png";
 import Logon from "../../assets/img/png/Logon.png";
-import Servi from "../../assets/img/png/Servi.png";
+import servi from "../../assets/img/png/Servi.png";
 import "./Const.css";
 
 const Const = () => {
   return (
-    <Container fluid>
+    <Container fluid className="query-container-constru">
       <div className="Contenedor1">
-        <Row>
+        <Row className="contenedor1-row-constru">
           <Col sm={2} className="text-center">
             <div className="Imag5">
               <Image
@@ -24,7 +24,7 @@ const Const = () => {
               />
             </div>
           </Col>
-          <Col md={1}></Col>
+          <Col md={1} className="display-none"></Col>
           <Col md={3} className="contain" >
             <div className="container-b1">
               <div className="linea1">
@@ -37,7 +37,7 @@ const Const = () => {
                 <h2 className="hc1">OBJETIVO</h2>
               </div>
             </div>
-            <div>
+            <div className="container-b2">
               <p className="textoa1">
                 {" "}
                 Aportar al desarrollo de ideas creativas, el conocimiento en
@@ -63,7 +63,7 @@ const Const = () => {
                 <h2 className="ha1">MISIÓN</h2>
               </div>
             </div>
-            <div>
+            <div className="container-c2">
               <p className="texa1">
                 Brindar servicios de asesoría en proyectos de construcción
                 basados en enfoques de arquitectura, ingeniería, materiales y
@@ -75,8 +75,8 @@ const Const = () => {
             <div className="linea-diagonal2"></div>
           </Col>
           <Col md={3} className="contain3">
-            <div className="container-b2">
-              <div className="linea1">
+            <div className="container-b3">
+              <div className="linea2">
                 <div className="linea-dian1"></div>
                 <div className="linea-reci1"></div>
                 <div className="triangulon1"></div>
@@ -88,7 +88,7 @@ const Const = () => {
                 <h2 className="ho1">VISIÓN</h2>
               </div>
             </div>
-            <div>
+            <div className="container-bb2">
               <p className="texto2">
                 {" "}
                 Para el año 2025 la línea de construcción estará prestando,
@@ -102,7 +102,7 @@ const Const = () => {
       </div>
       {/*     Contenido 2 */}
       <Row className="query-col-construccion">
-        <Col md={2}>
+        <Col md={2} className="justify-querycol">
           <div className="Container3">
             <h2 className="Der1">LINEA DE</h2>
             <div className="Imagenes-container1">
@@ -170,19 +170,19 @@ const Const = () => {
           <div className="container-d">
             <div className="outer-cards1">
               <div className="inner-ca1">
-                <img className="image-tex" src={Servi} />
+                <img className="image-tex" src={servi} alt="servi"/>
                 <h5 className="image-tex-h">SUBLINEA</h5>
                 <p className="image-tex-p">DESCRIPCIÓN</p>
               </div>
             </div>
           </div>
-          <div className="linea1">
+          <div className="circle-off">
             <div className="linea-dian11"></div>
             <div className="linea-reci11"></div>
-            <div className="outer-circle">
-              <circle color=" #f35618" />
-              <div className="inner-circle">
-                <circle color="gray" />
+            <div className="outer-circle circle-off">
+              <circle color=" #f35618" className="circle-off"/>
+              <div className="inner-circle circle-off">
+                <circle color="gray circle-off" />
               </div>
             </div>
           </div>
