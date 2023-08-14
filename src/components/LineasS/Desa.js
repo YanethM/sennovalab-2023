@@ -27,30 +27,41 @@ const Desa = () => {
 
           </Col>
           <Col md={1}></Col>
-          <Col md={3}>
+          <Col md={3} className="contain">
             <div className="container-b1">
-              <div className="linea1">
+              <div className="linea1a">
                 <div className="linea-rectaa1"></div>
-                <Image className='ia1' src={Logon} style={{ width: '20px', height: '20px', }} />
+                <Image
+                  className='ia1'
+                  src={Logon}
+                  style={{ width: '20px', height: '20px', }}
+                />
                 <h2 className="hc1">OBJETIVO</h2>
               </div>
             </div>
             < div>
-              <p className="textoa1">  Aportar al desarrollo de ideas creativas, el conocimiento en áreas relacionadas al sector de la construcción e ingeniería, diseño y materiales y redes eléctricas, incentivando la generación de proyectos en I+D+i y apoyando los programas de capacitación en el Centro de Procesos industriales y Construcción, además de empresas en el departamento de Caldas.</p>
+              <p className="textoa1">
+                {" "}
+                Aportar al desarrollo de ideas creativas, el conocimiento en áreas relacionadas al sector de la construcción e ingeniería, diseño y materiales y redes eléctricas, incentivando la generación de proyectos en I+D+i y apoyando los programas de capacitación en el Centro de Procesos industriales y Construcción, además de empresas en el departamento de Caldas.</p>
             </div>
           </Col>
-          <Col md={3}>
+          <Col md={3} className="contain2" >
             <div className="container-c1">
               <div className="linea1a">
                 <div className="linea-di1"></div>
                 <div className="linea-re1"></div>
                 <div className="trianglea1"></div>
-                <Image className='in1' src={Logon} style={{ width: '20px', height: '20px', }} />
+                <Image 
+                className='in1'
+                 src={Logon} 
+                 style={{ width: '20px', height: '20px', }}
+                  />
                 <h2 className="ha1">MISIÓN</h2>
               </div>
             </div>
             < div>
-              <p className="texa1">Brindar servicios de asesoría en proyectos de construcción basados en enfoques de arquitectura, ingeniería, materiales y redes eléctricas con un capital humano calificado, buscando la satisfacción de los clientes, el crecimiento intelectual y el desarrollo de ideas creativas.</p>
+              <p className="texa1">
+                Brindar servicios de asesoría en proyectos de construcción basados en enfoques de arquitectura, ingeniería, materiales y redes eléctricas con un capital humano calificado, buscando la satisfacción de los clientes, el crecimiento intelectual y el desarrollo de ideas creativas.</p>
             </div>
             <div className="linea-die1"></div>
           </Col>
