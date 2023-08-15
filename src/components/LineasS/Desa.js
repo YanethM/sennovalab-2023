@@ -65,7 +65,7 @@ const Desa = () => {
             </div>
             <div className="linea-die1"></div>
           </Col>
-          <Col md={3}>
+          <Col md={3} className="contain3">
             <div className="container-b2">
               <div className="linea1">
                 <div className="linea-dian1"></div>
@@ -85,7 +85,7 @@ const Desa = () => {
       </div>
       {/*     Contenido 2 */}
       <Row>
-        <Col md={2} >
+        <Col md={2} className="contain4" >
           <div className='Container3'>
             <h2 className='Der1' >LINEA DE</h2>
             <div className='Imagenes-container1'>
@@ -95,7 +95,7 @@ const Desa = () => {
           </div>
         </Col>
 
-        <Col md={3} >
+        <Col md={3} className="contain5">
           <div className='Container3'>
             <h2 className='Der221' >SUBLINEAS DE</h2>
             <div className='Imagenes-container1'>

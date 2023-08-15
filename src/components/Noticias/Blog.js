@@ -10,21 +10,27 @@ function Blog() {
         <Container fluid>
             <div className="Contenido1">
                 <Row>
-                    <Col sm={12}>
+                    <Col sm={12} className="Cota0">
                         <div className="Contai1">
                             <Image
-                                style={{ width: "565px", height: "861px" }} className="Pulicidad" src={publicidad}
+                                className="Pulicidad" src={publicidad}
                             />
                         </div>
-                        <div className="Contai2">
+                    </Col>
+                </Row>
+                <div className="Contai2">
+                    <Row>
+                        <Col sm={12} className="Cota1">
                             <h3 className='h-3'>
                                 Fortalezca sus conocimientos en actividades de I+D+i
                             </h3>
+
                             <h5 className='h-5'>
                                 Desde SENNOVALAB, lo invitamos a participar en la asistencia técnica en la implementación de la NTC 5801:2018 "Sistema de Gestión de la Innovación”
                             </h5>
-                        </div>
-                        <div className="Contai3">
+                        </Col>
+
+                        <Col sm={12} className="Contai3">
                             <h5 className='h_5'>
                                 Fechas:  del  28 agosto al 06 de septiembre 2023
                             </h5>
@@ -37,16 +43,21 @@ function Blog() {
                             <h5 className='h_1'>
                                 Ya están abiertas las inscripciones, acceda a su cupo
                             </h5>
-                        </div>
+                        </Col>
+                    </Row>
+                </div >
+
+                <Row>
+                    <Col>
                         <div className="Contai4">
                             <p className="t1">Transferencia de conocimiento dirigida a:</p>
                             <p className="t1">Todas aquellas personas interesadas en mejorar sus conocimientos en sistemas de gestión y actividades de Ciencia, Tecnología e Innovación</p>
                         </div>
-                        </Col>
-                        </Row>
+                    </Col>
+                </Row>
 
-                        <Row>
-                        <Col sm={6}>
+                <Row>
+                    <Col sm={6} className="Cota3">
                         <div className="Contai5">
                             <h4>En esta asistencia técnica usted adquirirá conocimientos sobre:</h4>
                             <ul>
@@ -62,22 +73,23 @@ function Blog() {
                                 <li>10. Mejora</li>
                             </ul>
                         </div>
-                        </Col>
-                        <Col sm={6}>
+                    </Col>
+                    <Col sm={6}>
                         <div className="Contai6">
                             <h3>Inscripción en el enlace:</h3>
                             <p className="t1"><a href="https://forms.office.com/pages/responsepage.aspx?id=gcPCyy4vk02R0VBskxas55bsKM9wVghPgZ6AJu1KYwNUMzJFNE5VQ0RBN1dOMDNPT0JRWEFFVFZSTi4u">https://forms.office.com/r/H8aHeZqys4</a></p>
-                           <div className='Qr'>
-                            <Image
-                                className="Image-png" src={Qr}
-                            />
+                            <div className='Qr'>
+                                <Image
+                                    className="Image-png" src={Qr}
+                                />
                             </div>
                         </div>
 
                     </Col>
                 </Row>
-            </div>
-        </Container>
+            </div >
+
+        </Container >
 
     );
 }
