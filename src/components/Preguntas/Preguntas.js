@@ -15,7 +15,7 @@ function Preguntas() {
                         <h1 className='ht-1' >NUESTRAS</h1>
                         <div className='Imagenes-container1'>
                             <Image className='i-1' src={Logon} style={{ width: '30px', height: '30px', }} />
-                            <div className="linea-diagonal-1"></div>
+                            <div className="linea_diagonal-1"></div>
                         </div>
                         <h1 className='ht-2'>Preguntas frecuentes</h1>
                     </div>
