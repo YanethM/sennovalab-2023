@@ -19,12 +19,12 @@
     left: 38%;
 }
 
-.linea-diagonal-1{
+.linea_diagonal-1{
     height: 2px;
     background-color: #f35618;
     width: 320px;
     left: 38%;
-    top: 235px;
+    top: 225px;
     position: absolute;
 }
 .ht-2 {
@@ -167,7 +167,7 @@
         transform: none;
         padding: 0px;
     }
-    .linea-diagonal-1{
+    .linea_diagonal-1{
         position: relative;
         bottom: 0;
         left: 110px;

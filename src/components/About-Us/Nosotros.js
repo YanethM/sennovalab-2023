@@ -12,7 +12,7 @@ import "./Nosotros.css";
 const Nosotros = () => {
   return (
     <Container fluid className="query-container-aboutus">
-      <div className="Contenedor">
+      <div className="Contdor">
         <Row className="query-box1-aboutus">
           <Col sm={2} className="query-col1-aboutus">
             <div className="Container3">
@@ -33,8 +33,8 @@ const Nosotros = () => {
             <div className="container-s ">
               <div className="triangle"></div>
               <div className="linea">
-                <div className="linea-diagonal"></div>
-                <div className="linea-recta"></div>
+                <div className="linea-diagonalpr"></div>
+                <div className="linea-rectapr"></div>
                 <Image
                   className="i"
                   src={Logon}
@@ -90,8 +90,8 @@ const Nosotros = () => {
           <div className="container-i">
             <div className="trianglo"></div>
             <div className="linea ">
-              <div className="linea-diagonal"></div>
-              <div className="linea-rect"></div>
+              <div className="linea-diagonalpri"></div>
+              <div className="linea-rectpr"></div>
               <Image
                 className="im"
                 src={Logon}
@@ -117,8 +117,8 @@ const Nosotros = () => {
         <Col md={4} className="text-right query-box2-aboutus">
           <div className="container-b ">
             <div className="linea ">
-              <div className="linea-dian"></div>
-              <div className="linea-reci"></div>
+              <div className="linea-dianpr"></div>
+              <div className="linea-recipro"></div>
               <div className="triangulon"></div>
               <Image
                 className="init "

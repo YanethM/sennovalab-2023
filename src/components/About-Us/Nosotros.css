@@ -1,4 +1,4 @@
-.Contenedor {
+.Contdor {
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 2px;
@@ -30,7 +30,7 @@
 }
 
 .container-j {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .imagen {
@@ -175,12 +175,20 @@
 
 }
 
-.linea-diagonal {
+.linea-diagonalpr {
     width: 2px;
-    height: 72px;
+    height: 89px;
     background-color: #f35618;
     transform: rotate(-35deg);
-    left: 43%;
+    left: 0;
+
+}
+.linea-diagonalpri {
+    width: 2px;
+    height: 89px;
+    background-color: #f35618;
+    transform: rotate(-35deg);
+    left: 0;
 
 }
 
@@ -234,14 +242,14 @@
     left: 39%;
 }
 
-.linea-recta {
+.linea-rectapr {
 
     height: 2px;
     background-color: #f35618;
-    width: 331px;
+    width: 328px;
     position: absolute;
     top: 55px;
-    left: 21%;
+    left: 22%;
 }
 
 .linea-rectas {
@@ -262,14 +270,14 @@
     top: -22px;
 }
 
-.linea-rect {
+.linea-rectpr {
     margin-top: -59px;
     height: 2px;
     background-color: #f35618;
-    width: 331px;
+    width: 329px;
     position: absolute;
     top: 64px;
-    left: 21%;
+    left: 22.5%;
 }
 
 .container-b {
@@ -379,24 +387,24 @@
     margin-top: -50px;
 }
 
-.linea-dian {
+.linea-dianpr {
     width: 2px;
     height: 89px;
     background-color: #f35618;
     transform: rotate(-38deg);
-    top: 505px;
-    left: 59%;
+    top: 520px;
+    left: 59.3%;
     position: absolute;
 }
 
-.linea-reci {
+.linea-recipro {
     height: 2px;
     background-color: #f35618;
     width: 425px;
     position: absolute;
-    left: 61%;
+    left: 61.4%;
     align-items: flex-start;
-    top: 583px;
+    top: 598px;
 }
 
 .triangulon {
@@ -449,6 +457,7 @@
     line-height: 1.5;
     margin: 0;
     padding: 10px;
+    text-align: justify;
 }
 
 .texton {
@@ -458,6 +467,7 @@
     position: absolute;
     top: 1200px;
     margin: 0;
+    text-align: justify;
 }
 
 .textou {
@@ -468,6 +478,7 @@
     position: absolute;
     top: 710px;
     margin: 0;
+    text-align: justify;
 }
 
 .text {
@@ -478,6 +489,7 @@
     position: absolute;
     top: 840px;
     margin: 0;
+    text-align: justify;
 }
 
 .texti {
@@ -488,6 +500,7 @@
     position: absolute;
     top: 950px;
     margin: 0;
+    text-align: justify;
 }
 
 .outer-triangle {
@@ -532,24 +545,27 @@
 
 /* responsive section about us */
 @media (max-width: 1150px) {
+
     /* Aquí puedes definir los estilos para las pantallas de móvil */
     /* seccion contenedor */
-    .query-container-aboutus{
+    .query-container-aboutus {
         display: flex;
         justify-content: center;
         flex-direction: column;
         width: 100vw;
         height: auto;
     }
-    .Contenedor{
+
+    .Contenedor {
         display: flex;
         width: 100%;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
+
     /* seccion sobre sennovalab e informacion general */
-    .query-box1-aboutus{
+    .query-box1-aboutus {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -557,7 +573,8 @@
         width: 100%;
         height: auto;
     }
-    .query-col1-aboutus{
+
+    .query-col1-aboutus {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -565,7 +582,8 @@
         margin: 0px;
         height: 200px;
     }
-    .Container3{
+
+    .Container3 {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -574,8 +592,9 @@
         padding: 0px;
         margin: 0px;
     }
+
     .Der,
-    .Der229{
+    .Der229 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -587,7 +606,8 @@
         transform: none;
         padding: 0px;
     }
-    .i11d{
+
+    .i11d {
         position: relative;
         bottom: 0;
         left: 0;
@@ -598,8 +618,9 @@
         justify-content: center;
         flex-direction: column;
     }
+
     .col-sm-1,
-    .col-md-3{
+    .col-md-3 {
         display: none;
     }
 
@@ -610,13 +631,15 @@
         justify-content: center;
         align-items: center;
     }
-    .linea{
+
+    .linea {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    .i{
+
+    .i {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -628,7 +651,8 @@
         height: 20px;
         top: 0;
     }
-    .h  {
+
+    .h {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -639,13 +663,14 @@
         left: 0;
     }
 
-    .query-div-texto{
+    .query-div-texto {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 10px;
     }
-    .texto{
+
+    .texto {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -654,20 +679,22 @@
     }
 
     /* seccion de descripcion */
-    .query-description-aboutus{
+    .query-description-aboutus {
         display: flex;
         justify-content: center;
-        align-items: center ;
-        flex-direction: column ;
+        align-items: center;
+        flex-direction: column;
     }
-    .container-a{
+
+    .container-a {
         margin-top: 30px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         padding: 0px;
     }
-    .ha{
+
+    .ha {
         display: flex;
         justify-content: center;
         position: relative;
@@ -675,7 +702,8 @@
         left: 0px;
         top: 0;
     }
-    .in{
+
+    .in {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -686,7 +714,8 @@
         height: 20px;
         top: 0;
     }
-    .query-text-descript-abouts{
+
+    .query-text-descript-abouts {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -695,7 +724,7 @@
     }
 
     /* mision y vision */
-    .query-box2-aboutus{
+    .query-box2-aboutus {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -703,23 +732,27 @@
         width: 100%;
         height: auto;
     }
-    .container-i{
+
+    .container-i {
         display: flex;
         justify-content: center;
         align-items: center;
         width: auto;
         height: 100px;
     }
-    .hj{
+
+    .hj {
         position: relative;
         bottom: 0;
         top: 0px;
         margin-left: 0px;
         height: 40px;
     }
-    .query-text-descript2-abouts{
+
+    .query-text-descript2-abouts {
         display: flex;
     }
+
     .init {
         position: relative;
         bottom: 0;
@@ -728,18 +761,21 @@
         height: 20px;
         top: 0px;
     }
+
     .ho {
         position: relative;
         bottom: 0px;
         left: 0px;
         top: 0px;
     }
+
     .container-b {
         display: flex;
-        height: 12vh;   
-        justify-content: center; 
+        height: 12vh;
+        justify-content: center;
     }
-    .im{
+
+    .im {
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -752,7 +788,7 @@
     }
 
     /* objetivo */
-    .query-box3-aboutus{
+    .query-box3-aboutus {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -761,6 +797,7 @@
         margin: 20px 0px;
         font-size: 12px;
     }
+
     .container-j {
         justify-content: center;
         display: flex;
@@ -769,6 +806,7 @@
         margin: 20px 0px;
         font-size: 12px;
     }
+
     .textou {
         display: flex;
         justify-content: center;
@@ -781,13 +819,14 @@
         width: 90%;
     }
 
-    .query-flex-object{
+    .query-flex-object {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
         width: 90%;
     }
+
     .texti,
     .text {
         display: flex;
@@ -801,6 +840,7 @@
         top: 0px;
         width: 90%;
     }
+
     .hu {
         position: relative;
         top: 0px;
@@ -808,6 +848,7 @@
         height: 40px;
         color: black
     }
+
     .io {
         position: relative;
         bottom: 0;
@@ -817,7 +858,7 @@
         left: 0px;
     }
 
-    .query-box4-flex{
+    .query-box4-flex {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -837,6 +878,7 @@
         align-items: center;
         flex-direction: column;
     }
+
     .texton {
         font-size: 12px;
         left: 0px;
@@ -844,11 +886,13 @@
         top: 0px;
         margin: 0px;
     }
-    .query-hportfolio-aboutus{
+
+    .query-hportfolio-aboutus {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .um {
         display: flex;
         justify-content: center;
@@ -859,18 +903,20 @@
         left: 0px;
         position: relative;
     }
-    .contain-query-flex-about{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .query-portf-about{
+
+    .contain-query-flex-about {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .Contenedori{
+    .query-portf-about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Contenedori {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -878,6 +924,7 @@
 }
 
 @media (max-width: 1300px) {
+
     /* Aquí puedes definir los estilos para las pantallas de móvil */
     .linea-recta11d,
     .linea-dia,
@@ -904,8 +951,7 @@
     .outer-triangle,
     .inner-triangle,
     .outer-trianglen,
-    .outer-triangleno
-    {
+    .outer-triangleno {
         display: none;
     }
 }
