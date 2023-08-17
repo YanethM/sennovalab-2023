@@ -30,7 +30,7 @@
 }
 
 .container-j {
-    margin-top: 30px;
+    margin-top: 45px;
 }
 
 .imagen {
@@ -177,12 +177,13 @@
 
 .linea-diagonalpr {
     width: 2px;
-    height: 89px;
+    height: 82px;
     background-color: #f35618;
     transform: rotate(-35deg);
     left: 0;
 
 }
+
 .linea-diagonalpri {
     width: 2px;
     height: 89px;
@@ -248,7 +249,7 @@
     background-color: #f35618;
     width: 328px;
     position: absolute;
-    top: 55px;
+    top: 53px;
     left: 22%;
 }
 
@@ -276,7 +277,7 @@
     background-color: #f35618;
     width: 329px;
     position: absolute;
-    top: 64px;
+    top: 63px;
     left: 22.5%;
 }
 
@@ -298,11 +299,11 @@
 
 .linea-dia {
     width: 2px;
-    height: 89px;
+    height: 91px;
     background-color: #f35618;
     transform: rotate(-38deg);
     position: absolute;
-    top: 204px;
+    top: 201px;
     left: 59%;
 }
 
@@ -311,7 +312,7 @@
     background-color: #f35618;
     width: 425px;
     position: absolute;
-    left: 61%;
+    left: 61.1%;
     align-items: flex-start;
     top: 282px;
 }
@@ -392,7 +393,7 @@
     height: 89px;
     background-color: #f35618;
     transform: rotate(-38deg);
-    top: 520px;
+    top: 503px;
     left: 59.3%;
     position: absolute;
 }
@@ -404,7 +405,7 @@
     position: absolute;
     left: 61.4%;
     align-items: flex-start;
-    top: 598px;
+    top: 582px;
 }
 
 .triangulon {
@@ -929,11 +930,12 @@
     .linea-recta11d,
     .linea-dia,
     .linea-re,
-    .linea-diagonal,
-    .linea-recta,
-    .linea-rect,
-    .linea-dian,
-    .linea-reci,
+    .linea-diagonalpr,
+    .linea-diagonalpri,
+    .linea-rectapr,
+    .linea-rectpr,
+    .linea-dianpr,
+    .linea-recipro,
     .linea-diagonala,
     .linea-rectas,
     .linea-diagonali,
