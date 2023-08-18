@@ -544,8 +544,8 @@
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
-/* responsive section about us */
-@media (max-width: 1150px) {
+/* responsive section about us movil*/
+@media (max-width: 768px) {
 
     /* Aquí puedes definir los estilos para las pantallas de móvil */
     /* seccion contenedor */
@@ -557,7 +557,7 @@
         height: auto;
     }
 
-    .Contenedor {
+    .Contdor {
         display: flex;
         width: 100%;
         justify-content: center;
@@ -732,6 +732,7 @@
         flex-direction: column;
         width: 100%;
         height: auto;
+        margin: auto !important;
     }
 
     .container-i {
@@ -921,6 +922,407 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+}
+
+/* responsive section about us tablet*/
+@media  (min-width: 600px) and (max-width: 1100px) {
+
+    /* Aquí puedes definir los estilos para las pantallas de móvil */
+    /* seccion contenedor */
+    .query-container-aboutus {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+    }
+
+    .Contdor {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* seccion sobre sennovalab e informacion general */
+    .query-box1-aboutus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .query-col1-aboutus {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        height: 200px;
+    }
+
+    .Container3 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 10%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .Der,
+    .Der229 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+        top: 0px;
+        position: relative;
+        left: 0px;
+        transform: none;
+        padding: 0px;
+    }
+
+    .i11d {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .col-sm-1,
+    .col-md-3 {
+        display: none;
+    }
+
+    .container-s {
+        display: flex;
+        position: relative;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .linea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        top: 0;
+    }
+
+    .h {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        position: relative;
+        width: 100px;
+        height: 60px;
+        left: 0;
+    }
+
+    .query-div-texto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .texto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;     
+    }
+    .query-margin-aboutus{
+        width: auto !important;
+    }
+    /* seccion de descripcion */
+    .query-description-aboutus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: auto !important;
+    }
+
+    .container-a {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .ha {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 0;
+        left: 0px;
+        top: 0;
+    }
+
+    .in {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 0;
+        left: 0px;
+        width: 20px;
+        height: 20px;
+        top: 0;
+    }
+
+    .query-text-descript-abouts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    /* mision y vision */
+    .query-box2-aboutus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px auto !important;
+        width: 90% !important;
+        height: auto;
+    }
+    .query-description2-aboutus{
+        width: auto !important;
+    }
+
+    .container-i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100px;
+    }
+
+    .hj {
+        position: relative;
+        bottom: 0;
+        top: 0px;
+        margin-left: 0px;
+        height: 40px;
+    }
+
+    .query-text-descript2-abouts {
+        display: flex;
+    }
+
+    .init {
+        position: relative;
+        bottom: 0;
+        left: 0px;
+        width: 20px;
+        height: 20px;
+        top: 0px;
+    }
+
+    .ho {
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .container-b {
+        display: flex;
+        height: 12vh;
+        justify-content: center;
+    }
+
+    .im {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        width: 20px;
+        height: 20px;
+        top: 0px;
+    }
+
+    /* objetivo */
+    .query-box3-aboutus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+        flex-direction: column;
+        margin: 20px 0px;
+        font-size: 12px;
+    }
+
+    .container-j {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 20px 0px;
+        font-size: 12px;
+    }
+
+    .textou {
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        padding: 20px auto;
+        left: 0px;
+        position: relative;
+        top: 0px;
+        margin: 0px;
+        width: 90%;
+    }
+
+    .query-flex-object {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .texti,
+    .text {
+        display: flex;
+        font-size: 12px;
+        justify-content: center;
+        align-items: center;
+        left: 0px;
+        margin: 0px;
+        padding: auto;
+        position: relative;
+        top: 0px;
+        width: 90%;
+    }
+
+    .hu {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        height: 40px;
+        color: black
+    }
+
+    .io {
+        position: relative;
+        bottom: 0;
+        width: 20px;
+        height: 20px;
+        top: 0px;
+        left: 0px;
+    }
+
+    .query-box4-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: justify;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    /* portafolio */
+    .container-r {
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .texton {
+        font-size: 12px;
+        left: 0px;
+        position: relative;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .query-hportfolio-aboutus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .um {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 20px;
+        top: 0px;
+        left: 0px;
+        position: relative;
+    }
+
+    .contain-query-flex-about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .query-portf-about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+    }
+
+    .Contenedori {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    .images-query-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+        margin-bottom: 50px !important;
     }
 }
 

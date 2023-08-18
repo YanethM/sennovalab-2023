@@ -145,7 +145,7 @@ const Nosotros = () => {
       </Row>
       <div className="Contenedori ">
         <Row className="Contenedori">
-          <Col md={4} className="text-center ">
+          <Col md={4} className="text-center images-query-flex">
             <div className="container-r">
               <div className="Imagenes-container">
                 <Image
