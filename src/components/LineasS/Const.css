@@ -603,27 +603,58 @@
 
 @media (max-width: 767px) {
     /* Aquí puedes definir los estilos para las pantallas de móvil */
-    .query-container-constru{
+
+    .Contenedor1 {
+        height: auto;
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+
+    .contain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
-        width: 90vw;
-        height: auto;
+        height: -50px;
     }
-    .Contenedor1{
-        padding-bottom: 0px;
-        border-bottom: 0px;
+
+    .container-b1 {
         display: flex;
         justify-content: center;
-        height: auto;
-        width: 100%;
-        padding: 0px;
-        margin: 0px;
+        align-items: center;
+        position: relative;
+        height: 0;
+        width: auto;
+        flex-direction: column;
     }
-    .Imag5{
+
+    .linea-rectaa1 {
+        display: flex;
+        height: 2px;
+        background-color: #f35618;
+        width: 140px;
+        position: absolute;
+        top: 13px;
+        left: -70px;
+        margin-top: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contain2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .Imag5 {
         display: none;
     }
-    .contenedor1-row-constru{
+
+    .contenedor1-row-constru {
         display: flex;
         width: 100%;
         height: auto;
@@ -632,10 +663,11 @@
 
 
     /* contenedor 1 */
-    .display-none{
+    .display-none {
         display: none;
     }
-    .contain{
+
+    .contain {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -643,6 +675,7 @@
         height: auto;
         margin-bottom: 20px;
     }
+
     .container-b1 {
         margin-top: 0px;
         margin-bottom: 0px;
@@ -652,24 +685,26 @@
         display: flex;
         justify-content: center;
     }
-    .linea1{
+
+    .linea1 {
         width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
     }
 
-    .circle-off{
+    .circle-off {
         width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
     }
+
     .hc1 {
         position: relative;
         bottom: 0px;
         top: 0px;
-        margin-left:0px !important;
+        margin-left: 0px !important;
         height: 40px;
         display: flex;
         justify-content: center;
@@ -685,7 +720,8 @@
         height: 100%;
         width: 100%;
     }
-    .textoa1{
+
+    .textoa1 {
         width: 100%;
         height: auto;
         font-size: 14px;
@@ -696,10 +732,10 @@
         justify-content: center;
         text-align: justify;
     }
-    
+
 
     /* contenedor 2  */
-    .contain2{
+    .contain2 {
         display: flex;
         position: relative;
         justify-content: center;
@@ -710,6 +746,7 @@
         top: 0px !important;
         margin-top: 60px;
     }
+
     .container-c1 {
         height: auto;
         position: relative;
@@ -718,6 +755,7 @@
         justify-content: center;
         margin-top: 100px;
     }
+
     .ha1 {
         display: flex;
         justify-content: center;
@@ -729,12 +767,14 @@
         margin: 0px;
         padding: 0px;
     }
+
     .container-c2 {
         height: auto;
         width: auto;
         display: flex;
         justify-content: center;
     }
+
     .linea1a {
         display: flex;
         justify-content: center;
@@ -743,7 +783,8 @@
         height: 100%;
         padding: 0px;
         margin: 0px;
-    } 
+    }
+
     .texa1 {
         font-size: 14px;
         line-height: 1.5;
@@ -756,7 +797,7 @@
     }
 
 
-    .contain3{
+    .contain3 {
         width: 100%;
         height: 220px;
         display: flex;
@@ -765,6 +806,7 @@
         margin-top: 20px;
         position: relative;
     }
+
     .container-b3 {
         display: flex;
         height: 100px;
@@ -773,8 +815,9 @@
         justify-content: center;
         position: relative;
     }
+
     /* titulo vision */
-    .linea2{
+    .linea2 {
         position: relative;
         align-items: center;
         width: 100%;
@@ -782,6 +825,7 @@
         display: flex;
         justify-content: center;
     }
+
     .ho1 {
         left: auto !important;
         width: auto;
@@ -791,8 +835,9 @@
         align-items: center;
         justify-content: center;
     }
+
     /* descripcion de la vision */
-    .container-bb2{
+    .container-bb2 {
         display: flex;
         height: 100%;
         width: 100%;
@@ -800,6 +845,7 @@
         justify-content: center;
         position: relative;
     }
+
     .texto2 {
         font-size: 14px;
         line-height: 1.5;
@@ -813,13 +859,14 @@
         position: relative;
         top: 0px !important;
     }
-    .ia1{
+
+    .ia1 {
         display: none;
     }
 
 
     /* contenedor 2  */
-    .query-col-construccion{
+    .query-col-construccion {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -827,21 +874,24 @@
         width: 100%;
         height: 100%;
     }
-    .Container3{
+
+    .Container3 {
         display: flex;
         width: 100%;
         height: auto;
         justify-content: center;
         position: relative;
     }
-    .justify-querycol{
+
+    .justify-querycol {
         display: flex;
         justify-content: center;
         position: relative;
         width: 100%;
         height: 100%;
     }
-    .Der1{
+
+    .Der1 {
         display: flex;
         justify-content: center;
         width: 100%;
@@ -852,7 +902,8 @@
         transform: none;
         margin-bottom: 5px;
     }
-    .Der223{
+
+    .Der223 {
         top: 5px !important;
         display: flex;
         justify-content: center;
@@ -864,12 +915,13 @@
 
 
 
-    .Container31{
+    .Container31 {
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
     }
+
     .Der225 {
         top: 0px !important;
         position: relative;
@@ -879,46 +931,58 @@
 }
 
 @media (max-width: 767px) {
+
     /* Aquí puedes definir los estilos para las pantallas de móvil */
-    .linea-rectaa1{
-        display: none;
-    }
-    .linea-diagonal1{
-        display: none;
-    }
-    .linea-diagonal2{
-        display: none;
-    }
-    .linea-rectas1{
-        display: none;
-    }
-    .trianglea1{
-        display: none;
-    }
-    .linea-dian1{
-        display: none;
-    }
-    .linea-reci1{
-        display: none;
-    }
-    .triangulon1{
-        display: none;
-    }
-    .linea-recta11,
-    .linea-reci11,
-    .linea-dian11{
+    .linea-rectaa1 {
         display: none;
     }
 
-    .circle-off{
+    .linea-diagonal1 {
         display: none;
     }
-    .outer-circle{
+
+    .linea-diagonal2 {
         display: none;
     }
-    .inner-circle{
+
+    .linea-rectas1 {
         display: none;
     }
+
+    .trianglea1 {
+        display: none;
+    }
+
+    .linea-dian1 {
+        display: none;
+    }
+
+    .linea-reci1 {
+        display: none;
+    }
+
+    .triangulon1 {
+        display: none;
+    }
+
+    .linea-recta11,
+    .linea-reci11,
+    .linea-dian11 {
+        display: none;
+    }
+
+    .circle-off {
+        display: none;
+    }
+
+    .outer-circle {
+        display: none;
+    }
+
+    .inner-circle {
+        display: none;
+    }
+
     /* trinagulos no dejarlo asi */
     .trianglea1,
     .triangulon1,
@@ -929,20 +993,19 @@
     .trianglea4,
     .triangulon4,
     .trianglea5,
-    .triangulon5{
+    .triangulon5 {
         display: none;
     }
+
     .in1,
     .i12,
     .linea-recta115,
     .i11,
-    .init1{
+    .init1 {
         display: none;
     }
-    .container-d{
+
+    .container-d {
         display: none;
     }
 }
-
-
-

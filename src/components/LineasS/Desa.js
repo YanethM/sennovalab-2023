@@ -18,13 +18,11 @@ const Desa = () => {
   return (
     <Container fluid>
       <div className="Contenedor1">
-
         <Row>
           <Col sm={2} className='text-ccenter' >
             <div className="Imag5">
               <Image src={software} style={{ width: '280px', height: '265px', }} />
             </div>
-
           </Col>
           <Col md={1}></Col>
           <Col md={3} className="contain">

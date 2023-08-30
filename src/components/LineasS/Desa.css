@@ -817,26 +817,22 @@
     }
 
     .container-di {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        height: auto;
-        width: auto;
         flex-direction: column;
+        justify-content: space-evenly;
+        height: 720px;
     }
 
     .Imag13 {
         position: relative;
         left: 90px;
-        top: -467px;
+        top: -380px;
 
     }
 
     .Imag12 {
         position: relative;
         left: -95px;
-        top: -670px;
+        top: -585px;
 
     }
 
@@ -909,8 +905,8 @@
         border-left: 65px solid transparent;
         border-right: 65px solid transparent;
         border-bottom: 70px solid hsl(0, 3%, 70%);
-        left: 36%;
-        top: 60px;
+        left:35.5%;
+        top: 55px;
         position: relativa;
     }
 
@@ -921,8 +917,8 @@
         border-left: 65px solid transparent;
         border-right: 65px solid transparent;
         border-top: 70px solid rgb(155, 150, 148);
-        left: 36%;
-        top: 130px;
+        left: 35.5%;
+        top: 125px;
         position: absolute;
     }
 
@@ -959,8 +955,8 @@
         border-left: 65px solid transparent;
         border-right: 65px solid transparent;
         border-bottom: 70px solid hsl(0, 3%, 70%);
-        left: 36%;
-        top: 30px;
+        left: 35.5%;
+        top: 37px;
         position: relativa;
     }
 
@@ -973,8 +969,8 @@
         border-left: 65px solid transparent;
         border-right: 65px solid transparent;
         border-top: 70px solid rgb(155, 150, 148);
-        left: 36%;
-        top: 100px;
+        left: 35.5%;
+        top: 107px;
         position: absolute;
     }
 
@@ -985,8 +981,8 @@
         border-left: 65px solid transparent;
         border-right: 65px solid transparent;
         border-bottom: 70px solid hsl(0, 3%, 70%);
-        left: 51%;
-        top: -140px;
+        left: 50%;
+        top: -115px;
         position: relativa;
     }
 
@@ -999,8 +995,8 @@
         border-left: 65px solid transparent;
         border-right: 65px solid transparent;
         border-top: 70px solid rgb(155, 150, 148);
-        left: 51%;
-        top: -70px;
+        left: 50%;
+        top: -45px;
         position: absolute;
     }
 

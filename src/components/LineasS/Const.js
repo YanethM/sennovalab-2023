@@ -13,18 +13,16 @@ import "./Const.css";
 
 const Const = () => {
   return (
-    <Container fluid className="query-container-constru">
+    <Container fluid>
       <div className="Contenedor1">
-        <Row className="contenedor1-row-constru">
+        <Row>
           <Col sm={2} className="text-center">
             <div className="Imag5">
               <Image
-                src={construccion}
-                style={{ width: "280px", height: "265px" }}
-              />
+                src={construccion} style={{ width: "280px", height: "265px" }}/>
             </div>
           </Col>
-          <Col md={1} className="display-none"></Col>
+          <Col ></Col>
           <Col md={3} className="contain" >
             <div className="container-b1">
               <div className="linea1">
@@ -37,7 +35,7 @@ const Const = () => {
                 <h2 className="hc1">OBJETIVO</h2>
               </div>
             </div>
-            <div className="container-b2">
+            <div>
               <p className="textoa1">
                 {" "}
                 Aportar al desarrollo de ideas creativas, el conocimiento en

@@ -138,7 +138,7 @@ const Ind = () => {
           <div className="container-d">
             <div className='outer-cards1'>
               <div className='inner-ca1'>
-                <img className="image-tex" src={Servi} />
+                <image className="image-tex" src={Servi} />
                 <h5 className="image-tex-h">SUBLINEA</h5>
                 <p className="image-tex-p">DESCRIPCIÓN</p>
               </div>
