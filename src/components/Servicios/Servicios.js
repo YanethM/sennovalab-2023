@@ -29,29 +29,38 @@ const Servicios = () => {
                         <h1 className="word-service">DE SERVICIOS</h1>
                     </div>
                 </Col>
-                <Col sm={3} className="text-center">
+                <Col sm={2} className="text-center">
                     <div className="container card">
                         <div className="container-image-service">
                             <img src={image5} alt="portfolio" className="img-service" />
-                            <p className="text-service">ASESORÍA EN FORMULACIÓN O GESTION DE PROYECTOS DE I+D+i </p>
+                            <p className="text-service"> Asesoría en formulación de proyectos de I+D+i</p>
                             <Image src={Lnara} className="line-service-bottom" />
                         </div>
                     </div>
                 </Col>
-                <Col sm={3} className="text-center">
+                <Col sm={2} className="text-center">
                     <div className="container card">
                         <div className="container-image-service">
                             <img src={image6} alt="portfolio" className="img-service" />
-                            <p className="text-service">CONSULTORÍA EN COMPONENTES DE FORMULACIÓN Y GESTIÓN DE PROYECTOS DE I+D+i</p>
+                            <p className="text-service">Asesoría en gestión de proyectos de I+D+i</p>
                             <Image src={Lnara} className="line-service-bottom" />
                         </div>
                     </div>
                 </Col>
-                <Col sm={3} className="text-center">
+                <Col sm={2} className="text-center">
                     <div className="container card">
                         <div className="container-image-service">
                             <img src={image7} alt="portfolio" className="img-service" />
-                            <p className="text-service">TRANSFERENCIA DE CONOCIMIENTOS EN ACTIVIDADES DE I+D+i</p>
+                            <p className="text-service">Consultaría en componentes de formulación y gestión de proyectos de I+D+i</p>
+                            <Image src={Lnara} className="line-service-bottom" />
+                        </div>
+                    </div>
+                </Col>
+                <Col sm={2} className="text-center">
+                    <div className="container card">
+                        <div className="container-image-service">
+                            <img src={image7} alt="portfolio" className="img-service" />
+                            <p className="text-service">Transferencia de de conocimientos en actividades de I+D+i</p>
                             <Image src={Lnara} className="line-service-bottom" />
                         </div>
                     </div>

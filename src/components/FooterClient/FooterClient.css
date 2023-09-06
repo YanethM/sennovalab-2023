@@ -22,7 +22,7 @@
   .generic-anchor {
       color: black;
       &:visited {
-          color: yellow
+          color: rgb(12, 12, 1)
       }
       &:hover {
           color: #ccc

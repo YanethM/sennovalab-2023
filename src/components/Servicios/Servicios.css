@@ -78,7 +78,7 @@ h5 {
     display: flex;
     height: 320px;
     margin: 2px solid red;
-    width: 280px;
+    width: 200px;
 }
 
 .container-image-service{
@@ -88,7 +88,7 @@ h5 {
     flex-direction: column;
     height: 220px;
     margin-top: 20px;
-    width: 240px;
+    width: 170px;
 }
 
 .img-service{
@@ -101,13 +101,14 @@ h5 {
     margin-top: 15px;
     justify-content: center;
     color: black;
+    font-size: 15px;
 }
 
 .line-service-bottom{
     display: flex;
     justify-content: center;
     height: 3px;
-    width: 200px;
+    width: 100px;
     margin: 0px auto;
 }
 

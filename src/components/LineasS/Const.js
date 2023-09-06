@@ -13,18 +13,16 @@ import "./Const.css";
 
 const Const = () => {
   return (
-    <Container fluid className="query-container-constru">
+    <Container fluid>
       <div className="Contenedor1">
         <Row className="contenedor1-row-constru">
-          <Col sm={2} className="text-center img-query-movil">
+          <Col sm={2} className="text-center">
             <div className="Imag5">
               <Image
-                src={construccion}
-                style={{ width: "280px", height: "265px" }}
-              />
+                src={construccion} style={{ width: "280px", height: "265px" }}/>
             </div>
           </Col>
-          <Col md={1} className="display-none"></Col>
+          <Col ></Col>
           <Col md={3} className="contain" >
             <div className="container-b1">
               <div className="linea1">
@@ -37,15 +35,10 @@ const Const = () => {
                 <h2 className="hc1">OBJETIVO</h2>
               </div>
             </div>
-            <div className="container-b2">
+            <div>
               <p className="textoa1">
                 {" "}
-                Aportar al desarrollo de ideas creativas, el conocimiento en
-                áreas relacionadas al sector de la construcción e ingeniería,
-                diseño y materiales y redes eléctricas, incentivando la
-                generación de proyectos en I+D+i y apoyando los programas de
-                capacitación en el Centro de Procesos industriales y
-                Construcción, además de empresas en el departamento de Caldas.
+                Aportar al desarrollo de ideas creativas, el conocimiento en áreas relacionadas al sector de la construcción y el diseño, incentivando la generación de proyectos en I+D+i y apoyando los programas de capacitación en el Centro de Procesos industriales y Construcción en conjunto con las empresas del sector.
               </p>
             </div>
           </Col>
@@ -65,11 +58,7 @@ const Const = () => {
             </div>
             <div className="container-c2">
               <p className="texa1">
-                Brindar servicios de asesoría en proyectos de construcción
-                basados en enfoques de arquitectura, ingeniería, materiales y
-                redes eléctricas con un capital humano calificado, buscando la
-                satisfacción de los clientes, el crecimiento intelectual y el
-                desarrollo de ideas creativas.
+              Brindar servicios de asesoría en proyectos de construcción basados en enfoques de arquitectura, diseño y materiales con un capital humano calificado, buscando la satisfacción de los clientes, el crecimiento intelectual y el desarrollo de ideas creativas.
               </p>
             </div>
             <div className="linea-diagonal2"></div>
@@ -91,10 +80,7 @@ const Const = () => {
             <div className="container-bb2">
               <p className="texto2">
                 {" "}
-                Para el año 2025 la línea de construcción estará prestando,
-                servicios de asesoría y consultoría en I+D+i en temáticas como:
-                ingeniería, materiales y redes eléctricas, asesorando a nuestros
-                aliados internos y externos en el departamento de Caldas.
+                Para el año 2025 la línea de construcción estará prestando, servicios de asesoría y consultoría en I+D+i en temáticas como: materiales, diseño sostenible y bioclimático, accesibilidad arquitectónica, asesorando a nuestros aliados internos y externos en el departamento de Caldas.
               </p>
             </div>
           </Col>

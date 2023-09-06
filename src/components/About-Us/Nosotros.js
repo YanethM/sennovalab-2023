@@ -131,14 +131,7 @@ const Nosotros = () => {
           <div className="query-text-descript-abouts">
             <p className="texto ">
               {" "}
-              SENNOVALAB aporta al desarrollo de la región capacidades técnicas
-              y tecnológicas para la formulación y gestión de procesos de
-              Ciencia, Tecnología e Innovación, vinculando al sector productivo
-              y la academia, y alineado con los planes de desarrollo
-              territoriales, a través de servicios de asesoría y consultoría en
-              actividades científico-tecnológicas y la transferencia de
-              conocimiento, aumentando la competitividad de empresas y
-              comunidades académicas
+              El ambiente de servicios Tecnológicos SENNOVALAB para el 2025 prestará sus servicios de asesoría y consultoría en formulación y gestión de proyectos de investigación, desarrollo tecnológico e innovación de acuerdo con la NTC 5801, siendo un referente regional y contribuyendo al desarrollo científico, técnico, empresarial y académico de Caldas. 
             </p>
           </div>
         </Col>
