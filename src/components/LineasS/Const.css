@@ -616,7 +616,8 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: -50px;
+        width: 90vw;
+        height: auto;
     }
 
     .container-b1 {
@@ -628,33 +629,10 @@
         width: auto;
         flex-direction: column;
     }
-
-    .linea-rectaa1 {
-        display: flex;
-        height: 2px;
-        background-color: #f35618;
-        width: 140px;
-        position: absolute;
-        top: 13px;
-        left: -70px;
-        margin-top: 0px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .contain2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-
-    .Imag5 {
+    .Imag5{
         display: none;
     }
-
-    .contenedor1-row-constru {
+    .contenedor1-row-constru{
         display: flex;
         width: 100%;
         height: auto;
@@ -866,29 +844,28 @@
 
 
     /* contenedor 2  */
-    .query-col-construccion {
+    .query-col-construccion{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin: auto;
         width: 100%;
         height: 100%;
     }
-
-    .Container3 {
+    .Container3{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .justify-querycol{
         display: flex;
         width: 100%;
         height: auto;
         justify-content: center;
         position: relative;
-    }
-
-    .justify-querycol {
-        display: flex;
-        justify-content: center;
-        position: relative;
-        width: 100%;
-        height: 100%;
     }
 
     .Der1 {
@@ -908,25 +885,132 @@
         display: flex;
         justify-content: center;
         position: relative;
-        left: 65px;
+        left: 70px;
         transform: none;
+    }
+    .img-query-movil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* contenedor de las imagenes de las lineas*/
+    /* imagen construccion grande */
+    .Imag5{
+        left: auto !important;
+        top: 1050px !important;
+        position:relative;
+        display: flex;
+    }
+    .images-row-container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .images-col-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    .container-di{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+    }
+    .Imag12{
+        margin: 0px;
+        left: -15px !important;
+        top: 0px !important;
+        position: relative;
+    }
+    .Imag13{
+        margin: 0px;
+        left: 257px !important;
+        top: 0px !important;
+        position: relative;
     }
 
 
 
-
-    .Container31 {
+    .Container31{
         display: flex;
         justify-content: center;
-        align-items: center;
         position: relative;
+        margin: auto;
+        width: 100%;
+        height: auto;
     }
 
     .Der225 {
         top: 0px !important;
-        position: relative;
-        left: 0px;
+        position: absolute;
+        margin: 20px auto !important;
+        left: 200px !important;
         transform: none;
+    }
+    .text-container {
+        font-size: 10px;
+        line-height: 0.5;
+        margin: 0;
+        left: 20% !important;
+        position: absolute;
+        top: 1800px !important;
+    }
+    .text-container1 {
+        font-size: 10px;
+        line-height: 0.5;
+        margin: 0;
+        left: 45% !important;
+        position: relative;
+        top: 1800px !important;
+    }
+    .text-container2 {
+        font-size: 10px;
+        line-height: 0.5;
+        margin: 0;
+        left: 70% !important;
+        position: absolute;
+        top: 1800px !important;
+    }
+    .outer-card124 {
+        left: -155%;
+        top: 180px !important;
+        background-color: gainsboro;
+        position: absolute;
+        width: 120px;
+        height: 150px;
+        border-radius: 9px;
+        padding: 10%;
+    }
+    .outer-card125 {
+        left: -160%;
+        top: 225px !important;
+        background-color: gainsboro;
+        position: absolute;
+        width: 100px;
+        height: 110px;
+        border-radius: 9px;
+        padding: 10%;
+    }
+    .outer-card126 {
+        left: -230%;
+        top: 225px !important;
+        background-color: gainsboro;
+        position: absolute;
+        width: 100px;
+        height: 110px;
+        border-radius: 9px;
+        padding: 10%;
+    }
+    .displayoff{
+        display: none;
     }
 }
 

@@ -15,7 +15,7 @@ const Const = () => {
   return (
     <Container fluid>
       <div className="Contenedor1">
-        <Row>
+        <Row className="contenedor1-row-constru">
           <Col sm={2} className="text-center">
             <div className="Imag5">
               <Image
@@ -174,8 +174,8 @@ const Const = () => {
           </div>
         </Col>
       </Row>
-      <Row>
-        <Col md={2} className="text-center">
+      <Row className="images-row-container">
+        <Col md={2} className="text-center images-col-container">
           <div className="container-di">
             <Image
               className="Imag12"
@@ -189,7 +189,7 @@ const Const = () => {
             />
           </div>
         </Col>
-        <Col md={3} className="text-center">
+        <Col md={3} className="text-center col-container3-flex">
           <div className="Container31">
             <h2 className="Der225">PROFESIONAL</h2>
             <div className="Imagenes-container1">
@@ -202,7 +202,7 @@ const Const = () => {
             </div>
           </div>
         </Col>
-        <Col>
+        <Col className="displayoff">
           <div className="outer-card124"> </div>
         </Col>
         <Col md={1}>
@@ -213,7 +213,7 @@ const Const = () => {
             <p>Contacto:</p>
           </div>
         </Col>
-        <Col>
+        <Col className="displayoff">
           <div className="outer-card125"> </div>
         </Col>
         <Col md={1}>
@@ -224,7 +224,7 @@ const Const = () => {
             <p>Contacto:</p>
           </div>
         </Col>
-        <Col>
+        <Col className="displayoff">
           <div className="outer-card126"> </div>
         </Col>
         <Col md={1}>
