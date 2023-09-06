@@ -40,7 +40,7 @@ const Desa = () => {
             < div>
               <p className="textoa1">
                 {" "}
-                Aportar al desarrollo de ideas creativas, el conocimiento en áreas relacionadas al sector de la construcción e ingeniería, diseño y materiales y redes eléctricas, incentivando la generación de proyectos en I+D+i y apoyando los programas de capacitación en el Centro de Procesos industriales y Construcción, además de empresas en el departamento de Caldas.</p>
+                Dirigir la línea de desarrollo de software de acuerdo con las necesidades del mercado de las TICS y las tendencias tecnológicas  para desarrollar proyectos de I+D+i tendientes a la creación y aplicación de herramientas de gestión y desarrollo empresarial mediante las TIC´s,  orientados a incrementar la productividad y la competitividad de nuestros aliados internos y externos, y de esta manera lograr consolidando estrategias de la industria 4.0 al interior de las instituciones.</p>
             </div>
           </Col>
           <Col md={3} className="contain2" >
@@ -59,7 +59,7 @@ const Desa = () => {
             </div>
             < div>
               <p className="texa1">
-                Brindar servicios de asesoría en proyectos de construcción basados en enfoques de arquitectura, ingeniería, materiales y redes eléctricas con un capital humano calificado, buscando la satisfacción de los clientes, el crecimiento intelectual y el desarrollo de ideas creativas.</p>
+              Nuestra misión se enfoca en producir soluciones ofreciendo direccionamiento en: Big Data; Internet de las Cosas Computación en la nube; La seguridad cibernética; Realidad Virtual, Realidad Aumentada y Realidad Mixta; Sistemas de Información de Seguridad. Dentro de estas sub líneas ofrecemos una serie de especialidades: Lenguajes de Programación; Marcos; bases de datos; Recopilación de requisitos; Desarrollo de software. </p>
             </div>
             <div className="linea-die1"></div>
           </Col>
@@ -74,7 +74,7 @@ const Desa = () => {
               </div>
             </div>
             < div>
-              <p className="texto2"> Para el año 2025 la línea de construcción estará prestando, servicios de asesoría y consultoría en I+D+i en temáticas como: ingeniería, materiales y redes eléctricas, asesorando a nuestros aliados internos y externos en el departamento de Caldas.</p>
+              <p className="texto2"> En el 2025 la línea de desarrollo de software seguirá prestando servicios de asesoría y consultoría en I+D+i, para así poder seguir cumpliendo con su misión que es convertirse en referente en Caldas en la oferta de consultoría y seguridad informática para nuestros aliados internos y ordar las brechas de las empresas en el asesoramiento y consultoría.</p>
             </div>
 
           </Col>

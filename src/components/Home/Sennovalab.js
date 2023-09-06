@@ -1,15 +1,24 @@
-import React from 'react';
-import { Carousel, Col, Container, Image, Row } from 'react-bootstrap';
-import carusel1 from '../../assets/img/png/carusel1.png';
-import Line from '../../assets/img/png/Line.png';
-import industri from '../../assets/img/png/Industria.png';
-import publicity from '../../assets/img/jpg/publicity.jpg';
-import softwar from '../../assets/img/png/Software.png';
+import React, { useState } from "react";
+import { Carousel, Col, Container, Image, Row } from "react-bootstrap";
+import carusel1 from "../../assets/img/png/carusel1.png";
+import Line from "../../assets/img/png/Line.png";
+import industri from "../../assets/img/png/Industria.png";
+import publicity from "../../assets/img/jpg/publicity.jpg";
+import softwar from "../../assets/img/png/Software.png";
+import boletin from "../../assets/img/png/boletin.png";
+import Comunicaciones from "../../assets/Comunicaciones.pdf";
 import "./Sennovalab.css";
-import construccio from '../../assets/img/png/Construccion.png';
+import construccio from "../../assets/img/png/Construccion.png";
 import sennovalab from "../../assets/img/png/figura-pajaro.png";
+import videoS from "../../assets/img/mp4/videoS.mp4";
 
 function Sennovalab() {
+  const [pdfVisible, setPdfVisible] = useState(false);
+
+  const togglePdf = () => {
+    setPdfVisible(!pdfVisible);
+  };
+
   return (
     <Container fluid>
       <div className="Contenedor">
@@ -33,22 +42,39 @@ function Sennovalab() {
             </div>
           </Col>
 
-          <Col sm={6} className='container-carousel'>
+          <Col sm={6} className="container-carousel">
             <div className="Contenedor">
-              <Carousel variant="dark" className='container-slide'>
-
-                <Carousel.Item className='container-item'>
+              <Carousel variant="dark" className="container-slide">
+                <Carousel.Item className="container-item">
                   <img className="carrusel" src={publicity} alt="" />
                   <Carousel.Caption className="texto1">
-                    <h6 className='hseis'>Asistencia técnica de la NTC 5801:2018</h6>
-                    <p className='parrafo'>Desde SENNOVALAB, lo invitamos a participar en la asistencia.<a href="/Blog">  Click aqui</a></p>
+                    <h6 className="hseis">
+                      Asistencia técnica de la NTC 5801:2018
+                    </h6>
+                    <p className="parrafo">
+                      Desde SENNOVALAB, lo invitamos a participar en la
+                      asistencia.<a href="/Blog"> Click aqui</a>
+                    </p>
                   </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item>
-                  <img className="carrusel" src={carusel1} alt="Second slide" />
+                  <img className="carrusel" src={boletin} alt="Second slide" />
                   <Carousel.Caption className="texto1">
-                    <h6 className='hseis'>Nombre de la noticia</h6>
+                    <h6 className="hseis">Boletín Informativo</h6>
+                    <p>
+                      Te invitamos a conocer nuestro boletín Informativo.{" "}
+                      <a href={Comunicaciones} target="_blank" rel="noopener noreferrer">
+                        Click aquí
+                      </a>
+                    </p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img className="carrusel" src={carusel1} alt="Third slide" />
+                  <Carousel.Caption className="texto1">
+                    <h6 className="hseis">Nombre de la noticia</h6>
                     <p>Descripción</p>
                     <p>Leer mas..</p>
                   </Carousel.Caption>
@@ -56,7 +82,7 @@ function Sennovalab() {
                 <Carousel.Item>
                   <img className="carrusel" src={carusel1} alt="Third slide" />
                   <Carousel.Caption className="texto1">
-                    <h6 className='hseis'>Nombre de la noticia</h6>
+                    <h6 className="hseis">Nombre de la noticia</h6>
                     <p>Descripción</p>
                     <p>Leer mas..</p>
                   </Carousel.Caption>
@@ -64,20 +90,26 @@ function Sennovalab() {
                 <Carousel.Item>
                   <img className="carrusel" src={carusel1} alt="Third slide" />
                   <Carousel.Caption className="texto1">
-                    <h6 className='hseis'>Nombre de la noticia</h6>
-                    <p>Descripción</p>
-                    <p>Leer mas..</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img className="carrusel" src={carusel1} alt="Third slide" />
-                  <Carousel.Caption className="texto1">
-                    <h6 className='hseis'>Nombre de la noticia</h6>
+                    <h6 className="hseis">Nombre de la noticia</h6>
                     <p>Descripción</p>
                     <p>Leer mas..</p>
                   </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
+            </div>
+          </Col>
+        </Row>
+      </div>
+
+      <div className="Contenedor">
+        <Row>
+          <Col sm={12} className="text-center">
+            <div>
+              <h1>Conoce mas acerca de SENNOVALAB</h1>
+              <video width="840" height="560" controls autoPlay>
+                <source src={videoS} type="video/mp4" />
+                Tu navegador no admite la reproducción de videos.
+              </video>
             </div>
           </Col>
         </Row>

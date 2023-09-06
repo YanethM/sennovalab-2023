@@ -36,7 +36,7 @@ const Ind = () => {
               </div>
             </div>
             < div>
-              <p className="textoa1">  Aportar al desarrollo de ideas creativas, el conocimiento en áreas relacionadas al sector de la construcción e ingeniería, diseño y materiales y redes eléctricas, incentivando la generación de proyectos en I+D+i y apoyando los programas de capacitación en el Centro de Procesos industriales y Construcción, además de empresas en el departamento de Caldas.</p>
+              <p className="textoa1">Solucionar las necesidades de las organizaciones mediante la orientación basada en estrategias y técnicas creativas e innovadoras en el sector industrial, incentivando la generación de proyectos en I+D+i, partiendo del punto que la ingeniería es el núcleo de todas nuestras actividades buscando la calidad en el diseño, procesos integrados de investigación y trabajo con las necesidades del mercado.</p>
             </div>
           </Col>
           <Col md={3}>
@@ -50,7 +50,7 @@ const Ind = () => {
               </div>
             </div>
             < div>
-              <p className="texa1">Brindar servicios de asesoría en proyectos de construcción basados en enfoques de arquitectura, ingeniería, materiales y redes eléctricas con un capital humano calificado, buscando la satisfacción de los clientes, el crecimiento intelectual y el desarrollo de ideas creativas.</p>
+              <p className="texa1">Nuestra misión desde la línea de industria es abordar un amplio espectro de necesidades industriales asistiendo a nuestros clientes externos e internos en el desarrollo de sus proyectos, diseño, industria, mantenimiento, optimización de procesos, materiales, energía, tecnología y capacidad productiva de las empresas, fortaleciendo los procesos de innovación al interior de las organizaciones en mira hacia la competitividad.</p>
             </div>
             <div className="linea-die1"></div>
           </Col>
@@ -65,7 +65,7 @@ const Ind = () => {
               </div>
             </div>
             < div>
-              <p className="texto2"> Para el año 2025 la línea de construcción estará prestando, servicios de asesoría y consultoría en I+D+i en temáticas como: ingeniería, materiales y redes eléctricas, asesorando a nuestros aliados internos y externos en el departamento de Caldas.</p>
+              <p className="texto2">Para el año 2025 la línea de industria no solo estará prestando servicios de asesoría y consultoría en I+D+i, también servicios avanzados que incluye: generación de prototipos, simulación CAD y Diseño de Productos; para que podamos dar satisfacción a las empresas en su desarrollo de nuevos productos.</p>
             </div>
 
           </Col>

@@ -14,6 +14,7 @@ import Pqrs from '../components/Pqrs/Pqrs';
 import GestionI from '../components/GestionI/GestionI';
 import Preguntas from '../components/Preguntas/Preguntas';
 import Blog from '../components/Noticias/Blog';
+import Boletin from '../components/Boletin/Boletin';
 
 
 import { NotFound } from "../pages/General/NotFound/NotFound";
@@ -38,6 +39,7 @@ const GeneralRoutes = [
     { path: "/Pqrs", component: Pqrs, layout: ClientLayout },
     { path: "/Preguntas", component: Preguntas, layout: ClientLayout },
     { path: "/Blog", component: Blog, layout: ClientLayout },
+    { path: "/Boletin", component: Boletin, layout: ClientLayout },
     { path: "*", component: NotFound, layout: ClientLayout }
 ];
 
